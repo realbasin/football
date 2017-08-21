@@ -269,10 +269,11 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
         align-items: center;
         .mui-slider-item{
             width: vm(544);
+            height: vm(265);
             display: flex;
             justify-content: center;
-            //align-items: center;
-            padding-bottom: vm(40);
+              align-items: center;
+            //padding-bottom: vm(40);
             //float: left;
             .left,.right{
                 //width: vm(144);

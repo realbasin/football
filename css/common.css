@@ -47,7 +47,7 @@
 .all_disc_par header a { font-size: 3.7333333333vw; color: #fff; margin-left: 2.6666666667vw; }
 .all_disc_par header span { line-height: 3.7333333333vw; margin-left: 1.3333333333vw; }
 .all_disc_par section { width: 100vw; display: flex; justify-content: center; align-items: center; }
-.all_disc_par section .mui-slider-item { width: 72.5333333333vw; display: flex; justify-content: center; padding-bottom: 5.3333333333vw; }
+.all_disc_par section .mui-slider-item { width: 72.5333333333vw; height: 35.3333333333vw; display: flex; justify-content: center; align-items: center; }
 .all_disc_par section .mui-slider-item .left, .all_disc_par section .mui-slider-item .right { height: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; }
 .all_disc_par section .mui-slider-item .left img, .all_disc_par section .mui-slider-item .right img { width: 12.5333333333vw; height: 12.4vw; margin-bottom: 2.6666666667vw; }
 .all_disc_par section .mui-slider-item .left span, .all_disc_par section .mui-slider-item .right span { color: #000000; font-size: 3.8666666667vw; }
