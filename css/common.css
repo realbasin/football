@@ -1,0 +1,42 @@
+.index_header { width: 100vw; height: 12.4vw; display: flex; justify-content: flex-end; align-items: center; background-color: #BF1E2D; color: #fff; }
+.index_header h1 { font-weight: normal; font-size: 4.2666666667vw; }
+.index_header .header_right { display: flex; justify-content: flex-end; align-items: center; font-size: 3.7333333333vw; }
+.index_header .header_right span { margin-left: 20vw; }
+.index_header .header_right i { margin-right: 3.8666666667vw; font-size: 3.4666666667vw; }
+
+.index_slider_par { border-bottom: 1px solid #d2d2d2; background-color: #fff; width: 100vw; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.index_slider_par .slider_top1 { background-color: #75a419; width: 58.4vw; height: 7.4666666667vw; border-radius: 0.6666666667vw; display: flex; justify-content: center; align-items: center; }
+.index_slider_par .slider_top1 span { color: #fff; font-size: 5.3333333333vw; }
+.index_slider_par .slider_top2 { width: 58.4vw; height: 7.4666666667vw; border-radius: 0.6666666667vw; display: flex; justify-content: center; align-items: center; }
+.index_slider_par .slider_top2 span { color: #000000; font-size: 4.1333333333vw; }
+.index_slider_par .slider_top2 span:nth-of-type(2) { margin: 0 5.0666666667vw; }
+
+.mui-slider-item { width: 100vw; display: flex; justify-content: center; padding-bottom: 5.3333333333vw; }
+.mui-slider-item .left, .mui-slider-item .right { height: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; }
+.mui-slider-item .left img, .mui-slider-item .right img { width: 19.2vw; height: 19.0666666667vw; margin-bottom: 3.2vw; }
+.mui-slider-item .left span, .mui-slider-item .right span { color: #000000; font-size: 3.8666666667vw; }
+.mui-slider-item .center { width: 11.2vw; height: 7.2vw; margin: 0 11.4666666667vw; margin-top: 6.5333333333vw; }
+
+.index_scroll_par { border-bottom: 1px solid #d2d2d2; margin-top: 5.2vw; background-color: #fff; height: 100%; margin-bottom: 14.6666666667vw; width: 100vw; position: static; }
+.index_scroll_par .mui-scroll { position: static; }
+.index_scroll_par .mui-scroll .title { line-height: 8.5333333333vw; margin-bottom: 0; font-size: 3.4666666667vw; color: #000000; width: 94.6666666667vw; margin: 0 auto; }
+.index_scroll_par .mui-scroll .xian { width: 23.2vw; height: 0; border-top: 1px solid #BF1E2D; }
+.index_scroll_par .mui-scroll dl { width: 100vw; margin-top: 2.6666666667vw; margin-left: 2.6666666667vw; display: flex; justify-content: flex-start; }
+.index_scroll_par .mui-scroll dl dt img { width: 15.8666666667vw; height: 18.8vw; }
+.index_scroll_par .mui-scroll dl dd { margin-left: 4.4vw; margin-right: 2.6666666667vw; width: 76.6666666667vw; border-bottom: 1px solid #D2D2D2; }
+.index_scroll_par .mui-scroll dl dd h1 { color: #000; font-size: 4vw; margin: 2.6666666667vw 0 0.8vw 0; font-weight: normal; }
+.index_scroll_par .mui-scroll dl dd div:nth-of-type(1) { margin-bottom: 6.4vw; display: flex; justify-content: space-around; align-items: center; padding-right: 2.6666666667vw; }
+.index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .item { font-size: 3.7333333333vw; color: #434343; margin-right: 10.8vw; }
+.index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .money { font-size: 3.7333333333vw; color: #000; margin-right: 11.4666666667vw; width: 11.4666666667vw; }
+.index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .btn { font-size: 3.7333333333vw; color: #fff; width: 17.4666666667vw; line-height: 7.0666666667vw; border-radius: 0.4vw; text-align: center; background-color: #75A419; }
+
+.index_par { position: relative; background-color: #dcdcdc; }
+
+.weui-tabbar { position: fixed; z-index: 2000; height: 14.6666666667vw; }
+.weui-tabbar .weui-tabbar__item { display: flex; justify-content: center; align-items: center; flex-direction: column; }
+.weui-tabbar .weui-tabbar__item .weui-tabbar__icon { font-size: 6.2666666667vw; width: 6.2666666667vw; height: 6.2666666667vw; }
+.weui-tabbar .weui-tabbar__item .weui-tabbar__label { font-size: 2.6666666667vw; margin-top: 1.3333333333vw; }
+
+.weui-tabbar__item.weui-bar__item--on .weui-tabbar__label { color: #bf1e2d; }
+
+/*# sourceMappingURL=common.css.map */
