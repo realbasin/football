@@ -238,3 +238,32 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
 .weui-tab{
     width: vm(750);
 }
+
+
+//*****************************全部球盘*****************************//
+.all_disc_par{
+    header{
+        width: vm(750);
+        height: vm(93);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #BF1E2D;
+        color: #fff;
+        font-size: vm(28);
+        padding: 0 vm(20);
+        a{
+            font-size: vm(28);
+            color:#fff;
+            
+        }
+        span{
+            line-height: vm(28);
+            margin-left: vm(10);
+        }
+    }
+}
+
+
+
+
