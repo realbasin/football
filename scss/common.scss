@@ -39,8 +39,6 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
 }
 
 
-
-
 .index_slider_par{
         border-bottom: 1px solid #d2d2d2;
         background-color: #fff;
@@ -50,34 +48,34 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
         flex-direction: column;
         justify-content: center;
         align-items: center;
-.slider_top1{
-            background-color: #75a419;
-            width: vm(438);
-            height: vm(56);
-            border-radius: vm(5);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            span{
-                color: #fff;
-                font-size: vm(40);
-            }
+    .slider_top1{
+        background-color: #75a419;
+        width: vm(438);
+        height: vm(56);
+        border-radius: vm(5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            color: #fff;
+            font-size: vm(40);
         }
-        .slider_top2{
-            width: vm(438);
-            height: vm(56);
-            border-radius: vm(5);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            span{
-                color:#000000;
-                font-size: vm(31);
-            }
-            span:nth-of-type(2){
-                margin: 0 vm(38);
-            }
+    }
+    .slider_top2{
+        width: vm(438);
+        height: vm(56);
+        border-radius: vm(5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            color:#000000;
+            font-size: vm(31);
         }
+        span:nth-of-type(2){
+            margin: 0 vm(38);
+        }
+    }
 }
 
 //首页轮播图
@@ -232,3 +230,8 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
         color: #bf1e2d;
     }
 } 
+.weui-bar__item--on{
+    
+        color: #bf1e2d;
+    
+}
