@@ -127,6 +127,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
             position: static;
             .mui-scroll{
                 position: static;
+                width: vm(750);
                 .title{
                     line-height: vm(64);
                     margin-bottom: 0;
@@ -141,10 +142,10 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
                     border-top: 1px solid #BF1E2D;
                 }
                 dl{
-                    width: vm(750);
+                    //width: vm(750);
                     //margin: 0 auto;
                     margin-top: vm(20);
-                    margin-left: vm(20);
+                    padding-left: vm(20);
                     display: flex;
                     justify-content: flex-start;
                     //align-items: center;
@@ -208,6 +209,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
     position: fixed;
     z-index: 2000;
     height: vm(110);
+    width: vm(750);
     .weui-tabbar__item{
         display: flex;
         justify-content: center;
@@ -231,7 +233,8 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
     }
 } 
 .weui-bar__item--on{
-    
-        color: #bf1e2d;
-    
+    color: #bf1e2d;
+}
+.weui-tab{
+    width: vm(750);
 }
