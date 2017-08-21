@@ -251,15 +251,55 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
         background-color: #BF1E2D;
         color: #fff;
         font-size: vm(28);
-        padding: 0 vm(20);
+        //padding: 0 vm(20);
         a{
             font-size: vm(28);
             color:#fff;
-            
+            margin-left: vm(20);
         }
         span{
             line-height: vm(28);
             margin-left: vm(10);
+        }
+    }
+    section{
+        width: vm(750);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .mui-slider-item{
+            width: vm(544);
+            display: flex;
+            justify-content: center;
+            //align-items: center;
+            padding-bottom: vm(40);
+            //float: left;
+            .left,.right{
+                //width: vm(144);
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                img{
+                    width: vm(94);
+                    height: vm(93);
+                    margin-bottom: vm(20);
+                }
+                span{
+                    color: #000000;
+                    font-size: vm(29);
+                }
+            }
+            .left{
+                //margin-left:vm(100)
+            }
+            .center{
+                width: vm(84);
+                height: vm(54);
+                margin: 0 vm(86);
+                margin-top: vm(49);
+            }
         }
     }
 }
