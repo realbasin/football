@@ -137,9 +137,9 @@ body{
                         div:nth-of-type(1){
                             margin-bottom: vm(48);
                             display: flex;
-                            justify-content: space-around;
+                            justify-content: flex-start;
                             align-items: center;
-                            padding-right: vm(20);
+                            //padding-right: vm(20);
                             .item{
                                 font-size: vm(28);
                                 color: #434343;
@@ -600,7 +600,7 @@ body{
                             display: flex;
                             justify-content: space-around;
                             align-items: center;
-                            padding-right: vm(20);
+                            //padding-right: vm(20);
                             .item{
                                 font-size: vm(28);
                                 color: #434343;

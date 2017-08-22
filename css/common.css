@@ -21,7 +21,7 @@ body { height: 100%; background-color: #e5e5e5; }
 .index_scroll_par .mui-scroll dl dt img { width: 15.8666666667vw; height: 18.8vw; }
 .index_scroll_par .mui-scroll dl dd { margin-left: 4.4vw; margin-right: 2.6666666667vw; width: 76.6666666667vw; border-bottom: 1px solid #D2D2D2; }
 .index_scroll_par .mui-scroll dl dd h1 { color: #000; font-size: 4vw; margin: 2.6666666667vw 0 0.8vw 0; font-weight: normal; }
-.index_scroll_par .mui-scroll dl dd div:nth-of-type(1) { margin-bottom: 6.4vw; display: flex; justify-content: space-around; align-items: center; padding-right: 2.6666666667vw; }
+.index_scroll_par .mui-scroll dl dd div:nth-of-type(1) { margin-bottom: 6.4vw; display: flex; justify-content: flex-start; align-items: center; }
 .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .item { font-size: 3.7333333333vw; color: #434343; margin-right: 10.8vw; }
 .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .money { font-size: 3.7333333333vw; color: #000; margin-right: 11.4666666667vw; width: 11.4666666667vw; }
 .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .btn { font-size: 3.7333333333vw; color: #fff; width: 17.4666666667vw; line-height: 7.0666666667vw; border-radius: 0.4vw; text-align: center; background-color: #75A419; }
@@ -96,7 +96,7 @@ body { height: 100%; background-color: #e5e5e5; }
 .select_disc_par .index_scroll_par .mui-scroll dl dt img { width: 15.8666666667vw; height: 18.8vw; }
 .select_disc_par .index_scroll_par .mui-scroll dl dd { margin-left: 4.4vw; margin-right: 2.6666666667vw; width: 76.6666666667vw; border-bottom: 1px solid #D2D2D2; }
 .select_disc_par .index_scroll_par .mui-scroll dl dd h1 { color: #000; font-size: 4vw; margin: 2.6666666667vw 0 0.8vw 0; font-weight: normal; }
-.select_disc_par .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) { margin-bottom: 6.4vw; display: flex; justify-content: space-around; align-items: center; padding-right: 2.6666666667vw; }
+.select_disc_par .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) { margin-bottom: 6.4vw; display: flex; justify-content: space-around; align-items: center; }
 .select_disc_par .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .item { font-size: 3.7333333333vw; color: #434343; margin-right: 10.8vw; }
 .select_disc_par .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .money { font-size: 3.7333333333vw; color: #000; margin-right: 11.4666666667vw; width: 11.4666666667vw; }
 .select_disc_par .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .btn { font-size: 3.7333333333vw; color: #fff; width: 17.4666666667vw; line-height: 7.0666666667vw; border-radius: 0.4vw; text-align: center; background-color: #75A419; }
