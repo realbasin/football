@@ -1,0 +1,46 @@
+.htmleaf-content{
+	width: inherit;
+}
+.progressbar {
+    width: 100%;
+	position: relative;
+	background-color: #EEEEEE;
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+	border-radius: 10px;
+
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.proggress{
+	height: 8px;
+	width: 10px;
+	/*//background-color: #3498db;*/
+}
+
+.percentCount{
+	position: absolute;
+	top: 50%;
+	font-weight: bold;
+	font-family: Arial
+	
+	
+	height: 28px;
+	line-height: 28px;
+	margin-top: -14px;
+	margin-left: :;px;
+}
+.percentCount2{
+	position: absolute;
+	top: 50%;
+	font-weight: bold;
+	font-family: Arial
+	
+	
+	height: 28px;
+	line-height: 28px;
+	margin-top: -14px;
+	margin-right: -30px;
+}
