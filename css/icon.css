@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/*!****** 图标 *******/
+/*** 我的 ***/
+.i-card { display: inline-block; width: 8vw; height: 7.7333333333vw; background-image: url(../images/i-card.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
+.i-right_blank { display: inline-block; width: 2.2666666667vw; height: 3.7333333333vw; background-image: url(../images/i-right_blank.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
+/*# sourceMappingURL=icon.css.map */

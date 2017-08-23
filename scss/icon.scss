@@ -1,0 +1,31 @@
+$vm_base: 750;
+@function vm($px) {
+    @return ($px / $vm_base) * 100vw;
+}
+
+
+$vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
+@function r($px) {
+    @return ($px / $vm_fontsize) * 1rem;
+}
+
+
+/*!****** 图标 *******/
+    @mixin icon($width, $height, $bgUrl, $bgX: 0, $bgY: 0, $bgSize: 100%){
+        display: inline-block;
+        width: $width;
+        height: $height;    
+        background-image: $bgUrl;
+        background-position: $bgX $bgY;
+        background-size: $bgSize;
+        background-repeat: no-repeat;
+    }
+
+
+/*** 我的 ***/
+    .i-card{
+        @include icon(vm(60), vm(58), url(../images/i-card.png), center, center, contain);
+    }
+    .i-right_blank{
+        @include icon(vm(17), vm(28), url(../images/i-right_blank.png), center, center, contain);
+    }
