@@ -854,3 +854,131 @@ body{
         }
     }
 }
+//***********************选择酒吧********************、、
+.choose_bar_par{
+    header{
+        width: vm(750);
+        height: vm(93);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #BF1E2D;
+        color: #fff;
+        font-size: vm(28);
+        //padding: 0 vm(20);
+        a{
+            i{
+                font-size: vm(28);
+                color:#fff;
+                margin-left: vm(20);
+            }
+            span{
+                line-height: vm(28);
+                margin-left: vm(10);
+                color: #fff;
+            }
+        }
+        
+    }
+    .match_home{
+        background-color: #fff;
+        width: vm(750);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        img{
+            width: vm(138);
+            height: vm(138);
+            margin-left: vm(72);
+            margin-top: vm(59);
+            margin-right: vm(80);
+        }
+        .match_mesg{
+            p{
+                width: vm(461);
+                .match_time,.Handicap_bar,.court_rate{
+                    margin-left: vm(18);
+                }
+            }
+            span{
+                font-size: vm(28);
+                color: #000;
+            }
+            p:nth-of-type(1){
+                margin-top: vm(37);
+            }
+            p:nth-of-type(3){
+                margin-bottom: vm(40);
+            }
+        }
+    }
+    .tree_done{
+        width: vm(750);
+        height: vm(54);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid #D2D2D2;
+        li{
+            flex: 1;
+            text-align: center;
+            line-height: vm(54);
+            font-size: vm(28);
+            color:#434343;
+        }
+    }
+    .bar_title{
+        //width: vm(750);
+        height: vm(87);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 vm(22);
+        background-color: #f6f6f6;
+        .left,.right{
+            width:vm(187);
+            border-bottom: 1px solid #D2D2D2;
+        }
+        h1{
+            //width: vm(331); 
+            font-weight: normal;
+            color: #434343;
+            font-size: vm(28);  
+        }
+    }
+    .Handicap{
+        background-color: #fff;
+        padding-bottom: vm(25);
+        border-bottom: 1px solid #D2D2D2;
+        p{
+            margin-left: vm(25);
+            span{
+                font-size: vm(24);
+                color:#000000;
+            }
+            .bar_name{
+                font-size: vm(32);
+                font-weight: 200;
+            }
+            .bar_distance{
+                color: #ffbf00;
+            }
+            .bar_money{
+                margin-left: vm(40);
+            }
+        }
+        p:nth-of-type(1){
+            padding-top: vm(23);
+        }
+        p:nth-of-type(2),p:nth-of-type(3){
+            margin-top: vm(20);
+        }
+        p:nth-of-type(2){
+            width: vm(668);
+           display: flex;
+            justify-content: space-between;
+            align-items: center; 
+        }
+    }
+}
