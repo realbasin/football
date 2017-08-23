@@ -12,6 +12,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
 body{
     height: 100%;
     background-color: #e5e5e5;
+    line-height: none;
 }
 .index_header{
     width: vm(750);
@@ -273,6 +274,7 @@ body{
         justify-content: center;
         align-items: center;
         margin-bottom: vm(72);
+        background-color: #fff;
         .mui-slider-item{
             width: vm(544);
             height: vm(265);
@@ -409,7 +411,6 @@ body{
         width: vm(688);
         display: flex;
         justify-content: center;
-//      align-items: center;
         background-color: #fff;
         margin: 0 auto;
         .mui-slider-item{
@@ -424,10 +425,6 @@ body{
                 height: vm(165);
                 display: flex;
                 justify-content: center;
-                
-                  //align-items: center;
-                //padding-bottom: vm(40);
-                //float: left;
                 .left,.right{
                     //width: vm(144);
                     height: auto;
@@ -514,7 +511,6 @@ body{
                 height: vm(148);
                 width: inherit;
                 display: flex;
-//              justify-content: center;
                 align-items: center;
                 flex-direction: column;
                 
@@ -628,5 +624,168 @@ body{
                 
             }
 //      } 
+    }
+}
+
+
+
+//*******************竞猜记录**********************
+.quiz_record_par{
+    header{
+        width: vm(750);
+        height: vm(93);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #BF1E2D;
+        color: #fff;
+        font-size: vm(28);
+        //padding: 0 vm(20);
+        a{
+            font-size: vm(28);
+            color:#fff;
+            margin-left: vm(20);
+        }
+        span{
+            line-height: vm(28);
+            margin-left: vm(10);
+        }
+    }
+    dl{
+        width: vm(750);
+        padding-left: vm(33);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #fff;
+        
+        dt{
+            margin-top: vm(18);
+            width: vm(93);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: vm(93);
+                height: vm(93);
+            }
+            span{
+                margin-top: vm(8);
+                font-size: vm(18);
+                color: #434343;
+            }
+        }
+        dd{
+            padding-right: vm(28);
+            padding-bottom: vm(43);
+            width: vm(581);
+            border-bottom: vm(1) solid #D2D2D2;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-left: vm(43);
+            margin-top: vm(18);
+            
+            .quiz_flag{
+                font-size: vm(28);
+                color: #bf1e2d;
+                margin-top: vm(20);
+            }
+            p{
+                width: vm(553);
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin-top: vm(12);
+                .quiz_time{
+                    font-size: vm(20);
+                    color: #434343;
+                    margin-top: vm(12);
+                }
+                .quiz_money{
+                    font-size: vm(32);
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+//********************************消费记录************************、、
+.perchase_history_par{
+    header{
+        width: vm(750);
+        height: vm(93);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #BF1E2D;
+        color: #fff;
+        font-size: vm(28);
+        //padding: 0 vm(20);
+        a{
+            font-size: vm(28);
+            color:#fff;
+            margin-left: vm(20);
+        }
+        span{
+            line-height: vm(28);
+            margin-left: vm(10);
+        }
+    }
+    .month{
+        margin-left: vm(40);
+        line-height: vm(56);
+        font-size: vm(27);
+        border-bottom: 1px solid #D2D2D2;
+    }
+    dl{
+        width: vm(750);
+        padding-left: vm(33);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #fff;
+        border-bottom: vm(1) solid #D2D2D2;
+        dt{
+            margin-top: vm(18);
+            width: vm(93);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: vm(96);
+                height: vm(155);
+            }
+        }
+        dd{
+           padding-right: vm(28);
+            padding-bottom: vm(43);
+            width: vm(581);
+            
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-left: vm(43);
+            margin-top: vm(18);
+            p{
+                width: vm(553);
+                display: flex;
+                justify-content: space-between;
+                .consumer_brand{
+                    color: #000;
+                    font-size: vm(34);
+                }
+                .consumer_money{
+                    font-size: vm(32);
+                    color: #000000;
+                }
+            }
+            .consumer_time{
+                font-size: vm(28);
+                color: #bf1e2d;
+                margin-top: vm(20);
+            }
+            
+        }
     }
 }

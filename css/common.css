@@ -1,4 +1,4 @@
-body { height: 100%; background-color: #e5e5e5; }
+body { height: 100%; background-color: #e5e5e5; line-height: none; }
 
 .index_header { width: 100vw; height: 12.4vw; display: flex; justify-content: flex-end; align-items: center; background-color: #BF1E2D; color: #fff; }
 .index_header h1 { font-weight: normal; font-size: 4.2666666667vw; }
@@ -49,7 +49,7 @@ body { height: 100%; background-color: #e5e5e5; }
 .all_disc_par header { width: 100vw; height: 12.4vw; display: flex; justify-content: flex-start; align-items: center; background-color: #BF1E2D; color: #fff; font-size: 3.7333333333vw; }
 .all_disc_par header a { font-size: 3.7333333333vw; color: #fff; margin-left: 2.6666666667vw; }
 .all_disc_par header span { line-height: 3.7333333333vw; margin-left: 1.3333333333vw; }
-.all_disc_par section { width: 100vw; display: flex; justify-content: center; align-items: center; margin-bottom: 9.6vw; }
+.all_disc_par section { width: 100vw; display: flex; justify-content: center; align-items: center; margin-bottom: 9.6vw; background-color: #fff; }
 .all_disc_par section .mui-slider-item { width: 72.5333333333vw; height: 35.3333333333vw; display: flex; justify-content: center; }
 .all_disc_par section .mui-slider-item .left, .all_disc_par section .mui-slider-item .right { height: auto; display: flex; align-items: center; flex-direction: column; }
 .all_disc_par section .mui-slider-item .left img, .all_disc_par section .mui-slider-item .right img { width: 12.5333333333vw; height: 12.4vw; margin-bottom: 2.6666666667vw; margin-top: 5.6vw; }
@@ -100,5 +100,31 @@ body { height: 100%; background-color: #e5e5e5; }
 .select_disc_par .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .item { font-size: 3.7333333333vw; color: #434343; margin-right: 10.8vw; }
 .select_disc_par .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .money { font-size: 3.7333333333vw; color: #000; margin-right: 11.4666666667vw; width: 11.4666666667vw; }
 .select_disc_par .index_scroll_par .mui-scroll dl dd div:nth-of-type(1) .btn { font-size: 3.7333333333vw; color: #fff; width: 17.4666666667vw; line-height: 7.0666666667vw; border-radius: 0.4vw; text-align: center; background-color: #75A419; }
+
+.quiz_record_par header { width: 100vw; height: 12.4vw; display: flex; justify-content: flex-start; align-items: center; background-color: #BF1E2D; color: #fff; font-size: 3.7333333333vw; }
+.quiz_record_par header a { font-size: 3.7333333333vw; color: #fff; margin-left: 2.6666666667vw; }
+.quiz_record_par header span { line-height: 3.7333333333vw; margin-left: 1.3333333333vw; }
+.quiz_record_par dl { width: 100vw; padding-left: 4.4vw; display: flex; justify-content: flex-start; align-items: flex-start; background-color: #fff; }
+.quiz_record_par dl dt { margin-top: 2.4vw; width: 12.4vw; display: flex; flex-direction: column; align-items: center; }
+.quiz_record_par dl dt img { width: 12.4vw; height: 12.4vw; }
+.quiz_record_par dl dt span { margin-top: 1.0666666667vw; font-size: 2.4vw; color: #434343; }
+.quiz_record_par dl dd { padding-right: 3.7333333333vw; padding-bottom: 5.7333333333vw; width: 77.4666666667vw; border-bottom: 0.1333333333vw solid #D2D2D2; display: flex; align-items: flex-start; flex-direction: column; margin-left: 5.7333333333vw; margin-top: 2.4vw; }
+.quiz_record_par dl dd .quiz_flag { font-size: 3.7333333333vw; color: #bf1e2d; margin-top: 2.6666666667vw; }
+.quiz_record_par dl dd p { width: 73.7333333333vw; display: flex; justify-content: space-between; align-items: flex-start; margin-top: 1.6vw; }
+.quiz_record_par dl dd p .quiz_time { font-size: 2.6666666667vw; color: #434343; margin-top: 1.6vw; }
+.quiz_record_par dl dd p .quiz_money { font-size: 4.2666666667vw; color: #000000; }
+
+.perchase_history_par header { width: 100vw; height: 12.4vw; display: flex; justify-content: flex-start; align-items: center; background-color: #BF1E2D; color: #fff; font-size: 3.7333333333vw; }
+.perchase_history_par header a { font-size: 3.7333333333vw; color: #fff; margin-left: 2.6666666667vw; }
+.perchase_history_par header span { line-height: 3.7333333333vw; margin-left: 1.3333333333vw; }
+.perchase_history_par .month { margin-left: 5.3333333333vw; line-height: 7.4666666667vw; font-size: 3.6vw; border-bottom: 1px solid #D2D2D2; }
+.perchase_history_par dl { width: 100vw; padding-left: 4.4vw; display: flex; justify-content: flex-start; align-items: flex-start; background-color: #fff; border-bottom: 0.1333333333vw solid #D2D2D2; }
+.perchase_history_par dl dt { margin-top: 2.4vw; width: 12.4vw; display: flex; flex-direction: column; align-items: center; }
+.perchase_history_par dl dt img { width: 12.8vw; height: 20.6666666667vw; }
+.perchase_history_par dl dd { padding-right: 3.7333333333vw; padding-bottom: 5.7333333333vw; width: 77.4666666667vw; display: flex; align-items: flex-start; flex-direction: column; margin-left: 5.7333333333vw; margin-top: 2.4vw; }
+.perchase_history_par dl dd p { width: 73.7333333333vw; display: flex; justify-content: space-between; }
+.perchase_history_par dl dd p .consumer_brand { color: #000; font-size: 4.5333333333vw; }
+.perchase_history_par dl dd p .consumer_money { font-size: 4.2666666667vw; color: #000000; }
+.perchase_history_par dl dd .consumer_time { font-size: 3.7333333333vw; color: #bf1e2d; margin-top: 2.6666666667vw; }
 
 /*# sourceMappingURL=common.css.map */
