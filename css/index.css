@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body { font-family: "微软雅黑"; height: 100%; background-color: #e5e5e5; line-height: none; }
+
+#tab1 .index_header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-end; align-items: center; background-color: #f23d34; color: #fff; }
+#tab1 .index_header h1 { font-weight: bold; font-size: 4.6666666667vw; }
+#tab1 .index_header .header_right { display: flex; justify-content: flex-end; align-items: center; font-size: 3.3333333333vw; }
+#tab1 .index_header .header_right span { margin-left: 20vw; }
+#tab1 .index_header .header_right i { margin-right: 3.8666666667vw; font-size: 3.4666666667vw; }
+#tab1 #game #game_one, #tab1 #game #game_two, #tab1 #game #game_three { margin-bottom: 2.6666666667vw; width: 100%; background-color: #ffffff; }
+#tab1 #game #game_one #game_title, #tab1 #game #game_two #game_title, #tab1 #game #game_three #game_title { display: flex; justify-content: space-between; }
+#tab1 #game #game_one #game_title span, #tab1 #game #game_two #game_title span, #tab1 #game #game_three #game_title span { display: inline-block; }
+#tab1 #game #game_one #game_title span:nth-child(1), #tab1 #game #game_two #game_title span:nth-child(1), #tab1 #game #game_three #game_title span:nth-child(1) { margin-left: 2.6666666667vw; font-size: 3.8666666667vw; }
+#tab1 #game #game_one #game_title span:nth-child(2), #tab1 #game #game_two #game_title span:nth-child(2), #tab1 #game #game_three #game_title span:nth-child(2) { padding-left: 8vw; font-size: 3.8666666667vw; }
+#tab1 #game #game_one #game_title span:nth-child(3), #tab1 #game #game_two #game_title span:nth-child(3), #tab1 #game #game_three #game_title span:nth-child(3) { margin-right: 2.6666666667vw; font-size: 3.24vw; }
+#tab1 #game #game_one #game_msg, #tab1 #game #game_two #game_msg, #tab1 #game #game_three #game_msg { margin-top: 4vw; display: flex; justify-content: space-between; }
+#tab1 #game #game_one #game_msg span, #tab1 #game #game_two #game_msg span, #tab1 #game #game_three #game_msg span { margin-top: 2vw; display: block; text-align: center; font-size: 3.7026666667vw; }
+#tab1 #game #game_one #game_msg img, #tab1 #game #game_two #game_msg img, #tab1 #game #game_three #game_msg img { width: 16.5333333333vw; height: 16.5333333333vw; }
+#tab1 #game #game_one #game_msg #team1, #tab1 #game #game_two #game_msg #team1, #tab1 #game #game_three #game_msg #team1 { margin-left: 5.6vw; }
+#tab1 #game #game_one #game_msg #team2, #tab1 #game #game_two #game_msg #team2, #tab1 #game #game_three #game_msg #team2 { margin-right: 5.6vw; }
+#tab1 #game #game_one #game_msg #state, #tab1 #game #game_two #game_msg #state, #tab1 #game #game_three #game_msg #state { position: relative; top: -8vw; }
+#tab1 #game #game_one #game_msg #state #progressbar1, #tab1 #game #game_two #game_msg #state #progressbar1, #tab1 #game #game_three #game_msg #state #progressbar1 { width: 38.6666666667vw; }
+#tab1 #game #game_one #game_msg #state #vs, #tab1 #game #game_two #game_msg #state #vs, #tab1 #game #game_three #game_msg #state #vs { width: 38.6666666667vw; display: inline-block; color: #626262; font-size: 9.3333333333vw; }
+#tab1 #game #game_one #game_msg #state #ratio, #tab1 #game #game_two #game_msg #state #ratio, #tab1 #game #game_three #game_msg #state #ratio { display: flex; justify-content: space-between; }
+#tab1 #game #game_one #game_msg #state #ratio span, #tab1 #game #game_two #game_msg #state #ratio span, #tab1 #game #game_three #game_msg #state #ratio span { font-size: 3.508vw; display: inline-block; }
+#tab1 #odds { height: 30vw; background-color: #fff; }
+#tab1 #odds #odd_one, #tab1 #odds #odd_two { margin-top: 2.6666666667vw; display: flex; justify-content: space-between; }
+#tab1 #odds #odd_one #main, #tab1 #odds #odd_two #main { margin-left: 2.6666666667vw; width: 30.6666666667vw; height: 12vw; background-color: #e5e5e5; }
+#tab1 #odds #odd_one #main span, #tab1 #odds #odd_two #main span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }
+#tab1 #odds #odd_one #middle span:nth-child(1), #tab1 #odds #odd_two #middle span:nth-child(1) { font-size: 4.6666666667vw; }
+#tab1 #odds #odd_one #middle span:nth-child(2), #tab1 #odds #odd_two #middle span:nth-child(2) { position: relative; top: -1.3333333333vw; }
+#tab1 #odds #odd_one #middle span, #tab1 #odds #odd_two #middle span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }
+#tab1 #odds #odd_one #away, #tab1 #odds #odd_two #away { margin-right: 2.6666666667vw; width: 30.6666666667vw; height: 12vw; background-color: #e5e5e5; }
+#tab1 #odds #odd_one #away span, #tab1 #odds #odd_two #away span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }
+
+/*# sourceMappingURL=index.css.map */
