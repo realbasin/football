@@ -24,8 +24,8 @@
 	position: absolute;
 	top: 50%;
 	font-weight: bold;
-	font-family: Arial
-	
+	font-family: Arial;
+	color: #fff;
 	
 	height: 28px;
 	line-height: 28px;
@@ -36,7 +36,8 @@
 	position: absolute;
 	top: 50%;
 	font-weight: bold;
-	font-family: Arial
+	font-family: Arial;
+	color: #fff;
 	
 	
 	height: 28px;
