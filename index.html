@@ -257,7 +257,7 @@
 			    					</span>
 			    					<div id="progressbar3">
 			    					</div>
-			    					<div id="ratio">
+			    					<div id="ratio" style="display: none;">
 			    						<span id="">
 			    							1.01
 			    						</span>
@@ -410,14 +410,15 @@
 				});
 				$('#progressbar1').click(function(){
 					console.log('xxx');
+					$('#game_one #ratio').toggle();
 					$('#game_one #odds').toggle();
 				})
 				$('#progressbar2').click(function(){
-					
+					$('#game_two #ratio').toggle();
 					$('#game_two #odds').toggle();
 				})
 				$('#progressbar3').click(function(){
-					
+					$('#game_three #ratio').toggle();
 					$('#game_three #odds').toggle();
 				})
 		})
