@@ -982,3 +982,152 @@ body{
         }
     }
 }
+
+
+//**********************选择酒卡************************//
+.choose_card_par{
+    header{
+        width: vm(750);
+        height: vm(93);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #BF1E2D;
+        color: #fff;
+        font-size: vm(28);
+        //padding: 0 vm(20);
+        a{
+            i{
+                font-size: vm(28);
+                color:#fff;
+                margin-left: vm(20);
+            }
+            span{
+                line-height: vm(28);
+                margin-left: vm(10);
+                color: #fff;
+            }
+        }
+        .bar_card{
+            margin-left: vm(200);
+        }
+    }
+    .match_home{
+        background-color: #fff;
+        width: vm(750);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        img{
+            width: vm(138);
+            height: vm(138);
+            margin-left: vm(72);
+            margin-top: vm(59);
+            margin-right: vm(80);
+        }
+        .match_mesg{
+            p{
+                width: vm(461);
+                .match_time,.Handicap_bar,.court_rate{
+                    margin-left: vm(18);
+                }
+            }
+            span{
+                font-size: vm(28);
+                color: #000;
+            }
+            p:nth-of-type(1){
+                margin-top: vm(37);
+            }
+            p:nth-of-type(3){
+                margin-bottom: vm(40);
+            }
+        }
+    }
+    .bar_name{
+        width: vm(706);
+        padding: 0 vm(22);
+        background-color: #ffffff;
+        border-bottom: 1px solid #f23d34;
+        font-size: vm(34);
+        color: #000；
+    }
+    .liuk_card{
+        width: vm(706);
+        padding: 0 vm(22);
+        background-color: #ffffff;
+    }
+    .liuk_card{
+        width: vm(706);
+        padding: 0 vm(22);
+        background-color: #ffffff;
+        padding-top: vm(30);
+        padding-bottom: vm(37);
+        border-bottom: 1px solid #F6F6F6;
+        .car_top{
+            width: vm(706);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            .card_right1{
+                width: vm(630);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: vm(15);
+                p{
+                    color: #000;
+                    .band_name{
+                        font-size: vm(30);
+                    }
+                    .band_num{
+                        font-size: vm(30);
+                    }
+                }
+                .band_money{
+                    color: #000;
+                    font-size: vm(24);
+                }
+            }
+            .card_right2{
+                width: vm(630);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: vm(72);
+                p{
+                    color: #000;
+                     font-size: vm(24);
+                    .band_time{
+                        
+                    }
+                    .band_timer{
+                        
+                    }
+                }
+                .band_win{
+                    color: #000;
+                     font-size: vm(24);
+                }
+            }
+        }
+        .down{
+            //width: vm(750);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: none;
+            .purchase_btn{
+                width: vm(274);
+                line-height: vm(54);
+                color: #fff;
+                background-color: #f23d34;
+                font-size: vm(28);
+                text-align: center;
+                border-radius: vm(30);
+                margin-top: vm(37);
+            }
+        }
+    }
+}

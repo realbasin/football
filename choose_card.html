@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>选择酒卡</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    	<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
+		<!--<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">-->
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" href="css/icon.css" />
+	</head>
+	<body>
+		<div class="choose_card_par">
+			<header>
+				<a href="#">
+					<i class="iconfont icon-fanhui"></i>
+					<span>酒吧</span>
+				</a>
+				<span class="bar_card">选择酒卡</span>
+			</header>
+			<section class="match_home">
+				<img src="images/Team-1_03.png" alt="team_logo" />
+				<div class="match_mesg">
+					<p><span class="match">法联杯</span><span class="match_time">08-23 03:00</span></p>
+					<span class="place">拜仁慕尼黑</span>
+					<p><span class="Handicap">盘口</span><span class="Handicap_bar">一/半球</span></p>
+					<p><span class="court">主</span><span class="court_rate">0.86</span></p>
+				</div>
+			</section>
+			<h1 class="bar_name">有间正好酒吧</h1>
+			<section class="liuk_card">
+				<div class="car_top">
+					<i class="i-bar-card"></i>
+					<div class="card_right1">
+						<p><span class="band_name">百威罐装</span><span class="band_num">1打</span></p>
+						<span class="band_money">价值198元</span>
+					</div>
+					<div class="card_right2">
+						<p><span class="band_time">有效期至：</span><span class="band_timer">08:30</span></p>
+						<span class="band_win">胜出可赢368酒卡</span>
+					</div>
+				</div>
+				<div class="down">
+					<button class="purchase_btn">立即购买</button>
+				</div>
+			</section>
+			<section class="liuk_card">
+				<div class="car_top">
+					<i class="i-bar-card"></i>
+					<div class="card_right1">
+						<p><span class="band_name">百威罐装</span><span class="band_num">1打</span></p>
+						<span class="band_money">价值198元</span>
+					</div>
+					<div class="card_right2">
+						<p><span class="band_time">有效期至：</span><span class="band_timer">08:30</span></p>
+						<span class="band_win">胜出可赢368酒卡</span>
+					</div>
+				</div>
+				<div class="down">
+					<button class="purchase_btn">立即购买</button>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script>
+			$(".choose_card_par .liuk_card").on("click",".car_top", function() {
+				if($(this).next().css("display")=="none"){
+					$(this).next().css({display:'flex'})
+				}else{
+					$(this).next().css({display:'none'})
+				}
+				$(this).parent().siblings().find(".down").css({display:'none'});
+			 })
+		</script>
+	</body>
+</html>
