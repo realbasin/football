@@ -1,0 +1,5 @@
+.purchases header { width: 100vw; height: 12.4vw; display: flex; justify-content: flex-start; align-items: center; background-color: #BF1E2D; color: #fff; font-size: 3.7333333333vw; padding: 0 2.6666666667vw; }
+.purchases header a { font-size: 3.7333333333vw; color: #fff; }
+.purchases header span { line-height: 3.7333333333vw; margin-left: 1.3333333333vw; }
+
+/*# sourceMappingURL=purchases.css.map */
