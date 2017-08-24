@@ -169,6 +169,9 @@ body{
             }
 //      } 
     }
+    #tab1{
+        
+   
     //首页轮播图
     .swiper-slide{
         background-color: #fff;
@@ -207,6 +210,7 @@ body{
             }
         }
     }
+   }  
 .index_par{
     position: relative;
     background-color: #dcdcdc;
@@ -268,7 +272,7 @@ body{
             margin-left: vm(10);
         }
     }
-    section{
+    .all_disc_match{
         width: vm(750);
         display: flex;
         justify-content: center;
@@ -323,7 +327,7 @@ body{
                     margin-bottom: vm(16);
                 }
                 span{
-                    margin-top: vm(84);
+                    //margin-top: vm(84);
                 }
                 .percentCount2,.percentCount{font-size: vm(20);color: #fff;}
             }
@@ -376,7 +380,7 @@ body{
 }
 
 
-//选择球盘
+//****************************************选择球盘
 
 .select_disc_par{
     header{
@@ -652,7 +656,7 @@ body{
         }
     }
     dl{
-        width: vm(750);
+        width: vm(717);
         padding-left: vm(33);
         display: flex;
         justify-content: flex-start;
@@ -739,7 +743,7 @@ body{
         border-bottom: 1px solid #D2D2D2;
     }
     dl{
-        width: vm(750);
+        width: vm(717);
         padding-left: vm(33);
         display: flex;
         justify-content: flex-start;
@@ -1169,6 +1173,203 @@ body{
             background-color: #f23d34;
             border-radius: vm(32);
             margin-top: vm(60);
+        }
+    }
+}
+
+
+//************************酒吧*******************//
+.bar_par{
+    header{
+        width: vm(750);
+        height: vm(93);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #BF1E2D;
+        color: #fff;
+        font-size: vm(28);
+        //padding: 0 vm(20);
+        a{
+            width: 108;
+            i{
+                font-size: vm(28);
+                color:#fff;
+                margin-left: vm(10);
+            }
+            span{
+                line-height: vm(28);
+                margin-left: vm(15);
+                color: #fff;
+            }
+        }
+        .title{
+             width: vm(573);
+             font-size: vm(34);
+             color: #fff;
+             text-align: center;
+        }
+        .i-sousuo{
+             width: vm(35);
+             text-align: right;
+        }
+        
+    }
+    
+    //酒吧轮播图
+    .swiper-slide{
+        background-color: #fff;
+        .slide_title{
+            width: vm(710);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: vm(28);
+            color: #000;
+            padding: 0 vm(20);
+            .match_name{
+                flex: 1;
+                //padding-left: vm(40);
+                text-indent: vm(30);
+            }
+            .on_doing{
+                flex: 1;
+                text-align: center;
+                text-indent: vm(20);
+            }
+            .match_time{
+                flex: 1;
+                text-align: right;
+            }
+        }
+        .mui-slider-item{
+            width: vm(750);
+            display: flex;
+            justify-content: center;
+            //align-items: center;
+            padding-bottom: vm(40);
+            //float: left;
+            .left,.right{
+                //width: vm(144);
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                img{
+                    width: vm(111);
+                    height: vm(111);
+                    margin-bottom: vm(24);
+                }
+                span{
+                    color: #000000;
+                    font-size: vm(29);
+                }
+            }
+            .left{
+                //margin-left:vm(100)
+            }
+            .center{
+                width: vm(286);
+                display: flex;
+//              justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 0 vm(68);
+                img{
+                    width: vm(84);
+                    height: vm(54);
+                    margin-bottom: vm(20);
+                    margin-top: vm(20);
+                }
+                p{
+                    width: vm(286);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: vm(20);
+                    span{
+                        color:#000;
+                        font-size: vm(26);
+                    }
+                }
+                .percentCount2,.percentCount{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    
+    
+    
+    .tree_done{
+        width: vm(750);
+        height: vm(54);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border-top: 1px solid #D2D2D2;
+        border-bottom:1px solid #D2D2D2;
+        li{
+            flex: 1;
+            text-align: center;
+            line-height: vm(54);
+            font-size: vm(28);
+            color:#434343;
+        }
+    }
+    .bar_title{
+        //width: vm(750);
+        height: vm(87);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 vm(22);
+        background-color: #f6f6f6;
+        .left,.right{
+            width:vm(187);
+            border-bottom: 1px solid #D2D2D2;
+        }
+        h1{
+            //width: vm(331); 
+            font-weight: normal;
+            color: #434343;
+            font-size: vm(28);  
+        }
+    }
+    .Handicap{
+        background-color: #fff;
+        padding-bottom: vm(25);
+        border-bottom: 1px solid #D2D2D2;
+        p{
+            margin-left: vm(25);
+            span{
+                font-size: vm(24);
+                color:#000000;
+            }
+            .bar_name{
+                font-size: vm(32);
+                font-weight: 200;
+            }
+            .bar_distance{
+                color: #ffbf00;
+            }
+            .bar_money{
+                margin-left: vm(40);
+            }
+        }
+        p:nth-of-type(1){
+            padding-top: vm(23);
+        }
+        p:nth-of-type(2),p:nth-of-type(3){
+            margin-top: vm(20);
+        }
+        p:nth-of-type(2){
+            width: vm(668);
+           display: flex;
+            justify-content: space-between;
+            align-items: center; 
         }
     }
 }

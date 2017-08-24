@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>全部球盘</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    	<meta name="format-detection" content="telephone=no">
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
 		<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
@@ -17,7 +19,7 @@
 				<a href="#" class="iconfont icon-fanhui"></a>
 				<span>全部球盘</span>
 			</header>
-			<section>
+			<section class="all_disc_match">
 				<div class="mui-slider-item">
 			        <!-- 具体内容 -->
 			        <div class="left">
@@ -51,7 +53,7 @@
 			   		</span>
 			   </div>
 			</section>
-			<section>
+			<section class="all_disc_match">
 				<div class="mui-slider-item">
 			        <!-- 具体内容 -->
 			        <div class="left">
@@ -62,7 +64,7 @@
 					<div class="center">
 						<img src="images/i-vs.png" alt=""/>
 						<div class="htmleaf-content">
-							<div id="progressbar2"></div>
+							<div id="progressbar3"></div>
 						</div>
 						<span>半球</span>
 					</div>
@@ -85,7 +87,7 @@
 			   		</span>
 			   </div>
 			</section>
-			<section>
+			<section class="all_disc_match">
 				<div class="mui-slider-item">
 			        <!-- 具体内容 -->
 			        <div class="left">
@@ -126,8 +128,8 @@
 			$(function(){
 				$('#progressbar1').LineProgressbar({
 				  percentage: 61,
-				  fillBackgroundColor: '#e67e22',
-				  height: '35px',
+				  fillBackgroundColor: '#108ee9',
+				  height: '30px',
 				  borderTopLeftRadius:'30px',
 				  borderBottomLeftRadius:'30px',
 				  percentage2:39,
@@ -136,8 +138,8 @@
 				});
 				$('#progressbar2').LineProgressbar({
 				  percentage: 61,
-				  fillBackgroundColor: '#e67e22',
-				  height: '35px',
+				  fillBackgroundColor: '#108ee9',
+				  height: '30px',
 				  borderTopLeftRadius:'30px',
 				  borderBottomLeftRadius:'30px',
 				  percentage2:39,
@@ -146,8 +148,8 @@
 				});
 				$('#progressbar3').LineProgressbar({
 				  percentage: 61,
-				  fillBackgroundColor: '#e67e22',
-				  height: '35px',
+				  fillBackgroundColor: '#108ee9',
+				  height: '30px',
 				  borderTopLeftRadius:'30px',
 				  borderBottomLeftRadius:'30px',
 				  percentage2:39,
@@ -155,6 +157,7 @@
 				  borderTopRightRadius:'30px'
 				});
 			})
+
 	</script>
 	</body>
 </html>

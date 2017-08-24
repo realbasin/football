@@ -11,4 +11,8 @@
 
 .i-duigou { display: inline-block; width: 5.4666666667vw; height: 5.4666666667vw; background-image: url(../images/i-duigou.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
 
+.i-down { display: inline-block; width: 2.9333333333vw; height: 1.3333333333vw; background-image: url(../images/i-down.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
+.i-sousuo { display: inline-block; width: 4.6666666667vw; height: 4.6666666667vw; background-image: url(../images/i-sousuo.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
 /*# sourceMappingURL=icon.css.map */
