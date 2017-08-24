@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>选择酒卡</title>
+		<title>支付</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     	<meta name="format-detection" content="telephone=no">
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -13,13 +13,13 @@
 		<link rel="stylesheet" href="css/icon.css" />
 	</head>
 	<body>
-		<div class="choose_card_par">
+		<div class="pay_all_par">
 			<header>
 				<a href="#">
 					<i class="iconfont icon-fanhui"></i>
 					<span>酒吧</span>
 				</a>
-				<span class="bar_card">选择酒卡</span>
+				<span class="bar_card">支付</span>
 			</header>
 			<section class="match_home">
 				<img src="images/Team-1_03.png" alt="team_logo" />
@@ -43,36 +43,37 @@
 						<span class="band_win">胜出可赢368酒卡</span>
 					</div>
 				</div>
-				<div class="down">
-					<a class="purchase_btn">立即购买</a>
-				</div>
 			</section>
-			<section class="liuk_card">
-				<div class="car_top">
-					<i class="i-bar-card"></i>
-					<div class="card_right1">
-						<p><span class="band_name">百威罐装</span><span class="band_num">1打</span></p>
-						<span class="band_money">价值198元</span>
-					</div>
-					<div class="card_right2">
-						<p><span class="band_time">有效期至：</span><span class="band_timer">08:30</span></p>
-						<span class="band_win">胜出可赢368酒卡</span>
-					</div>
+			<ul class="pay">
+					<li class="wechat_pay">
+						<i class="i-quan"></i>
+						<span>微信支付</span>
+					</li>
+					<li class="ali_pay">
+						<i class="i-quan"></i>
+						<span>支付宝支付</span>
+					</li>
+					<li class="balance_pay">
+						<i class="i-quan"></i>
+						<span>余额支付</span>
+						<span class="balance">余额19800.00</span>
+					</li>
+				</ul>
+				<div class="immed_pay">
+					<a class="purchase_btn">立即支付</a>
 				</div>
-				<div class="down">
-					<a class="purchase_btn">立即购买</a>
-				</div>
-			</section>
 		</div>
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 		<script>
-			$(".choose_card_par .liuk_card").on("click",".car_top", function() {
-				if($(this).next().css("display")=="none"){
-					$(this).next().css({display:'flex'})
+			$(".pay").on("click","li", function() {
+				//console.log($(this))
+				if($(this).siblings().find('i').hasClass('i-duigou')){
+					$(".i-quan").removeClass("i-duigou");
+					$(this).find('i').addClass('i-duigou');
 				}else{
-					$(this).next().css({display:'none'})
+					$(this).find('i').toggleClass('i-duigou');
 				}
-				$(this).parent().siblings().find(".down").css({display:'none'});
+				
 			 })
 		</script>
 	</body>

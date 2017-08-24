@@ -985,7 +985,7 @@ body{
 
 
 //**********************选择酒卡************************//
-.choose_card_par{
+.choose_card_par,.pay_all_par{
     header{
         width: vm(750);
         height: vm(93);
@@ -1128,6 +1128,47 @@ body{
                 border-radius: vm(30);
                 margin-top: vm(37);
             }
+        }
+    }
+}
+
+
+//***********************支付*****************
+.pay_all_par{
+    .wechat_pay,.ali_pay,.balance_pay{
+       width: vm(710); 
+       padding: 0 vm(20);
+       display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        line-height:vm(128);
+        border-bottom: 1px solid #D2D2D2;
+        background-color: #fff;
+        span{
+            font-size: vm(31);
+            color: #000;
+        }
+        i{
+            margin-right: vm(40);
+        }
+        .balance{
+            margin-left: vm(303);
+        }
+    }
+    .immed_pay{
+        width: vm(750);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .purchase_btn{
+            width: vm(630);
+            line-height: vm(64);
+            text-align: center;
+            color: #fff;
+            font-size: vm(31);
+            background-color: #f23d34;
+            border-radius: vm(32);
+            margin-top: vm(60);
         }
     }
 }
