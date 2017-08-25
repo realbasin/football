@@ -1373,3 +1373,280 @@ body{
         }
     }
 }
+
+
+//********************有间正好酒吧*************************//
+.bar_detail_par{
+        header{
+        width: vm(750);
+        height: vm(93);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f23d34;
+        color: #fff;
+        font-size: vm(28);
+        //padding: 0 vm(20);
+        span{
+            margin-left: vm(240);
+            font-size: vm(34);
+            color: #fff;
+        }
+        a{
+            width: vm(35);
+            text-align: right;
+             
+        }
+        
+    }
+    .bar_detail{
+        padding: 0 vm(28) 0 vm(26);
+        width: vm(698);
+        background-color: #fff;
+        display: flex;
+        justify-content: flex-start;
+        
+        .left{
+            width: vm(115);
+            height: vm(115);
+            border-radius: 50%;
+            margin-top: vm(23);
+            margin-bottom: vm(28);
+        }
+        .center{
+            color:#000;
+            width: vm(509);
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-left: vm(42);
+            margin-top: vm(23);
+            h1{
+                font-weight: normal;
+                font-size: vm(28);
+            }
+            span{
+                font-size: vm(24);
+                
+            }
+            .address{
+                
+            }
+            .tel{
+                
+            }
+        }
+        i{
+            margin-top: vm(23);
+        }
+    }
+    .chang_title{
+        line-height: vm(54);
+        text-align: center;
+        color: #000;
+        font-size: vm(31);
+        margin: vm(14) 0;
+        font-weight: normal;
+        background-color: #fff;
+    }
+    //酒吧轮播图
+    .swiper-slide{
+        background-color: #fff;
+        .slide_title{
+            width: vm(710);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: vm(28);
+            color: #000;
+            padding: 0 vm(20);
+            .match_name{
+                flex: 1;
+                //padding-left: vm(40);
+                text-indent: vm(30);
+            }
+            .on_doing{
+                flex: 1;
+                text-align: center;
+                text-indent: vm(20);
+            }
+            .match_time{
+                flex: 1;
+                text-align: right;
+            }
+        }
+        .mui-slider-item{
+            width: vm(750);
+            display: flex;
+            justify-content: center;
+            //align-items: center;
+            padding-bottom: vm(40);
+            //float: left;
+            .left,.right{
+                //width: vm(144);
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                img{
+                    width: vm(111);
+                    height: vm(111);
+                    margin-bottom: vm(24);
+                }
+                span{
+                    color: #000000;
+                    font-size: vm(29);
+                }
+            }
+            .left{
+                //margin-left:vm(100)
+            }
+            .center{
+                width: vm(286);
+                display: flex;
+//              justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 0 vm(68);
+                img{
+                    width: vm(84);
+                    height: vm(54);
+                    margin-bottom: vm(20);
+                    margin-top: vm(20);
+                }
+                p{
+                    width: vm(286);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: vm(20);
+                    span{
+                        color:#000;
+                        font-size: vm(26);
+                    }
+                }
+                .percentCount2,.percentCount{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    #game_one {
+        margin-bottom: vm(20);
+        width: 100%;
+        background-color: #ffffff;
+        margin-top: vm(15);
+        #game_title {
+            display: flex;
+            justify-content: space-between;
+            span {
+                display: inline-block;
+            }
+            span:nth-child(1) {
+                margin-left: vm(20);
+                font-size: vm(29);
+            }
+            span:nth-child(2) {
+                padding-left: vm(60);
+                font-size: vm(29);
+            }
+            span:nth-child(3) {
+                margin-right: vm(20);
+                font-size: vm(24.3);
+            }
+        }
+        #game_msg {
+            margin-top: vm(30);
+            display: flex;
+            justify-content: space-between;
+            span {
+                margin-top: vm(15);
+                display: block;
+                text-align: center;
+                font-size: vm(27.77);
+            }
+            img {
+                width: vm(124);
+                height: vm(124);
+            }
+            #team1 {
+                margin-left: vm(42);
+            }
+            #team2 {
+                margin-right: vm(42);
+            }
+            #state {
+                position: relative;
+                top: vm(-60);
+                #progressbar1 {
+                    width: vm(290);
+                }
+                #vs {
+                    width: vm(290);
+                    display: inline-block;
+                    color: #626262;
+                    font-size: vm(70);
+                }
+                #ratio {
+                    display: flex;
+                    justify-content: space-between;
+                    span {
+                        font-size: vm(26.31);
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+         #odds {
+        height: vm(225);
+        background-color: #fff;
+        #odd_one,
+        #odd_two {
+            margin-top: vm(20);
+            display: flex;
+            justify-content: space-between;
+            #main {
+                margin-left: vm(20);
+                width: vm(230);
+                height: vm(90);
+                background-color: #e5e5e5;
+                span {
+                    display: inline-block;
+                    width: vm(230);
+                    text-align: center;
+                    font-size: vm(28);
+                }
+            }
+            #middle {
+                span:nth-child(1) {
+                    font-size: vm(35);
+                }
+                span:nth-child(2) {
+                    position: relative;
+                    top: vm(-10);
+                }
+                span {
+                    display: inline-block;
+                    width: vm(230);
+                    text-align: center;
+                    font-size: vm(28);
+                }
+            }
+            #away {
+                margin-right: vm(20);
+                width: vm(230);
+                height: vm(90);
+                background-color: #e5e5e5;
+                span {
+                    display: inline-block;
+                    width: vm(230);
+                    text-align: center;
+                    font-size: vm(28);
+                }
+            }
+        }
+    }
+    }
+    
+}
