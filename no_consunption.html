@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>未消费</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<meta name="format-detection" content="telephone=no">
+
+		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
+		<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/consunption.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+
+	</head>
+
+	<body>
+		<div id="consunption">
+			<header>
+				<a href="#" class="iconfont icon-fanhui"></a>
+				<span>未消费</span>
+			</header>
+			<div id="bar_list">
+				<div id="bar_one">
+					
+				
+				<div id="item_list">
+					<div id="item_title">
+						<span id="">
+							有间好正酒吧
+						</span>
+					</div>
+					<section class="item_list">
+						<div id="left">
+
+							<div id="bonus_card">
+								<span>奖励卡</span>
+							</div>
+							<div id="detail">
+								<span>百威罐装 &nbsp;1打</span>
+								<span>有效期至：&nbsp;08-13</span>
+							</div>
+						</div>
+						<div id="price">
+							<span>价值198元</span>
+
+						</div>
+					</section>
+					<div id="state" style="display: none;">
+						<span id="get">
+					取酒
+				</span>
+						<span id="lose">
+					转售
+				</span>
+					</div>
+				</div>
+				</div>
+				<div id="bar_two">
+				<div id="item_list">
+					<div id="item_title">
+						<span id="">
+							本色酒吧
+						</span>
+					</div>
+					<section class="item_list">
+						<div id="left">
+
+							<div id="bonus_card">
+								<span>奖励卡</span>
+							</div>
+							<div id="detail">
+								<span>百威罐装 &nbsp;1打</span>
+								<span>有效期至：&nbsp;08-13</span>
+							</div>
+						</div>
+						<div id="price">
+							<span>价值198元</span>
+
+						</div>
+					</section>
+					<div id="state" style="display: none;">
+						<span id="get">
+					取酒
+				</span>
+						<span id="lose">
+					转售
+				</span>
+					</div>
+				</div>
+				
+				<div id="item_list">
+					<section class="item_list">
+						<div id="left">
+
+							<div id="bonus_card">
+								<span>奖励卡</span>
+							</div>
+							<div id="detail">
+								<span>百威罐装 &nbsp;1打</span>
+								<span>有效期至：&nbsp;08-13</span>
+							</div>
+						</div>
+						<div id="price">
+							<span>价值198元</span>
+
+						</div>
+					</section>
+					<div id="state" style="display: none;">
+						<span id="get">
+					取酒
+				</span>
+						<span id="lose">
+					转售
+				</span>
+					</div>
+				</div>
+				
+				<div id="item_list">
+					<section class="item_list">
+						<div id="left">
+
+							<div id="bonus_card">
+								<span>奖励卡</span>
+							</div>
+							<div id="detail">
+								<span>百威罐装 &nbsp;1打</span>
+								<span>有效期至：&nbsp;08-13</span>
+							</div>
+						</div>
+						<div id="price">
+							<span>价值198元</span>
+
+						</div>
+					</section>
+					<div id="state" style="display: none;">
+						<span id="get">
+					取酒
+				</span>
+						<span id="lose">
+					转售
+				</span>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/swiper.min.js"></script>
+		<script>
+			$(function(){
+				$('.item_list').click(function(){
+					$(this).children().children('#bonus_card').toggle();
+					$(this).next().toggle();
+				})
+			})
+		</script>
+	</body>
+
+</html>

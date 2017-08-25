@@ -1,0 +1,24 @@
+body { background-color: #f6f6f6; }
+
+#consunption header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; }
+#consunption header a { font-size: 5.3333333333vw; color: #fff; margin-left: 2.6666666667vw; }
+#consunption header span { display: inline-block; font-size: 4.5333333333vw; margin-left: 4vw; }
+#consunption #bar_one { background-color: #fff; margin-bottom: 2.6666666667vw; }
+#consunption #bar_two { background-color: #fff; }
+#consunption #bar_list #item_title { font-size: 4.1333333333vw; font-weight: bold; margin-left: 4vw; margin-right: 2.6666666667vw; height: 10vw; line-height: 10vw; border-bottom: 1px solid #f23d34; }
+#consunption #bar_list #state { width: 100%; display: flex; justify-content: space-around; border-bottom: 1px solid #E8E8E8; padding-bottom: 4vw; }
+#consunption #bar_list #state span { display: inline-block; width: 37.3333333333vw; height: 9.3333333333vw; line-height: 9.3333333333vw; text-align: center; color: #fff; border-radius: 4.6666666667vw; }
+#consunption #bar_list #state span:nth-child(1) { background-color: #108ee9; }
+#consunption #bar_list #state span:nth-child(2) { background-color: #f23d34; }
+#consunption #bar_list .item_list { width: 100%; height: 20vw; display: flex; justify-content: space-between; }
+#consunption #bar_list .item_list #left { display: flex; }
+#consunption #bar_list .item_list #bonus_card { font-size: 3.2vw; margin: auto 0; margin-left: 2.9333333333vw; }
+#consunption #bar_list .item_list #bonus_card span { display: inline-block; width: 11.7333333333vw; height: 6.6666666667vw; border-radius: 2vw; line-height: 6.6666666667vw; text-align: center; background-color: #108ee9; color: #fff; }
+#consunption #bar_list .item_list #detail { margin: auto 0; margin-left: 4vw; }
+#consunption #bar_list .item_list #detail span { display: inline-block; }
+#consunption #bar_list .item_list #detail span:nth-child(1) { font-size: 4.1333333333vw; }
+#consunption #bar_list .item_list #detail span:nth-child(2) { font-size: 3.2vw; display: block; }
+#consunption #bar_list .item_list #price { text-align-last: right; margin: auto 0; margin-right: 2.6666666667vw; }
+#consunption #bar_list .item_list #price span { display: inline-block; font-size: 3.3333333333vw; position: relative; top: -2.6666666667vw; }
+
+/*# sourceMappingURL=consunption.css.map */
