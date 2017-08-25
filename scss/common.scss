@@ -1650,3 +1650,304 @@ body{
     }
     
 }
+//************************************设置**************************//
+.setting_par,.bind_phone_par,.change_pwd_par,.change_pwd_par,.chong_zhi_par{
+    header{
+        width: vm(750);
+        height: vm(93);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f23d34;
+        color: #fff;
+        font-size: vm(28);
+        //padding: 0 vm(20);
+        a{
+            i{
+                font-size: vm(28);
+                color:#fff;
+                margin-left: vm(20);
+            }
+            span{
+                line-height: vm(28);
+                margin-left: vm(10);
+                color: #fff;
+            }
+        }
+        .bar_card{
+            margin-left: vm(200);
+        }
+    }
+    .name_phone,.name_pwd{
+        a{
+            width: vm(750);
+            padding: 0 vm(33);
+            height: vm(139);
+            border-bottom: 1px solid #f6f6f6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: vm(31);
+            color: #000;
+            background-color: #fff;
+            .title_item{
+            
+            }
+            p{
+                width: auto;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                .tel_name{
+                    
+                }
+                i{
+                    
+                }
+            }
+        } 
+    }
+    .out_login{
+        display: block;
+        width: vm(600);
+        line-height: vm(82);
+        text-align: center;
+        color: #fff;
+        font-size: vm(31);
+        background-color: #f23d34;
+        border-radius: vm(30);
+        margin: 0 auto;
+        border: none;
+        margin-top:vm(33);
+    }
+}
+
+
+//*******************************绑定手机号
+.bind_phone_par{
+    .name_phone,.name_pwd{
+        width: vm(750);
+        padding: 0 vm(33);
+        height: vm(139);
+        border-bottom: 1px solid #f6f6f6;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: vm(31);
+        color: #000;
+        background-color: #fff;
+        .vail_code{
+            width: vm(155);
+            line-height: vm(66);
+            color: #fff;
+            text-align: center;
+            background-color: #108ee9;
+            border: none;
+        }
+        input{
+            width: vm(340);
+            font-size: vm(31);
+            text-indent: vm(25);
+            border: none;
+        }
+    }
+    .out_login{
+        display: block;
+        width: vm(600);
+        line-height: vm(82);
+        text-align: center;
+        color: #fff;
+        font-size: vm(31);
+        background-color: #f23d34;
+        border-radius: vm(30);
+        margin: 0 auto;
+        border: none;
+        margin-top:vm(33);
+    }
+}
+
+
+//******************************修改密码*****************
+.change_pwd_par{
+    .name_phone,.name_pwd,.name_pwd2{
+        width: vm(750);
+        padding: 0 vm(33);
+        height: vm(139);
+        border-bottom: 1px solid #f6f6f6;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: vm(31);
+        color: #000;
+        background-color: #fff;
+        .vail_code{
+            width: vm(155);
+            line-height: vm(66);
+            color: #fff;
+            text-align: center;
+            background-color: #108ee9;
+            border: none;
+        }
+        input{
+            width: vm(340);
+            font-size: vm(31);
+            text-indent: vm(25);
+            border: none;
+        }
+    }
+    .out_login{
+        display: block;
+        width: vm(600);
+        line-height: vm(82);
+        text-align: center;
+        color: #fff;
+        font-size: vm(31);
+        background-color: #f23d34;
+        border-radius: vm(30);
+        margin: 0 auto;
+        border: none;
+        margin-top:vm(33);
+    }
+}
+
+//**********************提现**********充值金额**********
+.change_pwd_par,.chong_zhi_par{
+    li{
+        width: vm(750);
+        padding: 0 vm(33);
+        height: vm(139);
+        border-bottom: 1px solid #f6f6f6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: vm(31);
+        color: #000;
+        background-color: #fff;
+        p{
+             display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .bank_name{
+                margin-left: vm(50);
+            }
+        }
+    }
+    .add_pay_way{
+        width: vm(750);
+        padding: 0 vm(33);
+        height: vm(139);
+        border-bottom: 1px solid #f6f6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: vm(31);
+        color: #000;
+        background-color: #fff;
+    }
+    .money_num{
+        width: vm(750);
+        padding: 0 vm(33);
+        height: vm(139);
+        border-bottom: 1px solid #f6f6f6;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        font-size: vm(31);
+        color: #000;
+        background-color: #fff;
+        p{
+            font-size: vm(31);
+            color: #000; 
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            input{
+                border: none;
+                 font-size: vm(31);
+                color: #000;
+            }
+        }
+        .menoy_title{
+            margin-bottom: vm(25);
+        }
+    }
+}
+
+
+//***************************明细*******************//
+.detail_par{
+    header{
+        width: vm(750);
+        height: vm(93);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f23d34;
+        color: #fff;
+        font-size: vm(28);
+        //padding: 0 vm(20);
+        a{
+            i{
+                font-size: vm(28);
+                color:#fff;
+                margin-left: vm(20);
+            }
+            span{
+                line-height: vm(28);
+                margin-left: vm(10);
+                color: #fff;
+            }
+        }
+        .bar_card{
+            margin-left: vm(200);
+        }
+    }
+    .title_par{
+        width: vm(750);
+        padding: 0 vm(22);
+        background-color: #fff;
+        h1{
+            color: #000000;
+            font-size: vm(31);
+            font-weight: normal;
+            line-height: vm(78);
+            border-bottom: 1px solid #f23d34;
+        }
+    }
+    ul{
+        .items{
+            width: vm(750);
+            border-bottom: 1px solid #f6f6f6;
+            padding: 0 vm(23);
+            background-color: #fff;
+            .top1{
+                font-size: vm(27);
+                color: #000;
+                padding-top: vm(20);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .top2{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: vm(10);
+                p{
+                    font-size: vm(27);
+                    color: #000;
+                    margin-bottom: vm(20);
+                    .item{
+                        
+                    }
+                    .item_money{
+                        
+                    }
+                }
+                .shouzhi{
+                    color: #f23d34;
+                }
+            }
+        }
+    }
+}

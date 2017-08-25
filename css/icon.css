@@ -17,4 +17,8 @@
 
 .i-location { display: inline-block; width: 3.8666666667vw; height: 6vw; background-image: url(../images/i-location.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
 
+.i-right { display: inline-block; width: 1.7333333333vw; height: 4.1333333333vw; background-image: url(../images/i-right.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
+.i-down2 { display: inline-block; width: 4.2666666667vw; height: 1.7333333333vw; background-image: url(../images/i-down2.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
 /*# sourceMappingURL=icon.css.map */
