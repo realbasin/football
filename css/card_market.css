@@ -1,0 +1,46 @@
+#card_market header { width: 100vw; height: 11.2vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; font-size: 3.7333333333vw; }
+#card_market header a { width: 108; }
+#card_market header a i { font-size: 3.7333333333vw; color: #fff; margin-left: 1.3333333333vw; }
+#card_market header a span { line-height: 3.7333333333vw; margin-left: 2vw; color: #fff; }
+#card_market header .title { width: 76.4vw; font-size: 4.5333333333vw; color: #fff; text-align: center; }
+#card_market header .i-sousuo { width: 4.6666666667vw; text-align: right; }
+#card_market .swiper-slide { background-color: #fff; }
+#card_market .swiper-slide .slide_title { width: 94.6666666667vw; display: flex; justify-content: center; align-items: center; font-size: 3.7333333333vw; color: #000; padding: 0 2.6666666667vw; }
+#card_market .swiper-slide .slide_title .match_name { flex: 1; text-indent: 4vw; }
+#card_market .swiper-slide .slide_title .on_doing { flex: 1; text-align: center; text-indent: 2.6666666667vw; }
+#card_market .swiper-slide .slide_title .match_time { flex: 1; text-align: right; }
+#card_market .swiper-slide .mui-slider-item { width: 100vw; display: flex; justify-content: center; padding-bottom: 5.3333333333vw; }
+#card_market .swiper-slide .mui-slider-item .left, #card_market .swiper-slide .mui-slider-item .right { height: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; }
+#card_market .swiper-slide .mui-slider-item .left img, #card_market .swiper-slide .mui-slider-item .right img { width: 14.8vw; height: 14.8vw; margin-bottom: 3.2vw; }
+#card_market .swiper-slide .mui-slider-item .left span, #card_market .swiper-slide .mui-slider-item .right span { color: #000000; font-size: 3.8666666667vw; }
+#card_market .swiper-slide .mui-slider-item .center { width: 38.1333333333vw; display: flex; align-items: center; flex-direction: column; margin: 0 9.0666666667vw; }
+#card_market .swiper-slide .mui-slider-item .center img { width: 11.2vw; height: 7.2vw; margin-bottom: 2.6666666667vw; margin-top: 2.6666666667vw; }
+#card_market .swiper-slide .mui-slider-item .center p { width: 38.1333333333vw; display: flex; justify-content: space-between; align-items: center; margin-top: 2.6666666667vw; }
+#card_market .swiper-slide .mui-slider-item .center p span { color: #000; font-size: 3.4666666667vw; }
+#card_market .swiper-slide .mui-slider-item .center .percentCount2, #card_market .swiper-slide .mui-slider-item .center .percentCount { color: #fff; }
+#card_market .tree_done { width: 100vw; height: 7.2vw; display: flex; justify-content: center; align-items: center; background-color: #fff; border-top: 0.5px solid #e8e8e8; border-bottom: 0.5px solid #e8e8e8; }
+#card_market .tree_done li { flex: 1; text-align: center; line-height: 7.2vw; font-size: 3.7333333333vw; color: #434343; }
+#card_market #part { width: 100%; height: 28.2666666667vw; }
+#card_market #part .Handicap { border-bottom: 1px solid #e8e8e8; background-color: #fff; padding-bottom: 3.3333333333vw; }
+#card_market #part .Handicap p { margin-left: 3.3333333333vw; }
+#card_market #part .Handicap p span { font-size: 3.2vw; color: #000000; }
+#card_market #part .Handicap p .bar_name { font-size: 4.2666666667vw; font-weight: bold; }
+#card_market #part .Handicap p .bar_distance { color: #ffbf00; }
+#card_market #part .Handicap p .bar_money { margin-left: 5.3333333333vw; }
+#card_market #part .Handicap p:nth-of-type(1) { padding-top: 3.0666666667vw; }
+#card_market #part .Handicap p:nth-of-type(2), #card_market #part .Handicap p:nth-of-type(3) { margin-top: 1.3333333333vw; }
+#card_market #part .Handicap p:nth-child(3) { margin-top: 0vw; }
+#card_market #part .Handicap p:nth-of-type(2) { width: 89.0666666667vw; display: flex; justify-content: space-between; align-items: center; }
+#card_market #part .commodity .item_list { width: 100%; height: 20vw; display: flex; justify-content: space-between; border-bottom: 1px solid #E8E8E8; }
+#card_market #part .commodity .item_list #left { display: flex; }
+#card_market #part .commodity .item_list #bonus_card { font-size: 3.2vw; margin: auto 0; margin-left: 2.9333333333vw; }
+#card_market #part .commodity .item_list #bonus_card span { display: inline-block; width: 11.7333333333vw; height: 6.6666666667vw; border-radius: 2vw; line-height: 6.6666666667vw; text-align: center; background-color: #108ee9; color: #fff; }
+#card_market #part .commodity .item_list #detail { margin: auto 0; margin-left: 4vw; }
+#card_market #part .commodity .item_list #detail span { display: inline-block; }
+#card_market #part .commodity .item_list #detail span:nth-child(1) { font-size: 4.1333333333vw; }
+#card_market #part .commodity .item_list #detail span:nth-child(2) { font-size: 3.2vw; display: block; }
+#card_market #part .commodity .item_list #price { text-align-last: right; margin: auto 0; margin-right: 2.6666666667vw; }
+#card_market #part .commodity .item_list #price span { display: inline-block; font-size: 3.2vw; }
+#card_market #part .commodity .item_list #price span:nth-child(2) { display: block; }
+
+/*# sourceMappingURL=card_market.css.map */
