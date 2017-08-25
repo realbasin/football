@@ -282,4 +282,43 @@ body { height: 100%; background-color: #e5e5e5; line-height: none; }
 .bar_detail_par #game_one #odds #odd_one #away, .bar_detail_par #game_one #odds #odd_two #away { margin-right: 2.6666666667vw; width: 30.6666666667vw; height: 12vw; background-color: #e5e5e5; }
 .bar_detail_par #game_one #odds #odd_one #away span, .bar_detail_par #game_one #odds #odd_two #away span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }
 
+.setting_par header, .bind_phone_par header, .change_pwd_par header, .change_pwd_par header, .chong_zhi_par header { width: 100vw; height: 12.4vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; font-size: 3.7333333333vw; }
+.setting_par header a i, .bind_phone_par header a i, .change_pwd_par header a i, .change_pwd_par header a i, .chong_zhi_par header a i { font-size: 3.7333333333vw; color: #fff; margin-left: 2.6666666667vw; }
+.setting_par header a span, .bind_phone_par header a span, .change_pwd_par header a span, .change_pwd_par header a span, .chong_zhi_par header a span { line-height: 3.7333333333vw; margin-left: 1.3333333333vw; color: #fff; }
+.setting_par header .bar_card, .bind_phone_par header .bar_card, .change_pwd_par header .bar_card, .change_pwd_par header .bar_card, .chong_zhi_par header .bar_card { margin-left: 26.6666666667vw; }
+.setting_par .name_phone a, .setting_par .name_pwd a, .bind_phone_par .name_phone a, .bind_phone_par .name_pwd a, .change_pwd_par .name_phone a, .change_pwd_par .name_pwd a, .change_pwd_par .name_phone a, .change_pwd_par .name_pwd a, .chong_zhi_par .name_phone a, .chong_zhi_par .name_pwd a { width: 100vw; padding: 0 4.4vw; height: 18.5333333333vw; border-bottom: 1px solid #f6f6f6; display: flex; justify-content: space-between; align-items: center; font-size: 4.1333333333vw; color: #000; background-color: #fff; }
+.setting_par .name_phone a p, .setting_par .name_pwd a p, .bind_phone_par .name_phone a p, .bind_phone_par .name_pwd a p, .change_pwd_par .name_phone a p, .change_pwd_par .name_pwd a p, .change_pwd_par .name_phone a p, .change_pwd_par .name_pwd a p, .chong_zhi_par .name_phone a p, .chong_zhi_par .name_pwd a p { width: auto; display: flex; justify-content: flex-end; align-items: center; }
+.setting_par .out_login, .bind_phone_par .out_login, .change_pwd_par .out_login, .change_pwd_par .out_login, .chong_zhi_par .out_login { display: block; width: 80vw; line-height: 10.9333333333vw; text-align: center; color: #fff; font-size: 4.1333333333vw; background-color: #f23d34; border-radius: 4vw; margin: 0 auto; border: none; margin-top: 4.4vw; }
+
+.bind_phone_par .name_phone, .bind_phone_par .name_pwd { width: 100vw; padding: 0 4.4vw; height: 18.5333333333vw; border-bottom: 1px solid #f6f6f6; display: flex; justify-content: flex-start; align-items: center; font-size: 4.1333333333vw; color: #000; background-color: #fff; }
+.bind_phone_par .name_phone .vail_code, .bind_phone_par .name_pwd .vail_code { width: 20.6666666667vw; line-height: 8.8vw; color: #fff; text-align: center; background-color: #108ee9; border: none; }
+.bind_phone_par .name_phone input, .bind_phone_par .name_pwd input { width: 45.3333333333vw; font-size: 4.1333333333vw; text-indent: 3.3333333333vw; border: none; }
+.bind_phone_par .out_login { display: block; width: 80vw; line-height: 10.9333333333vw; text-align: center; color: #fff; font-size: 4.1333333333vw; background-color: #f23d34; border-radius: 4vw; margin: 0 auto; border: none; margin-top: 4.4vw; }
+
+.change_pwd_par .name_phone, .change_pwd_par .name_pwd, .change_pwd_par .name_pwd2 { width: 100vw; padding: 0 4.4vw; height: 18.5333333333vw; border-bottom: 1px solid #f6f6f6; display: flex; justify-content: flex-start; align-items: center; font-size: 4.1333333333vw; color: #000; background-color: #fff; }
+.change_pwd_par .name_phone .vail_code, .change_pwd_par .name_pwd .vail_code, .change_pwd_par .name_pwd2 .vail_code { width: 20.6666666667vw; line-height: 8.8vw; color: #fff; text-align: center; background-color: #108ee9; border: none; }
+.change_pwd_par .name_phone input, .change_pwd_par .name_pwd input, .change_pwd_par .name_pwd2 input { width: 45.3333333333vw; font-size: 4.1333333333vw; text-indent: 3.3333333333vw; border: none; }
+.change_pwd_par .out_login { display: block; width: 80vw; line-height: 10.9333333333vw; text-align: center; color: #fff; font-size: 4.1333333333vw; background-color: #f23d34; border-radius: 4vw; margin: 0 auto; border: none; margin-top: 4.4vw; }
+
+.change_pwd_par li, .chong_zhi_par li { width: 100vw; padding: 0 4.4vw; height: 18.5333333333vw; border-bottom: 1px solid #f6f6f6; display: flex; justify-content: space-between; align-items: center; font-size: 4.1333333333vw; color: #000; background-color: #fff; }
+.change_pwd_par li p, .chong_zhi_par li p { display: flex; justify-content: flex-start; align-items: center; }
+.change_pwd_par li p .bank_name, .chong_zhi_par li p .bank_name { margin-left: 6.6666666667vw; }
+.change_pwd_par .add_pay_way, .chong_zhi_par .add_pay_way { width: 100vw; padding: 0 4.4vw; height: 18.5333333333vw; border-bottom: 1px solid #f6f6f6; display: flex; justify-content: center; align-items: center; font-size: 4.1333333333vw; color: #000; background-color: #fff; }
+.change_pwd_par .money_num, .chong_zhi_par .money_num { width: 100vw; padding: 0 4.4vw; height: 18.5333333333vw; border-bottom: 1px solid #f6f6f6; display: flex; justify-content: flex-end; flex-direction: column; font-size: 4.1333333333vw; color: #000; background-color: #fff; }
+.change_pwd_par .money_num p, .chong_zhi_par .money_num p { font-size: 4.1333333333vw; color: #000; display: flex; justify-content: flex-start; align-items: center; }
+.change_pwd_par .money_num p input, .chong_zhi_par .money_num p input { border: none; font-size: 4.1333333333vw; color: #000; }
+.change_pwd_par .money_num .menoy_title, .chong_zhi_par .money_num .menoy_title { margin-bottom: 3.3333333333vw; }
+
+.detail_par header { width: 100vw; height: 12.4vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; font-size: 3.7333333333vw; }
+.detail_par header a i { font-size: 3.7333333333vw; color: #fff; margin-left: 2.6666666667vw; }
+.detail_par header a span { line-height: 3.7333333333vw; margin-left: 1.3333333333vw; color: #fff; }
+.detail_par header .bar_card { margin-left: 26.6666666667vw; }
+.detail_par .title_par { width: 100vw; padding: 0 2.9333333333vw; background-color: #fff; }
+.detail_par .title_par h1 { color: #000000; font-size: 4.1333333333vw; font-weight: normal; line-height: 10.4vw; border-bottom: 1px solid #f23d34; }
+.detail_par ul .items { width: 100vw; border-bottom: 1px solid #f6f6f6; padding: 0 3.0666666667vw; background-color: #fff; }
+.detail_par ul .items .top1 { font-size: 3.6vw; color: #000; padding-top: 2.6666666667vw; display: flex; justify-content: space-between; align-items: center; }
+.detail_par ul .items .top2 { display: flex; justify-content: space-between; align-items: center; margin-top: 1.3333333333vw; }
+.detail_par ul .items .top2 p { font-size: 3.6vw; color: #000; margin-bottom: 2.6666666667vw; }
+.detail_par ul .items .top2 .shouzhi { color: #f23d34; }
+
 /*# sourceMappingURL=common.css.map */
