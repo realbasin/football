@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>酒吧</title>
+		<title>有间正好酒吧</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     	<meta name="format-detection" content="telephone=no">
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -14,18 +14,22 @@
 		<link rel="stylesheet" type="text/css" href="css/jquery.lineProgressbar.css"/>
 	</head>
 	<body>
-		<div class="bar_par">
+		<div class="bar_detail_par">
 			<header>
-				<a href="#">
-					<span>广州</span>
-					<i class="i-down"></i>
-				</a>
-				<span class="title">酒吧</span>
-				<i class="i-sousuo"></i>
+				<a class="iconfont icon-fanhui"></a>
+				<span class="title">有间正好酒吧</span>
 			</header>
+			<section class="bar_detail">
+				<img src="images/i-bar_logo.png" alt="bar_logo" class="left"/>
+				<div class="center">
+					<h1>有间好正酒吧</h1>
+					<span class="address">番禺大石街道建华汇商业中心F座</span>
+					<span class="tel">020-123456789</span>
+				</div>
+				<i class="i-location"></i>
+			</section>
 			
-			
-			
+			<h1 class="chang_title">今日场次</h1>
 			<div class="swiper-container" data-space-between='10' data-pagination='.swiper-pagination'>
 			    <div class="swiper-wrapper">
 				    <div class="swiper-slide" data-swiper-autoplay="2000">
@@ -99,38 +103,64 @@
 	        </div>
 	        
 	        
-	        
-			<ul class="tree_done">
-				<li>区域</li>
-				<li>离我最近</li>
-				<li>类型</li>
-			</ul>
-			<section class="bar_title">
-				<p class="left"></p>
-				<h1>以下酒吧接受本盘口</h1>
-				<p class="right"></p>
-			</section>
-			<section class="Handicap">
-				<p>
-					<span class="bar_name">有间正好酒吧</span><span class="bar_money">128元起</span>
-				</p>
-				<p><span class="bar_address">番禺大石街道建华汇商业中心F座</span><span class="bar_distance">1.6KM</span></p>
-				<p><span class="bar_tel">020-12345678</span></p>
-			</section>
-			<section class="Handicap">
-				<p>
-					<span class="bar_name">有间正好酒吧</span><span class="bar_money">128元起</span>
-				</p>
-				<p><span class="bar_address">番禺大石街道建华汇商业中心F座</span><span class="bar_distance">1.6KM</span></p>
-				<p><span class="bar_tel">020-12345678</span></p>
-			</section>
-			<section class="Handicap">
-				<p>
-					<span class="bar_name">有间正好酒吧</span><span class="bar_money">128元起</span>
-				</p>
-				<p><span class="bar_address">番禺大石街道建华汇商业中心F座</span><span class="bar_distance">1.6KM</span></p>
-				<p><span class="bar_tel">020-12345678</span></p>
-			</section>
+      		<div id="game_one">
+    			<div id="game_title">
+    				<span id="">法联杯</span>
+    				<span id="">未开赛</span>
+    				<span id="">08-13&nbsp;&nbsp;03:00</span>
+    			</div>
+    			<div id="game_msg">
+    				<div id="team1">
+    					<img src="images/Team-1_03.png" alt="" />
+    					<span id="">拜仁慕尼黑</span>
+    				</div>
+    				<div id="state">
+    					<span id="vs">vs</span>
+    					<div id="progressbar4">
+    					</div>
+    					<div id="ratio">
+    						<span id="">1.01</span>
+    						<span id="">一/半球</span>
+    						<span id="">0.87</span>
+    					</div>
+    				</div>
+    				<div id="team2">
+    					<img src="images/team2_05.png"/>
+    					<span id="">切尔西</span>
+    				</div>
+    			</div>
+				<!--概率详细 -->
+				<div id="odds" style="display: none;">
+					<div id="odd_one">
+						<div id="main">
+							<span id="">主</span>
+							<span id="">0.86</span>
+						</div>
+						<div id="middle">
+							<span id="">盘口</span>
+							<span id="">一/半球</span>
+						</div>
+						<div id="away">
+							<span id="">客</span>
+							<span id="">1.05</span>
+						</div>
+					</div>
+					<div id="odd_two">
+						<div id="main">
+							<span id="">大</span>
+							<span id="">1.06</span>
+						</div>
+						<div id="middle">
+							<span id="">盘口</span>
+							<span id="">2.5</span>
+						</div>
+						<div id="away">
+							<span id="">小</span>
+							<span id="">0.84</span>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<script src="js/jquery-1.11.0.min.js"></script>
 		<script src="js/jquery.lineProgressbar.js"></script>
@@ -175,6 +205,21 @@
 				  borderBottomRightRadius:'30px',
 				  borderTopRightRadius:'30px'
 				});
+				$('#progressbar4').LineProgressbar({
+				  percentage: 61,
+				  fillBackgroundColor: '#e67e22',
+				  height: '20px',
+				  borderTopLeftRadius:'30px',
+				  borderBottomLeftRadius:'30px',
+				  percentage2:39,
+				  borderBottomRightRadius:'30px',
+				  borderTopRightRadius:'30px'
+				});
+				$('#game_msg').click(function(){
+					console.log('xxx');
+					$('#game_one #ratio').toggle();
+					$('#game_one #odds').toggle();
+				})
 			})
 		</script>
 	</body>

@@ -15,4 +15,6 @@
 
 .i-sousuo { display: inline-block; width: 4.6666666667vw; height: 4.6666666667vw; background-image: url(../images/i-sousuo.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
 
+.i-location { display: inline-block; width: 3.8666666667vw; height: 6vw; background-image: url(../images/i-location.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
 /*# sourceMappingURL=icon.css.map */
