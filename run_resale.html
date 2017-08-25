@@ -5,6 +5,8 @@
 		<meta charset="UTF-8">
 		<title>未消费</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<meta name="format-detection" content="telephone=no">
+
 		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
 		<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
 		<link rel="stylesheet" type="text/css" href="css/consunption.css" />
@@ -16,7 +18,7 @@
 		<div id="consunption">
 			<header>
 				<a href="#" class="iconfont icon-fanhui"></a>
-				<span>未消费</span>
+				<span>在转售</span>
 			</header>
 			<div id="bar_list">
 				<div id="bar_one">
@@ -45,11 +47,11 @@
 						</div>
 					</section>
 					<div id="state" style="display: none;">
-						<span id="get">
-					取酒
+						<span id="get" style="background-color: #a0a0a0;">
+					下架
 				</span>
 						<span id="lose">
-					转售
+					取酒
 				</span>
 					</div>
 				</div>
@@ -148,7 +150,7 @@
 		<script>
 			$(function(){
 				$('.item_list').click(function(){
-					$(this).children().children('#bonus_card').toggle();
+					
 					$(this).next().toggle();
 				})
 			})

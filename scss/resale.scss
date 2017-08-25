@@ -2,12 +2,10 @@
  @function vm($px) {
      @return ($px / $vm_base) * 100vw;
  }
- 
- body{
-     background-color: #f6f6f6;
- }
- #consunption {
+  body{
      
+ }
+ #re_price{
      header {
          width: vm(750);
          height: vm(80);
@@ -29,16 +27,7 @@
              margin-left: vm(30);
          }
      }
-     #bar_one{
-         background-color: #fff;
-         margin-bottom: vm(20);
-     }
-     #bar_two{
-         background-color: #fff;
-     }
-     #bar_list {
-         
-         #item_title{
+          #item_title{
              font-size: vm(31);
              font-weight: bold;
              margin-left: vm(30);
@@ -47,32 +36,7 @@
              line-height: vm(75);
              border-bottom: 1px solid #f23d34;
          }
-         #state {
-             width: 100%;
-             display: flex;
-             
-             justify-content: space-around;
-             
-             border-bottom: 1px solid #E8E8E8;
-             padding-bottom: vm(30);
-             span {
-                 
-                 display: inline-block;
-                 width: vm(280);
-                 height: vm(70);
-                 line-height: vm(70);
-                 text-align: center;
-                 color: #fff;
-                 border-radius: vm(35);
-             }
-             span:nth-child(1) {
-                 background-color: #108ee9;
-             }
-             span:nth-child(2) {
-                 background-color: #f23d34;
-             }
-         }
-         .item_list{
+     .item_list{
                 width: 100%;
                 height: vm(150);
                 display: flex;
@@ -125,5 +89,50 @@
                    
                 }
             }
-     }
+            #opinion{
+                display: flex;
+                justify-content: space-between;
+                span{
+                    font-size: vm(24);
+                    display: inline-block;
+                }
+                span:nth-child(1){
+                    margin-left: vm(20);
+                }
+                span:nth-child(2){
+                    margin-right: vm(20);
+                }
+            }
+            #price{
+                margin-right: vm(20);
+                    margin-left: vm(20);
+                margin-top: vm(60);
+                
+                input{
+                    font-size: vm(70);
+                    font-weight: bold;
+                    width: 100%;
+                    border: 0;
+                    border-bottom: 1px solid #f23d34;
+                    outline: none;
+                }
+            }
+            #btn{margin-top: vm(50);
+            text-align: center;
+                p{
+                    font-size: vm(24);
+                    text-align: center;
+                }
+                button{
+                    
+                    width: vm(605);
+                    height: vm(80);
+                    border: 0;
+                    outline: none;
+                    border-radius: vm(40);
+                    background-color: #f23d34;
+                    color: #fff;
+                    font-size: vm(32);
+                }
+            }
  }

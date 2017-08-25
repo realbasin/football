@@ -2,12 +2,10 @@
  @function vm($px) {
      @return ($px / $vm_base) * 100vw;
  }
- 
- body{
+  body{
      background-color: #f6f6f6;
  }
- #consunption {
-     
+ #no_pay{
      header {
          width: vm(750);
          height: vm(80);
@@ -29,16 +27,35 @@
              margin-left: vm(30);
          }
      }
+     #des{
+         background-color: #fff;
+         display: flex;
+         #left{
+             width: vm(280);
+             height: vm(280);
+             text-align: center;
+            vertical-align: middle;
+             img{
+                 padding-top: vm(60);
+                 
+                 width: vm(137);
+                 height: vm(137);
+             }
+         }
+         #right{
+             font-size: vm(28);
+             margin: auto 0;
+             p{
+                 margin-top: vm(10);
+                 margin-bottom: vm(10);
+                 span{
+                     margin-right: vm(15);
+                 }
+             }
+         }
+     }
      #bar_one{
-         background-color: #fff;
-         margin-bottom: vm(20);
-     }
-     #bar_two{
-         background-color: #fff;
-     }
-     #bar_list {
-         
-         #item_title{
+          #item_title{
              font-size: vm(31);
              font-weight: bold;
              margin-left: vm(30);
@@ -66,7 +83,7 @@
                  border-radius: vm(35);
              }
              span:nth-child(1) {
-                 background-color: #108ee9;
+                 background-color: #a0a0a0;
              }
              span:nth-child(2) {
                  background-color: #f23d34;

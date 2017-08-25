@@ -2,7 +2,7 @@ body { background-color: #f6f6f6; }
 
 #consunption header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; }
 #consunption header a { font-size: 5.3333333333vw; color: #fff; margin-left: 2.6666666667vw; }
-#consunption header span { display: inline-block; font-size: 4.5333333333vw; margin-left: 4vw; }
+#consunption header span { font-weight: bold; display: inline-block; font-size: 4.5333333333vw; margin-left: 4vw; }
 #consunption #bar_one { background-color: #fff; margin-bottom: 2.6666666667vw; }
 #consunption #bar_two { background-color: #fff; }
 #consunption #bar_list #item_title { font-size: 4.1333333333vw; font-weight: bold; margin-left: 4vw; margin-right: 2.6666666667vw; height: 10vw; line-height: 10vw; border-bottom: 1px solid #f23d34; }

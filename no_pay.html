@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>未付款</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
+		<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/no_pay.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+	</head>
+	<body>
+		<div id="no_pay">
+			<header>
+				<a href="#" class="iconfont icon-fanhui"></a>
+				<span>未消费</span>
+			</header>
+			<div id="des">
+				<div id="left">
+					<img src="images/Team-1_03.png"/>
+				</div>
+				<div id="right">
+					<p><span>法联杯</span> <span>08-23</span><span>03:00</span></p>
+					<p>拜仁慕尼黑</p>
+					<p><span>盘口</span><span>一/半球</span></p>
+					<p><span>主</span><span>0.86</span></p>
+							
+				</div>
+			</div>
+			<div id="bar_one">
+					
+				
+				<div id="item_list">
+					<div id="item_title">
+						<span id="">
+							有间好正酒吧
+						</span>
+					</div>
+					<section class="item_list">
+						<div id="left">
+
+							<div id="bonus_card">
+								<span>奖励卡</span>
+							</div>
+							<div id="detail">
+								<span>百威罐装 &nbsp;1打</span>
+								<span>有效期至：&nbsp;08-13</span>
+							</div>
+						</div>
+						<div id="price">
+							<span>价值198元</span>
+
+						</div>
+					</section>
+					<div id="state">
+						<span id="get">
+					取消
+				</span>
+						<span id="lose">
+					立即支付
+				</span>
+					</div>
+				</div>
+				</div>
+		</div>
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/swiper.min.js"></script>
+		<script>
+			$(function(){
+				$('.item_list').click(function(){
+					
+					$(this).next().toggle();
+				})
+			})
+		</script>
+	</body>
+</html>
