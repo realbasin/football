@@ -45,10 +45,10 @@
 						</div>
 					</section>
 					<div id="state" style="display: none;">
-						<span id="get">
+						<span id="get" class="get">
 					取酒
 				</span>
-						<span id="lose">
+						<span id="lose" class="lose">
 					转售
 				</span>
 					</div>
@@ -78,10 +78,37 @@
 						</div>
 					</section>
 					<div id="state" style="display: none;">
-						<span id="get">
+						<span id="get" class="get">
 					取酒
 				</span>
-						<span id="lose">
+						<span id="lose"  class="lose">
+					转售
+				</span>
+					</div>
+				</div>
+				
+				<div id="item_list">
+					<section class="item_list">
+						<div id="left">
+
+							<div id="bonus_card">
+								<span>奖励卡</span>
+							</div>
+							<div id="detail">
+								<span>百威罐装 &nbsp;1打</span>
+								<span>有效期至：&nbsp;08-13</span>
+							</div>
+						</div>
+						<div id="price">
+							<span>价值198元</span>
+
+						</div>
+					</section>
+					<div id="state" style="display: none;">
+						<span id="get" class="get">
+					取酒
+				</span>
+						<span id="lose" class="lose">
 					转售
 				</span>
 					</div>
@@ -108,34 +135,7 @@
 						<span id="get">
 					取酒
 				</span>
-						<span id="lose">
-					转售
-				</span>
-					</div>
-				</div>
-				
-				<div id="item_list">
-					<section class="item_list">
-						<div id="left">
-
-							<div id="bonus_card">
-								<span>奖励卡</span>
-							</div>
-							<div id="detail">
-								<span>百威罐装 &nbsp;1打</span>
-								<span>有效期至：&nbsp;08-13</span>
-							</div>
-						</div>
-						<div id="price">
-							<span>价值198元</span>
-
-						</div>
-					</section>
-					<div id="state" style="display: none;">
-						<span id="get">
-					取酒
-				</span>
-						<span id="lose">
+						<span id="lose"  class="lose">
 					转售
 				</span>
 					</div>
@@ -150,6 +150,17 @@
 				$('.item_list').click(function(){
 					$(this).children().children('#bonus_card').toggle();
 					$(this).next().toggle();
+				})
+				
+				
+				//跳转
+				$(".get").click(function(){
+					console.log("1111")
+					window.open('take_wine.html', '_self');
+				})
+				$(".lose").click(function(){
+					console.log("1111")
+					window.open('resale.html', '_self');
 				})
 			})
 		</script>

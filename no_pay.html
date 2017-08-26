@@ -53,10 +53,10 @@
 						</div>
 					</section>
 					<div id="state">
-						<span id="get">
+						<span id="get" class="get">
 					取消
 				</span>
-						<span id="lose">
+						<span id="lose" class="lose">
 					立即支付
 				</span>
 					</div>
@@ -70,6 +70,19 @@
 				$('.item_list').click(function(){
 					
 					$(this).next().toggle();
+				})
+				
+				
+				//跳转
+				$(".get").click(function(){
+					console.log("1111")
+					//window.open('choose_bar.html', '_self');
+					history.back(-1);
+				})
+				$(".lose").click(function(){
+					console.log("1111")
+					window.open('pay_all.html', '_self');
+					
 				})
 			})
 		</script>
