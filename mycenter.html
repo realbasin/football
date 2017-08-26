@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
 		<!--<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">-->
 		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tab_nav.css"/>
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
 		<link rel="stylesheet" href="css/icon.css" />
 	</head>
@@ -64,5 +65,15 @@
 				</li>
 			</ul>
 		</div>
+		<div id="footer"></div>
+		<script src="js/jquery-1.11.0.min.js" ></script>
+		<script src="js/tab_nav.js" ></script>
+		<script type="text/javascript">
+			$(function(){
+				//加载底部
+				new Head('footer');
+				$('#tab4').attr('src','images/tab4_1.png').next().css('color','#f23d34');
+			})
+		</script>
 	</body>
 </html>

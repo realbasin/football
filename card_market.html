@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
 		<link rel="stylesheet" type="text/css" href="css/card_market.css" />
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/tab_nav.css"/>
 		<link rel="stylesheet" href="css/icon.css" />
 		<link rel="stylesheet" type="text/css" href="css/jquery.lineProgressbar.css" />
 	</head>
@@ -149,9 +150,10 @@
 
 			</div>
 		</div>
-
+		<div id="footer"></div>
 		<script src="js/jquery-1.11.0.min.js"></script>
 		<script src="js/jquery.lineProgressbar.js"></script>
+		<script src="js/tab_nav.js" type="text/javascript" charset="utf-8"></script>
 		<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/swiper.min.js"></script>
 		<script type="text/javascript">
 			var mySwiper = new Swiper('.swiper-container', {
@@ -163,6 +165,11 @@
 				pagination: '.swiper-pagination'
 			});
 			$(function() {
+				
+				//加载底部
+				new Head('footer');
+				$('#tab3').attr('src','images/tab3_3.png').next().css('color','#f23d34');
+				
 				$('#progressbar1').LineProgressbar({
 					percentage: 61,
 					fillBackgroundColor: '#108ee9',

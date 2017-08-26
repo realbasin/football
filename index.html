@@ -8,18 +8,19 @@
     	<meta name="format-detection" content="telephone=no">
 		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
 		<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
-		<link rel="stylesheet" type="text/css" href="css/common.css"/>
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tab_nav.css"/>
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
 		<link rel="stylesheet" type="text/css" href="css/jquery.lineProgressbar.css"/>
 		<link rel="stylesheet" href="css/index.css" />
+		
 	</head>
 	<body>
 		
 		<div class="weui-tab" class="index_par">
 			<div class="weui-tab__bd">
-			    <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+			    <div id="index" class="weui-tab__bd-item weui-tab__bd-item--active">
 			    	<header class="index_header" id="index_header">
 						<h1>今日场次</h1>
 						<div class="header_right">
@@ -339,46 +340,29 @@
 			       
 					
 			    </div>
-			    <div id="tab2" class="weui-tab__bd-item">
-			      <h1>页面二</h1>
-			    </div>
-			    <div id="tab3" class="weui-tab__bd-item">
-			      <h1>页面三</h1>
-			    </div>
+			   
 			</div>
 		
-		  <div class="weui-tabbar">
-		    <a href="#tab1" class="weui-tabbar__item weui-bar__item--on">
-		      <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
-		      <div class="weui-tabbar__icon iconfont icon-zuqiu">
-		        <!--<img src="./images/i-syblack.png" alt="">-->
-		        	
-		      </div>
-		      <p class="weui-tabbar__label">首页</p>
-		    </a>
-		    <a href="#tab2" class="weui-tabbar__item">
-		      <div class="weui-tabbar__icon iconfont icon-gouwuche">
-		        <!--<img src="./images/i-curt.png" alt="">-->
-		      </div>
-		      <p class="weui-tabbar__label">购物车</p>
-		    </a>
-		    <a href="#tab3" class="weui-tabbar__item">
-		      <div class="weui-tabbar__icon iconfont icon-ren2">
-		        <!--<img src="./images/i-my.png" alt="">-->
-		      </div>
-		      <p class="weui-tabbar__label">我的</p>
-		    </a>
-		  </div>
+		 
 		</div>
-		
+		<div id="footer">
+			
+		</div>
 		
 		<!-- body 最后 -->
 	<script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
 	<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
 	<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/swiper.min.js"></script>
 	<script src="js/jquery.lineProgressbar.js" ></script>
+	<script src="js/tab_nav.js"></script>
 	<script type="text/javascript">
 		$(function(){
+			//加载底部
+			new Head('footer');
+			$('#tab1').attr('src','images/tab1_1.png').next().css('color','#f23d34');
+			
+			
+			
 			$('#progressbar1').LineProgressbar({
 				  percentage: 61,
 				  fillBackgroundColor: '#108ee9',

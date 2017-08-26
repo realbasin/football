@@ -1,0 +1,70 @@
+ $vm_base: 750;
+ @function vm($px) {
+     @return ($px / $vm_base) * 100vw;
+ }
+ 
+ #footer{
+     background-color: #fff;
+     width: 100%;
+     height: vm(110);
+     position: fixed;
+      bottom: 0;
+     font-size: 0;
+     right: 0;
+ }
+ #tabs {
+     border-top: 1px solid #e5e5e5;
+     width: 100%;
+     
+     z-index: 999;
+     height: vm(110);
+     list-style: none;
+    
+     display: flex;
+     justify-content: flex-end;
+     margin: auto 0;
+      span{
+     display: block;
+     font-size: vm(20);
+     margin-top: vm(5);
+     
+ }
+
+ .tab{
+     margin-top: vm(15);
+ }
+ .tab:nth-child(2){
+     margin-top: vm(20);
+ }
+ .tab:nth-child(3){
+     margin-top: vm(25);
+ }
+ .tab:nth-child(4){
+     margin-top: vm(20);
+ }
+ #tab1{
+     width: vm(47);
+     height: vm(47);
+ }
+ #tab2{
+     width: vm(28);
+     height: vm(44);
+ }
+ #tab3{
+     width: vm(50);
+     height: vm(39);
+ } 
+ #tab4{
+     width: vm(39);
+     height: vm(44);
+ }
+     
+ }
+ 
+ #tabs .tab {
+     display: inline-block;
+     width: 25%;
+     height: vm(110);    
+     text-align: center;
+ }
+

@@ -11,11 +11,11 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
 body {
     font-family: "微软雅黑";
     height: 100%;
-    background-color: #e5e5e5;
+    background-color: #f6f6f6;
     line-height: none;
 }
 
-#tab1 {
+#index {
     .index_header {
         width: vm(750);
         height: vm(80);
