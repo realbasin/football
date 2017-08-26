@@ -23,5 +23,11 @@ body { background-color: #f6f6f6; }
 #consunption #bar_list .item_list #detail span:nth-child(2) { font-size: 3.2vw; display: block; }
 #consunption #bar_list .item_list #price { text-align-last: right; margin: auto 0; margin-right: 2.6666666667vw; }
 #consunption #bar_list .item_list #price span { display: inline-block; font-size: 3.3333333333vw; position: relative; top: -2.6666666667vw; }
+#consunption #bar_list .item_list p { font-size: 4.1333333333vw; }
+#consunption #service_code { width: 100%; height: 29.3333333333vw; font-size: 7.3333333333vw; }
+#consunption #service_code span { display: inline-block; width: 100%; height: 2.6666666667vw; line-height: 29.3333333333vw; text-align: center; }
+#consunption #btn { text-align: center; }
+#consunption #btn p { font-size: 3.2vw; text-align: center; }
+#consunption #btn button { width: 80.6666666667vw; height: 10.6666666667vw; border: 0; outline: none; border-radius: 5.3333333333vw; background-color: #f23d34; color: #fff; font-size: 4.2666666667vw; }
 
 /*# sourceMappingURL=consunption.css.map */

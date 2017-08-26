@@ -3,11 +3,11 @@
      @return ($px / $vm_base) * 100vw;
  }
  
- body{
+ body {
      background-color: #f6f6f6;
  }
+ 
  #consunption {
-     
      header {
          width: vm(750);
          height: vm(80);
@@ -29,16 +29,15 @@
              margin-left: vm(30);
          }
      }
-     #bar_one{
+     #bar_one {
          background-color: #fff;
          margin-bottom: vm(20);
      }
-     #bar_two{
+     #bar_two {
          background-color: #fff;
      }
      #bar_list {
-         
-         #item_title{
+         #item_title {
              font-size: vm(31);
              font-weight: bold;
              margin-left: vm(30);
@@ -50,13 +49,10 @@
          #state {
              width: 100%;
              display: flex;
-             
              justify-content: space-around;
-             
              border-bottom: 1px solid #E8E8E8;
              padding-bottom: vm(30);
              span {
-                 
                  display: inline-block;
                  width: vm(280);
                  height: vm(70);
@@ -68,74 +64,101 @@
              #get {
                  background-color: #108ee9;
              }
-             #lose{
+             #lose {
                  background-color: #f23d34;
              }
-             #del{
+             #del {
                  background-color: #f23d34;
              }
          }
-         .item_list{
-                width: 100%;
-                height: vm(150);
-                display: flex;
-                justify-content: space-between;
-                
-                #left{
-                    display: flex;
-                }
-                #bonus_card{
-                    font-size: vm(24);
-                    margin: auto 0;
-                    margin-left: vm(22);
-                    span{
-                        display: inline-block;
-                        width: vm(88);
-                        height: vm(50);
-                        border-radius: vm(15);
-                        line-height: vm(50);
-                        text-align: center;
-                        background-color: #108ee9;
-                        color: #fff;
-                    }
-                }
-                #expired_icon{
-                    
-                    margin: auto 0;
-                    margin-left: vm(30);
-                    img{
-                        width: vm(57);
-                        height: vm(40);
-                    }
-                }
-                #detail{
-                    
-                    margin: auto 0;
-                    margin-left: vm(30);
-                    span{
-                        display: inline-block;
-                    }
-                    span:nth-child(1){
-                        font-size: vm(31);
-                    }
-                    span:nth-child(2){
-                        font-size: vm(24);
-                        display: block;
-                    }
-                } 
-                #price{
-                    text-align-last: right;
-                    margin: auto 0;
-                    margin-right: vm(20);
-                    
-                    span{
-                        display: inline-block;
-                        font-size: vm(25);
-                        position: relative;
-                        top: vm(-20);
-                    }
-                   
-                }
-            }
+         .item_list {
+             width: 100%;
+             height: vm(150);
+             display: flex;
+             justify-content: space-between;
+             #left {
+                 display: flex;
+             }
+             #bonus_card {
+                 font-size: vm(24);
+                 margin: auto 0;
+                 margin-left: vm(22);
+                 span {
+                     display: inline-block;
+                     width: vm(88);
+                     height: vm(50);
+                     border-radius: vm(15);
+                     line-height: vm(50);
+                     text-align: center;
+                     background-color: #108ee9;
+                     color: #fff;
+                 }
+             }
+             #expired_icon {
+                 margin: auto 0;
+                 margin-left: vm(30);
+                 img {
+                     width: vm(57);
+                     height: vm(40);
+                 }
+             }
+             #detail {
+                 margin: auto 0;
+                 margin-left: vm(30);
+                 span {
+                     display: inline-block;
+                 }
+                 span:nth-child(1) {
+                     font-size: vm(31);
+                 }
+                 span:nth-child(2) {
+                     font-size: vm(24);
+                     display: block;
+                 }
+             }
+             #price {
+                 text-align-last: right;
+                 margin: auto 0;
+                 margin-right: vm(20);
+                 span {
+                     display: inline-block;
+                     font-size: vm(25);
+                     position: relative;
+                     top: vm(-20);
+                 }
+             }
+             p {
+                 font-size: vm(31);
+             }
+         }
+     }
+     #service_code {
+         width: 100%;
+         height: vm(220);
+         font-size: vm(55);
+         span {
+             display: inline-block;
+             width: 100%;
+             height: vm(20);
+             line-height: vm(220);
+             text-align: center;
+         }
+     }
+     #btn {
+         text-align: center;
+         p {
+             font-size: vm(24);
+             text-align: center;
+         }
+         button {
+             width: vm(605);
+             height: vm(80);
+             border: 0;
+             outline: none;
+             border-radius: vm(40);
+             background-color: #f23d34;
+             color: #fff;
+             font-size: vm(32);
+         }
      }
  }
