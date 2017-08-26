@@ -65,10 +65,13 @@
                  color: #fff;
                  border-radius: vm(35);
              }
-             span:nth-child(1) {
+             #get {
                  background-color: #108ee9;
              }
-             span:nth-child(2) {
+             #lose{
+                 background-color: #f23d34;
+             }
+             #del{
                  background-color: #f23d34;
              }
          }
@@ -94,6 +97,15 @@
                         text-align: center;
                         background-color: #108ee9;
                         color: #fff;
+                    }
+                }
+                #expired_icon{
+                    
+                    margin: auto 0;
+                    margin-left: vm(30);
+                    img{
+                        width: vm(57);
+                        height: vm(40);
                     }
                 }
                 #detail{

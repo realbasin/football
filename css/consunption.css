@@ -8,12 +8,15 @@ body { background-color: #f6f6f6; }
 #consunption #bar_list #item_title { font-size: 4.1333333333vw; font-weight: bold; margin-left: 4vw; margin-right: 2.6666666667vw; height: 10vw; line-height: 10vw; border-bottom: 1px solid #f23d34; }
 #consunption #bar_list #state { width: 100%; display: flex; justify-content: space-around; border-bottom: 1px solid #E8E8E8; padding-bottom: 4vw; }
 #consunption #bar_list #state span { display: inline-block; width: 37.3333333333vw; height: 9.3333333333vw; line-height: 9.3333333333vw; text-align: center; color: #fff; border-radius: 4.6666666667vw; }
-#consunption #bar_list #state span:nth-child(1) { background-color: #108ee9; }
-#consunption #bar_list #state span:nth-child(2) { background-color: #f23d34; }
+#consunption #bar_list #state #get { background-color: #108ee9; }
+#consunption #bar_list #state #lose { background-color: #f23d34; }
+#consunption #bar_list #state #del { background-color: #f23d34; }
 #consunption #bar_list .item_list { width: 100%; height: 20vw; display: flex; justify-content: space-between; }
 #consunption #bar_list .item_list #left { display: flex; }
 #consunption #bar_list .item_list #bonus_card { font-size: 3.2vw; margin: auto 0; margin-left: 2.9333333333vw; }
 #consunption #bar_list .item_list #bonus_card span { display: inline-block; width: 11.7333333333vw; height: 6.6666666667vw; border-radius: 2vw; line-height: 6.6666666667vw; text-align: center; background-color: #108ee9; color: #fff; }
+#consunption #bar_list .item_list #expired_icon { margin: auto 0; margin-left: 4vw; }
+#consunption #bar_list .item_list #expired_icon img { width: 7.6vw; height: 5.3333333333vw; }
 #consunption #bar_list .item_list #detail { margin: auto 0; margin-left: 4vw; }
 #consunption #bar_list .item_list #detail span { display: inline-block; }
 #consunption #bar_list .item_list #detail span:nth-child(1) { font-size: 4.1333333333vw; }
