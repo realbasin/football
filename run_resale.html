@@ -17,7 +17,7 @@
 	<body>
 		<div id="consunption">
 			<header>
-				<a href="#" class="iconfont icon-fanhui"></a>
+				<a href="javascript:history.back(-1)" class="iconfont icon-fanhui"></a>
 				<span>在转售</span>
 			</header>
 			<div id="bar_list">
@@ -47,10 +47,10 @@
 						</div>
 					</section>
 					<div id="state" style="display: none;">
-						<span id="get" style="background-color: #a0a0a0;">
+						<span id="get" class="get" style="background-color: #a0a0a0;">
 					下架
 				</span>
-						<span id="lose">
+						<span id="lose" class="lose">
 					取酒
 				</span>
 					</div>
@@ -80,11 +80,11 @@
 						</div>
 					</section>
 					<div id="state" style="display: none;">
-						<span id="get">
-					取酒
+						<span id="get" class="get" style="background-color: #a0a0a0;">
+					下架
 				</span>
-						<span id="lose">
-					转售
+						<span id="lose" class="lose">
+					取酒
 				</span>
 					</div>
 				</div>
@@ -107,11 +107,11 @@
 						</div>
 					</section>
 					<div id="state" style="display: none;">
-						<span id="get">
-					取酒
+						<span id="get" class="get" style="background-color: #a0a0a0;">
+					下架
 				</span>
-						<span id="lose">
-					转售
+						<span id="lose" class="lose">
+					取酒
 				</span>
 					</div>
 				</div>
@@ -134,11 +134,11 @@
 						</div>
 					</section>
 					<div id="state" style="display: none;">
-						<span id="get">
-					取酒
+						<span id="get" class="get" style="background-color: #a0a0a0;">
+					下架
 				</span>
-						<span id="lose">
-					转售
+						<span id="lose" class="lose">
+					取酒
 				</span>
 					</div>
 				</div>
@@ -152,6 +152,21 @@
 				$('.item_list').click(function(){
 					
 					$(this).next().toggle();
+				})
+				
+				
+				
+				
+				//跳转
+				$(".get").click(function(){
+					console.log("1111")
+					//window.open('choose_bar.html', '_self');
+					history.back(-1);
+				})
+				//跳转
+				$(".lose").click(function(){
+					console.log("1111")
+					window.open('take_wine.html', '_self');
 				})
 			})
 		</script>
