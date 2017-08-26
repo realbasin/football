@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAWI,iBAAO,GACH,KAAK,EAAE,KAAO,EACd,MAAM,EAAE,MAAM,EACd,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,UAAU,EAC3B,WAAW,EAAE,MAAM,EACnB,gBAAgB,EAAE,OAAO,EACzB,KAAK,EAAE,IAAI,EACX,SAAS,EAAE,cAAM,EACjB,OAAO,EAAE,gBAAQ;AACjB,mBAAE,GACE,SAAS,EAAE,cAAM,EACjB,KAAK,EAAE,IAAI;AAEf,sBAAK,GACD,WAAW,EAAE,cAAM,EACnB,WAAW,EAAE,cAAM",
-"sources": ["../scss/purchases.scss"],
+"mappings": "",
+"sources": [],
 "names": [],
 "file": "purchases.css"
 }
