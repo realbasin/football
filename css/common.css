@@ -73,18 +73,6 @@ body { height: 100%; background-color: #f6f6f6; line-height: none; }
 .perchase_history_par dl dd p .consumer_money { font-size: 4.2666666667vw; color: #000000; }
 .perchase_history_par dl dd .consumer_time { font-size: 3.7333333333vw; color: #bf1e2d; margin-top: 2.6666666667vw; }
 
-.deposit_card_par header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; font-size: 3.7333333333vw; }
-.deposit_card_par header a { font-size: 3.7333333333vw; color: #fff; margin-left: 2.6666666667vw; }
-.deposit_card_par header span { line-height: 3.7333333333vw; margin-left: 1.3333333333vw; }
-.deposit_card_par ul { width: 100vw; background-color: #fff; }
-.deposit_card_par ul .item_list { border-bottom: 1px solid #D2D2D2; }
-.deposit_card_par ul .item_list a { display: block; width: 100vw; display: flex; justify-content: flex-start; align-items: center; }
-.deposit_card_par ul .item_list a .i-card { margin-left: 4vw; }
-.deposit_card_par ul .item_list a .bar_name { font-size: 5.0666666667vw; color: #000; margin-left: 3.2vw; width: 44.5333333333vw; }
-.deposit_card_par ul .item_list a .consumer_band { height: 22.6666666667vw; width: 33.8666666667vw; display: flex; justify-content: center; flex-direction: column; }
-.deposit_card_par ul .item_list a .consumer_band .name { font-size: 4.5333333333vw; color: #000; }
-.deposit_card_par ul .item_list a .consumer_band .number { font-size: 3.2vw; color: #000; }
-
 .choose_bar_par header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; font-size: 3.7333333333vw; }
 .choose_bar_par header a { width: 108; }
 .choose_bar_par header a i { font-size: 3.7333333333vw; color: #fff; margin-left: 1.3333333333vw; }

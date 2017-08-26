@@ -416,71 +416,7 @@ body{
         }
     }
 }
-//************************存酒卡******************************//
-.deposit_card_par{
-    header{
-        width: vm(750);
-        height: vm(80);
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        background-color: #f23d34;
-        color: #fff;
-        font-size: vm(28);
-        //padding: 0 vm(20);
-        a{
-            font-size: vm(28);
-            color:#fff;
-            margin-left: vm(20);
-        }
-        span{
-            line-height: vm(28);
-            margin-left: vm(10);
-        }
-    }
-    ul{
-        width: vm(750);
-        background-color: #fff;
-        
-        .item_list{
-            border-bottom: 1px solid #D2D2D2;
-            a{
-                display: block;
-                width: vm(750);
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-           
-            
-                .i-card{
-                    margin-left: vm(30);
-                }
-                .bar_name{
-                    font-size: vm(38);
-                    color: #000;
-                    margin-left: vm(24);
-                    width: vm(334);
-                }
-                .consumer_band{
-                    height: vm(170);
-                    width: vm(254);
-                     display: flex;
-                    justify-content: center;
-                    //align-items: center;
-                    flex-direction: column;
-                    .name{
-                        font-size: vm(34);
-                        color: #000;
-                    }
-                    .number{
-                        font-size: vm(24);
-                        color: #000;
-                    }
-                }
-            }
-        }
-    }
-}
+
 //***********************选择酒吧********************、、
 .choose_bar_par{
     header{
