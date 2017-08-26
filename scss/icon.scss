@@ -68,3 +68,6 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
     .i-right1{
         @include icon(vm(18), vm(38), url(../images/i-right1.png), center, center, contain);
     }
+    .i-pay-result{
+         @include icon(vm(168), vm(168), url(../images/i-pay-result.png), center, center, contain);
+    }

@@ -133,11 +133,11 @@ body { height: 100%; background-color: #f6f6f6; line-height: none; }
 .bar_par .bar_title { height: 11.6vw; display: flex; justify-content: space-between; align-items: center; padding: 0 2.9333333333vw; background-color: #f6f6f6; }
 .bar_par .bar_title .left, .bar_par .bar_title .right { width: 24.9333333333vw; border-bottom: 1px solid #D2D2D2; }
 .bar_par .bar_title h1 { font-weight: normal; color: #434343; font-size: 3.7333333333vw; }
-.bar_par .Handicap { background-color: #fff; }
+.bar_par .Handicap { background-color: #fff; border-bottom: 1px solid #F6F6F6; }
 .bar_par .Handicap a { background-color: #fff; padding-bottom: 3.3333333333vw; border-bottom: 1px solid #D2D2D2; }
 .bar_par .Handicap a p { margin-left: 3.3333333333vw; }
 .bar_par .Handicap a p span { font-size: 3.2vw; color: #000000; }
-.bar_par .Handicap a p .bar_name { font-size: 4.2666666667vw; font-weight: 200; }
+.bar_par .Handicap a p .bar_name { font-size: 4vw; font-weight: 200; }
 .bar_par .Handicap a p .bar_distance { color: #ffbf00; }
 .bar_par .Handicap a p .bar_money { margin-left: 5.3333333333vw; }
 .bar_par .Handicap a p:nth-of-type(1) { padding-top: 3.0666666667vw; }
@@ -154,45 +154,31 @@ body { height: 100%; background-color: #f6f6f6; line-height: none; }
 .bar_detail_par .bar_detail .center span { font-size: 3.2vw; }
 .bar_detail_par .bar_detail i { margin-top: 3.0666666667vw; }
 .bar_detail_par .chang_title { line-height: 7.2vw; text-align: center; color: #000; font-size: 4.1333333333vw; margin: 1.8666666667vw 0; font-weight: normal; background-color: #fff; }
-.bar_detail_par .swiper-slide { background-color: #fff; }
-.bar_detail_par .swiper-slide .slide_title { width: 94.6666666667vw; display: flex; justify-content: center; align-items: center; font-size: 3.7333333333vw; color: #000; padding: 0 2.6666666667vw; }
-.bar_detail_par .swiper-slide .slide_title .match_name { flex: 1; text-indent: 4vw; }
-.bar_detail_par .swiper-slide .slide_title .on_doing { flex: 1; text-align: center; text-indent: 2.6666666667vw; }
-.bar_detail_par .swiper-slide .slide_title .match_time { flex: 1; text-align: right; }
-.bar_detail_par .swiper-slide .mui-slider-item { width: 100vw; display: flex; justify-content: center; padding-bottom: 5.3333333333vw; }
-.bar_detail_par .swiper-slide .mui-slider-item .left, .bar_detail_par .swiper-slide .mui-slider-item .right { height: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; }
-.bar_detail_par .swiper-slide .mui-slider-item .left img, .bar_detail_par .swiper-slide .mui-slider-item .right img { width: 14.8vw; height: 14.8vw; margin-bottom: 3.2vw; }
-.bar_detail_par .swiper-slide .mui-slider-item .left span, .bar_detail_par .swiper-slide .mui-slider-item .right span { color: #000000; font-size: 3.8666666667vw; }
-.bar_detail_par .swiper-slide .mui-slider-item .center { width: 38.1333333333vw; display: flex; align-items: center; flex-direction: column; margin: 0 9.0666666667vw; }
-.bar_detail_par .swiper-slide .mui-slider-item .center img { width: 11.2vw; height: 7.2vw; margin-bottom: 2.6666666667vw; margin-top: 2.6666666667vw; }
-.bar_detail_par .swiper-slide .mui-slider-item .center p { width: 38.1333333333vw; display: flex; justify-content: space-between; align-items: center; margin-top: 2.6666666667vw; }
-.bar_detail_par .swiper-slide .mui-slider-item .center p span { color: #000; font-size: 3.4666666667vw; }
-.bar_detail_par .swiper-slide .mui-slider-item .center .percentCount2, .bar_detail_par .swiper-slide .mui-slider-item .center .percentCount { color: #fff; }
-.bar_detail_par #game_one { margin-bottom: 2.6666666667vw; width: 100%; background-color: #ffffff; margin-top: 2vw; }
-.bar_detail_par #game_one #game_title { display: flex; justify-content: space-between; }
-.bar_detail_par #game_one #game_title span { display: inline-block; }
-.bar_detail_par #game_one #game_title span:nth-child(1) { margin-left: 2.6666666667vw; font-size: 3.8666666667vw; }
-.bar_detail_par #game_one #game_title span:nth-child(2) { padding-left: 8vw; font-size: 3.8666666667vw; }
-.bar_detail_par #game_one #game_title span:nth-child(3) { margin-right: 2.6666666667vw; font-size: 3.24vw; }
-.bar_detail_par #game_one #game_msg { margin-top: 4vw; display: flex; justify-content: space-between; }
-.bar_detail_par #game_one #game_msg span { margin-top: 2vw; display: block; text-align: center; font-size: 3.7026666667vw; }
-.bar_detail_par #game_one #game_msg img { width: 16.5333333333vw; height: 16.5333333333vw; }
-.bar_detail_par #game_one #game_msg #team1 { margin-left: 5.6vw; }
-.bar_detail_par #game_one #game_msg #team2 { margin-right: 5.6vw; }
-.bar_detail_par #game_one #game_msg #state { position: relative; top: -8vw; }
-.bar_detail_par #game_one #game_msg #state #progressbar1 { width: 38.6666666667vw; }
-.bar_detail_par #game_one #game_msg #state #vs { width: 38.6666666667vw; display: inline-block; color: #626262; font-size: 9.3333333333vw; }
-.bar_detail_par #game_one #game_msg #state #ratio { display: flex; justify-content: space-between; }
-.bar_detail_par #game_one #game_msg #state #ratio span { font-size: 3.508vw; display: inline-block; }
-.bar_detail_par #game_one #odds { height: 30vw; background-color: #fff; }
-.bar_detail_par #game_one #odds #odd_one, .bar_detail_par #game_one #odds #odd_two { margin-top: 2.6666666667vw; display: flex; justify-content: space-between; }
-.bar_detail_par #game_one #odds #odd_one #main, .bar_detail_par #game_one #odds #odd_two #main { margin-left: 2.6666666667vw; width: 30.6666666667vw; height: 12vw; background-color: #e5e5e5; }
-.bar_detail_par #game_one #odds #odd_one #main span, .bar_detail_par #game_one #odds #odd_two #main span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }
-.bar_detail_par #game_one #odds #odd_one #middle span:nth-child(1), .bar_detail_par #game_one #odds #odd_two #middle span:nth-child(1) { font-size: 4.6666666667vw; }
-.bar_detail_par #game_one #odds #odd_one #middle span:nth-child(2), .bar_detail_par #game_one #odds #odd_two #middle span:nth-child(2) { position: relative; top: -1.3333333333vw; }
-.bar_detail_par #game_one #odds #odd_one #middle span, .bar_detail_par #game_one #odds #odd_two #middle span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }
-.bar_detail_par #game_one #odds #odd_one #away, .bar_detail_par #game_one #odds #odd_two #away { margin-right: 2.6666666667vw; width: 30.6666666667vw; height: 12vw; background-color: #e5e5e5; }
-.bar_detail_par #game_one #odds #odd_one #away span, .bar_detail_par #game_one #odds #odd_two #away span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }
+.bar_detail_par #game_one, .bar_detail_par #game_one1, .bar_detail_par #game_one2 { margin-bottom: 2.6666666667vw; width: 100%; background-color: #ffffff; margin-top: 2vw; }
+.bar_detail_par #game_one #game_title, .bar_detail_par #game_one1 #game_title, .bar_detail_par #game_one2 #game_title { display: flex; justify-content: space-between; }
+.bar_detail_par #game_one #game_title span, .bar_detail_par #game_one1 #game_title span, .bar_detail_par #game_one2 #game_title span { display: inline-block; }
+.bar_detail_par #game_one #game_title span:nth-child(1), .bar_detail_par #game_one1 #game_title span:nth-child(1), .bar_detail_par #game_one2 #game_title span:nth-child(1) { margin-left: 2.6666666667vw; font-size: 3.8666666667vw; }
+.bar_detail_par #game_one #game_title span:nth-child(2), .bar_detail_par #game_one1 #game_title span:nth-child(2), .bar_detail_par #game_one2 #game_title span:nth-child(2) { padding-left: 8vw; font-size: 3.8666666667vw; }
+.bar_detail_par #game_one #game_title span:nth-child(3), .bar_detail_par #game_one1 #game_title span:nth-child(3), .bar_detail_par #game_one2 #game_title span:nth-child(3) { margin-right: 2.6666666667vw; font-size: 3.24vw; }
+.bar_detail_par #game_one #game_msg, .bar_detail_par #game_one1 #game_msg, .bar_detail_par #game_one2 #game_msg { margin-top: 4vw; display: flex; justify-content: space-between; }
+.bar_detail_par #game_one #game_msg span, .bar_detail_par #game_one1 #game_msg span, .bar_detail_par #game_one2 #game_msg span { margin-top: 2vw; display: block; text-align: center; font-size: 3.7026666667vw; }
+.bar_detail_par #game_one #game_msg img, .bar_detail_par #game_one1 #game_msg img, .bar_detail_par #game_one2 #game_msg img { width: 16.5333333333vw; height: 16.5333333333vw; }
+.bar_detail_par #game_one #game_msg #team1, .bar_detail_par #game_one1 #game_msg #team1, .bar_detail_par #game_one2 #game_msg #team1 { margin-left: 5.6vw; }
+.bar_detail_par #game_one #game_msg #team2, .bar_detail_par #game_one1 #game_msg #team2, .bar_detail_par #game_one2 #game_msg #team2 { margin-right: 5.6vw; }
+.bar_detail_par #game_one #game_msg #state, .bar_detail_par #game_one1 #game_msg #state, .bar_detail_par #game_one2 #game_msg #state { position: relative; top: -8vw; }
+.bar_detail_par #game_one #game_msg #state #progressbar1, .bar_detail_par #game_one1 #game_msg #state #progressbar1, .bar_detail_par #game_one2 #game_msg #state #progressbar1 { width: 38.6666666667vw; }
+.bar_detail_par #game_one #game_msg #state #vs, .bar_detail_par #game_one1 #game_msg #state #vs, .bar_detail_par #game_one2 #game_msg #state #vs { width: 38.6666666667vw; display: inline-block; color: #626262; font-size: 9.3333333333vw; }
+.bar_detail_par #game_one #game_msg #state #ratio, .bar_detail_par #game_one1 #game_msg #state #ratio, .bar_detail_par #game_one2 #game_msg #state #ratio { display: flex; justify-content: space-between; }
+.bar_detail_par #game_one #game_msg #state #ratio span, .bar_detail_par #game_one1 #game_msg #state #ratio span, .bar_detail_par #game_one2 #game_msg #state #ratio span { font-size: 3.508vw; display: inline-block; }
+.bar_detail_par #game_one #odds, .bar_detail_par #game_one1 #odds, .bar_detail_par #game_one2 #odds { height: 30vw; background-color: #fff; }
+.bar_detail_par #game_one #odds #odd_one, .bar_detail_par #game_one #odds #odd_two, .bar_detail_par #game_one1 #odds #odd_one, .bar_detail_par #game_one1 #odds #odd_two, .bar_detail_par #game_one2 #odds #odd_one, .bar_detail_par #game_one2 #odds #odd_two { margin-top: 2.6666666667vw; display: flex; justify-content: space-between; }
+.bar_detail_par #game_one #odds #odd_one #main, .bar_detail_par #game_one #odds #odd_two #main, .bar_detail_par #game_one1 #odds #odd_one #main, .bar_detail_par #game_one1 #odds #odd_two #main, .bar_detail_par #game_one2 #odds #odd_one #main, .bar_detail_par #game_one2 #odds #odd_two #main { margin-left: 2.6666666667vw; width: 30.6666666667vw; height: 12vw; background-color: #e5e5e5; }
+.bar_detail_par #game_one #odds #odd_one #main span, .bar_detail_par #game_one #odds #odd_two #main span, .bar_detail_par #game_one1 #odds #odd_one #main span, .bar_detail_par #game_one1 #odds #odd_two #main span, .bar_detail_par #game_one2 #odds #odd_one #main span, .bar_detail_par #game_one2 #odds #odd_two #main span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }
+.bar_detail_par #game_one #odds #odd_one #middle span:nth-child(1), .bar_detail_par #game_one #odds #odd_two #middle span:nth-child(1), .bar_detail_par #game_one1 #odds #odd_one #middle span:nth-child(1), .bar_detail_par #game_one1 #odds #odd_two #middle span:nth-child(1), .bar_detail_par #game_one2 #odds #odd_one #middle span:nth-child(1), .bar_detail_par #game_one2 #odds #odd_two #middle span:nth-child(1) { font-size: 4.6666666667vw; }
+.bar_detail_par #game_one #odds #odd_one #middle span:nth-child(2), .bar_detail_par #game_one #odds #odd_two #middle span:nth-child(2), .bar_detail_par #game_one1 #odds #odd_one #middle span:nth-child(2), .bar_detail_par #game_one1 #odds #odd_two #middle span:nth-child(2), .bar_detail_par #game_one2 #odds #odd_one #middle span:nth-child(2), .bar_detail_par #game_one2 #odds #odd_two #middle span:nth-child(2) { position: relative; top: -1.3333333333vw; }
+.bar_detail_par #game_one #odds #odd_one #middle span, .bar_detail_par #game_one #odds #odd_two #middle span, .bar_detail_par #game_one1 #odds #odd_one #middle span, .bar_detail_par #game_one1 #odds #odd_two #middle span, .bar_detail_par #game_one2 #odds #odd_one #middle span, .bar_detail_par #game_one2 #odds #odd_two #middle span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }
+.bar_detail_par #game_one #odds #odd_one #away, .bar_detail_par #game_one #odds #odd_two #away, .bar_detail_par #game_one1 #odds #odd_one #away, .bar_detail_par #game_one1 #odds #odd_two #away, .bar_detail_par #game_one2 #odds #odd_one #away, .bar_detail_par #game_one2 #odds #odd_two #away { margin-right: 2.6666666667vw; width: 30.6666666667vw; height: 12vw; background-color: #e5e5e5; }
+.bar_detail_par #game_one #odds #odd_one #away span, .bar_detail_par #game_one #odds #odd_two #away span, .bar_detail_par #game_one1 #odds #odd_one #away span, .bar_detail_par #game_one1 #odds #odd_two #away span, .bar_detail_par #game_one2 #odds #odd_one #away span, .bar_detail_par #game_one2 #odds #odd_two #away span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }
 
 .setting_par header, .bind_phone_par header, .change_pwd_par header, .change_pwd_par header, .chong_zhi_par header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; font-size: 3.7333333333vw; }
 .setting_par header a i, .bind_phone_par header a i, .change_pwd_par header a i, .change_pwd_par header a i, .chong_zhi_par header a i { font-size: 3.7333333333vw; color: #fff; margin-left: 2.6666666667vw; }
@@ -258,5 +244,17 @@ body { height: 100%; background-color: #f6f6f6; line-height: none; }
 .my_data_par .name_phone a p, .my_data_par .name_tx a p { width: auto; display: flex; justify-content: flex-end; align-items: center; }
 .my_data_par .name_phone a p img, .my_data_par .name_tx a p img { width: 19.0666666667vw; height: 19.0666666667vw; border-radius: 50%; }
 .my_data_par .name_phone a p i, .my_data_par .name_tx a p i { margin-left: 1.3333333333vw; }
+
+.pay_all_par header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; font-size: 3.7333333333vw; }
+.pay_all_par header a i { font-size: 3.7333333333vw; color: #fff; margin-left: 2.6666666667vw; }
+.pay_all_par header a span { line-height: 3.7333333333vw; margin-left: 1.3333333333vw; color: #fff; }
+.pay_all_par header .bar_card { margin-left: 26.6666666667vw; }
+.pay_all_par .result_con { background-color: #F6F6F6; width: 100vw; display: flex; justify-content: center; align-items: center; flex-direction: column; }
+.pay_all_par .result_con p { font-size: 4.5333333333vw; color: #000; margin-top: 5.7333333333vw; }
+.pay_all_par .result_con img { width: 22.4vw; height: 22.4vw; margin-top: 5.7333333333vw; }
+.pay_all_par .footer_result { width: 85.7333333333vw; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; margin-top: 6.1333333333vw; }
+.pay_all_par .footer_result button { font-size: 4.5333333333vw; color: #fff; border-radius: 4.6666666667vw; border: none; width: 36.5333333333vw; line-height: 9.3333333333vw; text-align: center; }
+.pay_all_par .footer_result .left { background-color: #108ee9; }
+.pay_all_par .footer_result .right { background-color: #f23d34; }
 
 /*# sourceMappingURL=common.css.map */

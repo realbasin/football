@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>支付结果</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    	<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
+		<!--<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">-->
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" href="css/icon.css" />
+	</head>
+	<body>
+		<div class="pay_all_par">
+			<header>
+				<a href="bar.html">
+					<i class="iconfont icon-fanhui"></i>
+					<span>酒吧</span>
+				</a>
+				<span class="bar_card">支付</span>
+			</header>
+			<section class="result_con">
+				<img src="images/i-pay-result.png" alt="" />
+				<p>支付成功</p>
+				<p>胜出将返奖到您的未消费卡包</p>
+			</section>
+			<div class="footer_result">
+				<button class="left">我的卡包</button>
+				<button class="right">其它盘口</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script>
+			$(".left").click(function(){
+				window.open('mycenter.html', '_self');
+			})
+			$(".right").click(function(){
+				window.open('index.html', '_self');
+			})
+		</script>
+	</body>
+</html>
