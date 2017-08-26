@@ -1946,8 +1946,181 @@ body{
                 }
                 .shouzhi{
                     color: #f23d34;
+                    font-size: vm(27);
                 }
             }
         }
+    }
+}
+
+
+
+
+//*******************************我的中心***************
+.my_center_par{
+    .top{
+        height: vm(270);
+        width: vm(750);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f23d34;
+        padding: 0 vm(40);
+        
+        .tx_host{
+            width: vm(143);
+            height:vm(143);
+            border-radius: 50%;
+            margin-right: vm(60);
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-right: vm(260);
+            .name{
+                font-size: vm(27);
+                color: #fff;
+            }
+            .name_vip{
+                font-size: vm(27);
+                color: #fff;
+               background-color: #ffce3d;
+            }
+        }
+    }
+    .my_card{
+        background-color: #fff;
+        font-size: vm(30);
+        color: #000;
+        padding: 0 vm(40);
+        padding-top: vm(20);
+    }
+    .items_lists{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: vm(184);
+        background-color: #fff;
+        
+        li{
+            //display: flex;
+            flex: 1;
+            a{
+                width: inherit;
+                display: flex;
+                //justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                span{
+                    line-height: vm(27);
+                    font-size: vm(27);
+                    color: #959595;
+                    margin-top: vm(14);
+                }
+            }
+        }
+    }
+    .name_phone,.name_pwd{
+        margin-top: vm(12);
+        a{
+            width: vm(750);
+            padding: 0 vm(33);
+            height: vm(139);
+            border-bottom: 1px solid #f6f6f6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: vm(31);
+            color: #000;
+            background-color: #fff;
+            .title_item{
+            
+            }
+            p{
+                width: auto;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                .tel_name{
+                    
+                }
+                i{
+                    margin-left: vm(10);
+                }
+            }
+        } 
+    }
+}
+
+
+//&****************我的资料****************
+.my_data_par{
+    header{
+        width: vm(750);
+        height: vm(93);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f23d34;
+        color: #fff;
+        font-size: vm(28);
+        //padding: 0 vm(20);
+        a{
+            i{
+                font-size: vm(28);
+                color:#fff;
+                margin-left: vm(20);
+            }
+            span{
+                line-height: vm(28);
+                margin-left: vm(10);
+                color: #fff;
+            }
+        }
+        .bar_card{
+            margin-left: vm(200);
+        }
+    }
+    .name_tx{
+        padding: vm(50) 0;
+        background-color: #fff;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    .name_phone,.name_tx{
+        border-bottom: 1px solid #f6f6f6;
+        a{
+            width: vm(750);
+            padding: 0 vm(33);
+            height: vm(139);
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: vm(31);
+            color: #000;
+            background-color: #fff;
+            .title_item{
+            
+            }
+            p{
+                width: auto;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                img{
+                    width: vm(143);
+                    height: vm(143);
+                    border-radius: 50%;
+                }
+                .tel_name{
+                    
+                }
+                i{
+                    margin-left: vm(10);
+                }
+            }
+        } 
     }
 }

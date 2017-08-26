@@ -319,6 +319,32 @@ body { height: 100%; background-color: #e5e5e5; line-height: none; }
 .detail_par ul .items .top1 { font-size: 3.6vw; color: #000; padding-top: 2.6666666667vw; display: flex; justify-content: space-between; align-items: center; }
 .detail_par ul .items .top2 { display: flex; justify-content: space-between; align-items: center; margin-top: 1.3333333333vw; }
 .detail_par ul .items .top2 p { font-size: 3.6vw; color: #000; margin-bottom: 2.6666666667vw; }
-.detail_par ul .items .top2 .shouzhi { color: #f23d34; }
+.detail_par ul .items .top2 .shouzhi { color: #f23d34; font-size: 3.6vw; }
+
+.my_center_par .top { height: 36vw; width: 100vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; padding: 0 5.3333333333vw; }
+.my_center_par .top .tx_host { width: 19.0666666667vw; height: 19.0666666667vw; border-radius: 50%; margin-right: 8vw; }
+.my_center_par .top .center { display: flex; justify-content: center; align-items: center; flex-direction: column; margin-right: 34.6666666667vw; }
+.my_center_par .top .center .name { font-size: 3.6vw; color: #fff; }
+.my_center_par .top .center .name_vip { font-size: 3.6vw; color: #fff; background-color: #ffce3d; }
+.my_center_par .my_card { background-color: #fff; font-size: 4vw; color: #000; padding: 0 5.3333333333vw; padding-top: 2.6666666667vw; }
+.my_center_par .items_lists { display: flex; align-items: center; justify-content: center; height: 24.5333333333vw; background-color: #fff; }
+.my_center_par .items_lists li { flex: 1; }
+.my_center_par .items_lists li a { width: inherit; display: flex; align-items: center; flex-direction: column; }
+.my_center_par .items_lists li a span { line-height: 3.6vw; font-size: 3.6vw; color: #959595; margin-top: 1.8666666667vw; }
+.my_center_par .name_phone, .my_center_par .name_pwd { margin-top: 1.6vw; }
+.my_center_par .name_phone a, .my_center_par .name_pwd a { width: 100vw; padding: 0 4.4vw; height: 18.5333333333vw; border-bottom: 1px solid #f6f6f6; display: flex; justify-content: space-between; align-items: center; font-size: 4.1333333333vw; color: #000; background-color: #fff; }
+.my_center_par .name_phone a p, .my_center_par .name_pwd a p { width: auto; display: flex; justify-content: flex-end; align-items: center; }
+.my_center_par .name_phone a p i, .my_center_par .name_pwd a p i { margin-left: 1.3333333333vw; }
+
+.my_data_par header { width: 100vw; height: 12.4vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; font-size: 3.7333333333vw; }
+.my_data_par header a i { font-size: 3.7333333333vw; color: #fff; margin-left: 2.6666666667vw; }
+.my_data_par header a span { line-height: 3.7333333333vw; margin-left: 1.3333333333vw; color: #fff; }
+.my_data_par header .bar_card { margin-left: 26.6666666667vw; }
+.my_data_par .name_tx { padding: 6.6666666667vw 0; background-color: #fff; border-bottom: 1px solid #f6f6f6; }
+.my_data_par .name_phone, .my_data_par .name_tx { border-bottom: 1px solid #f6f6f6; }
+.my_data_par .name_phone a, .my_data_par .name_tx a { width: 100vw; padding: 0 4.4vw; height: 18.5333333333vw; display: flex; justify-content: space-between; align-items: center; font-size: 4.1333333333vw; color: #000; background-color: #fff; }
+.my_data_par .name_phone a p, .my_data_par .name_tx a p { width: auto; display: flex; justify-content: flex-end; align-items: center; }
+.my_data_par .name_phone a p img, .my_data_par .name_tx a p img { width: 19.0666666667vw; height: 19.0666666667vw; border-radius: 50%; }
+.my_data_par .name_phone a p i, .my_data_par .name_tx a p i { margin-left: 1.3333333333vw; }
 
 /*# sourceMappingURL=common.css.map */

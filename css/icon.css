@@ -21,4 +21,14 @@
 
 .i-down2 { display: inline-block; width: 4.2666666667vw; height: 1.7333333333vw; background-image: url(../images/i-down2.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
 
+.i-wxf { display: inline-block; width: 10.2666666667vw; height: 7.2vw; background-image: url(../images/i-wxf.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
+.i-wfk { display: inline-block; width: 7.7333333333vw; height: 7.6vw; background-image: url(../images/i-wfk.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
+.i-zzs { display: inline-block; width: 9.8666666667vw; height: 7.4666666667vw; background-image: url(../images/i-zzs.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
+.i-timedone { display: inline-block; width: 4.4vw; height: 7.4666666667vw; background-image: url(../images/i-timedone.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
+.i-right1 { display: inline-block; width: 2.4vw; height: 5.0666666667vw; background-image: url(../images/i-right1.png); background-position: center center; background-size: contain; background-repeat: no-repeat; }
+
 /*# sourceMappingURL=icon.css.map */
