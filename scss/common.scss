@@ -380,257 +380,6 @@ body{
 }
 
 
-//****************************************选择球盘
-
-.select_disc_par{
-    header{
-        width: vm(750);
-        height: vm(80);
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        background-color: #f23d34;
-        color: #fff;
-        font-size: vm(28);
-        //padding: 0 vm(20);
-        a{
-            font-size: vm(28);
-            color:#fff;
-            margin-left: vm(20);
-        }
-        span{
-            line-height: vm(28);
-            margin-left: vm(10);
-        }
-    }
-    .title_team{
-        font-weight: bold;
-        font-size: vm(31);
-        color: #000;
-        line-height: vm(88);
-        width: vm(750);
-        text-align: center;
-        font-weight: normal;
-    }
-    section{
-        width: vm(688);
-        display: flex;
-        justify-content: center;
-        background-color: #fff;
-        margin: 0 auto;
-        .mui-slider-item{
-            width: vm(511);
-            height: vm(218);
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            margin-top: vm(25);
-            .mui-slider-item-inner{
-                 width: vm(511);
-                height: vm(165);
-                display: flex;
-                justify-content: center;
-                .left,.right{
-                    //width: vm(144);
-                    height: auto;
-                    display: flex;
-                    //justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    img{
-                        width: vm(89);
-                        height: vm(87);
-                        //margin-bottom: vm(20);
-                        //margin-top: vm(42);
-                    }
-                    span{
-                        margin-top: vm(10);
-                        margin-bottom: vm(12);
-                        color: #000000;
-                        font-size: vm(27);
-                    }
-                    
-                }
-                .left{
-                    //margin-left:vm(100)
-                }
-                .center{
-                    width: vm(166);
-                    //height: vm(54);
-                    display: flex;
-                    //justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    //margin: 0 vm(86);
-                    //margin-top: vm(49);
-                    
-                    font-size: vm(20);
-                    img{
-                        width: vm(49);
-                        height: vm(30);
-                        margin-top: vm(10);
-                        //margin-bottom: vm(16);
-                    }
-                    span{
-                        margin-top: vm(24);
-                    }
-                    
-                }
-            }
-            .team_cur{
-                width: inherit;
-                height: vm(53);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                span{
-                   flex: 1;
-                   color: #fff;
-                   line-height: vm(53);
-                   text-align: center;
-                   font-size: vm(27);
-                }
-                .team1_cur{
-                    background-color: #75a419;
-                }.team2_cur{
-                    background-color: #bf1e2d;
-                }
-            }
-            
-        }
-        .section_right{
-            width: vm(177);
-            display: flex;
-            //justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            .no_begin{
-                line-height: vm(51);
-                text-align: center;
-                color:#fff;
-                background-color: #75a419;
-                width: inherit;
-                font-size: vm(32);
-            }
-            .playing_time{
-                height: vm(148);
-                width: inherit;
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-                
-                .time{
-                    color:#000;
-                    font-size: vm(55);
-                    width: inherit;
-                    text-align: center;
-                    margin-top: vm(30);
-                }
-                .day{
-                    color:#000;
-                    font-size: vm(20);
-                    width: inherit;
-                    text-align: center;
-                }
-            }
-            
-        }
-    }
-    .title_foot{
-        font-size: vm(27);
-        color: #000;
-        line-height: vm(88);
-        width: vm(750);
-        text-align: center;
-        margin-top: vm(40);
-    }
-    .index_scroll_par{
-        //首页下拉加载更多
-        border-bottom: 1px solid #d2d2d2;
-        //margin-top: vm(39);
-        background-color: #fff;
-        height: 100%;
-        margin-bottom: vm(110);
-//      .mui-scroll-wrapper{
-            width: vm(750);
-            //margin: 0 auto;
-            position: static;
-            .mui-scroll{
-                position: static;
-                width: vm(750);
-                .title{
-                    line-height: vm(64);
-                    margin-bottom: 0;
-                    font-size: vm(26);
-                    color: #000000;
-                    width: vm(710);
-                    margin: 0 auto;
-                }
-                .xian{
-                    width: vm(174);
-                    height: 0;
-                    border-top: 1px solid #BF1E2D;
-                }
-                dl{
-                    //width: vm(750);
-                    //margin: 0 auto;
-                    margin-top: vm(20);
-                    padding-left: vm(20);
-                    display: flex;
-                    justify-content: flex-start;
-                    //align-items: center;
-                    dt{
-                        img{
-                            width: vm(119);
-                            height: vm(141);
-                        }
-                    }
-                    dd{
-                        margin-left: vm(33);
-                        margin-right: vm(20);
-                        width: vm(575);
-                        border-bottom: 1px solid #D2D2D2;
-                        h1{
-                            color: #000;
-                            font-size: vm(30);
-                            margin: vm(20) 0 vm(6) 0;
-                            font-weight: normal;
-                        }
-                        div:nth-of-type(1){
-                            margin-bottom: vm(48);
-                            display: flex;
-                            justify-content: space-around;
-                            align-items: center;
-                            //padding-right: vm(20);
-                            .item{
-                                font-size: vm(28);
-                                color: #434343;
-                                margin-right: vm(81);
-                            }
-                            .money{
-                                 font-size: vm(28);
-                                 color: #000;
-                                 margin-right: vm(86);
-                                 width: vm(86);
-                            }
-                            .btn{
-                                //display: block;
-                               font-size: vm(28); 
-                               color: #fff;
-                               width: vm(131);
-                               line-height: vm(53);
-                               border-radius: vm(3);
-                               text-align: center;
-                               background-color: #75A419;
-                            }
-                        }
-                    }
-                }
-                
-            }
-//      } 
-    }
-}
 
 
 
@@ -1358,36 +1107,41 @@ body{
     }
     .Handicap{
         background-color: #fff;
-        padding-bottom: vm(25);
-        border-bottom: 1px solid #D2D2D2;
-        p{
-            margin-left: vm(25);
-            span{
-                font-size: vm(24);
-                color:#000000;
+        a{
+            
+            
+            background-color: #fff;
+            padding-bottom: vm(25);
+            border-bottom: 1px solid #D2D2D2;
+            p{
+                margin-left: vm(25);
+                span{
+                    font-size: vm(24);
+                    color:#000000;
+                }
+                .bar_name{
+                    font-size: vm(32);
+                    font-weight: 200;
+                }
+                .bar_distance{
+                    color: #ffbf00;
+                }
+                .bar_money{
+                    margin-left: vm(40);
+                }
             }
-            .bar_name{
-                font-size: vm(32);
-                font-weight: 200;
+            p:nth-of-type(1){
+                padding-top: vm(23);
             }
-            .bar_distance{
-                color: #ffbf00;
+            p:nth-of-type(2),p:nth-of-type(3){
+                margin-top: vm(20);
             }
-            .bar_money{
-                margin-left: vm(40);
+            p:nth-of-type(2){
+                width: vm(668);
+               display: flex;
+                justify-content: space-between;
+                align-items: center; 
             }
-        }
-        p:nth-of-type(1){
-            padding-top: vm(23);
-        }
-        p:nth-of-type(2),p:nth-of-type(3){
-            margin-top: vm(20);
-        }
-        p:nth-of-type(2){
-            width: vm(668);
-           display: flex;
-            justify-content: space-between;
-            align-items: center; 
         }
     }
 }
@@ -1413,7 +1167,7 @@ body{
         a{
             width: vm(35);
             text-align: right;
-             
+             color: #fff;
         }
         
     }

@@ -16,7 +16,7 @@
 	<body>
 		<div class="bar_detail_par">
 			<header>
-				<a class="iconfont icon-fanhui"></a>
+				<a class="iconfont icon-fanhui" href="javascript: history.back(-1);"></a>
 				<span class="title">有间正好酒吧</span>
 			</header>
 			<section class="bar_detail">
@@ -130,7 +130,7 @@
     				</div>
     			</div>
 				<!--概率详细 -->
-				<div id="odds" style="display: none;">
+				<div id="odds" class="odds" style="display: none;">
 					<div id="odd_one">
 						<div id="main">
 							<span id="">主</span>
@@ -219,6 +219,13 @@
 					console.log('xxx');
 					$('#game_one #ratio').toggle();
 					$('#game_one #odds').toggle();
+				})
+				
+				
+				//跳转
+				$(".odds").click(function(){
+					//console.log("1111")
+					window.open('choose_card.html', '_self');
 				})
 			})
 		</script>

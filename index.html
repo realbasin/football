@@ -23,10 +23,10 @@
 			    <div id="index" class="weui-tab__bd-item weui-tab__bd-item--active">
 			    	<header class="index_header" id="index_header">
 						<h1>今日场次</h1>
-						<div class="header_right">
+						<a class="header_right">
 							<span>明日预告</span>
 							<i class="iconfont icon-gengduo"></i>
-						</div>
+						</a>
 						
 					</header>
 			    	<div id="game">
@@ -76,7 +76,7 @@
 			    				</div>
 			    			</div>
 			    			<!--概率详细 -->
-			    			<div id="odds" style="display: none;">
+			    			<div id="odds" style="display: none;" class="odds">
 			    				<div id="odd_one">
 			    					<div id="main">
 			    						<span id="">
@@ -177,7 +177,7 @@
 			    				</div>
 			    			</div>
 			    			<!--概率详细 -->
-			    			<div id="odds" style="display: none;">
+			    			<div id="odds" style="display: none;" class="odds">
 			    				<div id="odd_one">
 			    					<div id="main">
 			    						<span id="">
@@ -280,7 +280,7 @@
 			    				</div>
 			    			</div>
 			    			<!--概率详细 -->
-			    			<div id="odds">
+			    			<div id="odds" class="odds">
 			    				<div id="odd_one">
 			    					<div id="main">
 			    						<span id="">
@@ -405,6 +405,16 @@
 				$('#progressbar3').click(function(){
 					$('#game_three #ratio').toggle();
 					$('#game_three #odds').toggle();
+				})
+				
+				
+				
+				
+				
+				//跳转
+				$(".odds").click(function(){
+					console.log("1111")
+					window.open('choose_bar.html', '_self');
 				})
 		})
 	</script>

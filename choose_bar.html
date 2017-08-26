@@ -21,7 +21,7 @@
 				</a>
 			</header>-->
 			<header>
-				<a href="#">
+				<a href="index.html">
 					<i class="iconfont icon-fanhui"></i>
 					<span>场次</span>
 				</a>
@@ -48,6 +48,7 @@
 				<p class="right"></p>
 			</section>
 			<section class="Handicap">
+				
 				<p>
 					<span class="bar_name">有间正好酒吧</span><span class="bar_money">128元起</span>
 				</p>
@@ -69,5 +70,13 @@
 				<p><span class="bar_tel">020-12345678</span></p>
 			</section>
 		</div>
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script>
+			//跳转
+				$(".Handicap").click(function(){
+					console.log("1111")
+					window.open('choose_card.html', '_self');
+				})
+		</script>
 	</body>
 </html>
