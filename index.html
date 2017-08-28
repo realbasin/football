@@ -6,9 +6,7 @@
 		<!-- head 中 -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     	<meta name="format-detection" content="telephone=no">
-		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
-		<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
-		
+		<link rel="stylesheet" href="css/rest.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<link rel="stylesheet" type="text/css" href="css/tab_nav.css"/>
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
@@ -77,6 +75,7 @@
 			    			</div>
 			    			<!--概率详细 -->
 			    			<div id="odds" style="display: none;" class="odds">
+			    				<a href="choose_bar.html">
 			    				<div id="odd_one">
 			    					<div id="main">
 			    						<span id="">
@@ -130,6 +129,7 @@
 			    					</div>
 			    				</div>
 			    			</div>
+			    			</a>
 			    		</div>
 			    		<!-- game two   -->
 			    		<div id="game_two">
@@ -178,6 +178,7 @@
 			    			</div>
 			    			<!--概率详细 -->
 			    			<div id="odds" style="display: none;" class="odds">
+			    				<a href="choose_bar.html">
 			    				<div id="odd_one">
 			    					<div id="main">
 			    						<span id="">
@@ -231,6 +232,7 @@
 			    					</div>
 			    				</div>
 			    			</div>
+			    			</a>
 			    		</div>
 			    		
 			    		<!-- game three   -->
@@ -281,58 +283,60 @@
 			    			</div>
 			    			<!--概率详细 -->
 			    			<div id="odds" class="odds">
-			    				<div id="odd_one">
-			    					<div id="main">
-			    						<span id="">
-			    							主
-			    						</span>
-			    						<span id="">
-			    							0.86
-			    						</span>
-			    					</div>
-			    					<div id="middle">
-			    						<span id="">
-			    							盘口
-			    						</span>
-			    						<span id="">
-			    							一/半球
-			    						</span>
-			    					</div>
-			    					<div id="away">
-			    						<span id="">
-			    							客
-			    						</span>
-			    						<span id="">
-			    							1.05
-			    						</span>
-			    					</div>
-			    				</div>
-			    				<div id="odd_two">
-			    					<div id="main">
-			    						<span id="">
-			    							大
-			    						</span>
-			    						<span id="">
-			    							1.06
-			    						</span>
-			    					</div>
-			    					<div id="middle">
-			    						<span id="">
-			    							盘口
-			    						</span>
-			    						<span id="">
-			    							2.5
-			    						</span>
-			    					</div>
-			    					<div id="away">
-			    						<span id="">
-			    							小
-			    						</span>
-			    						<span id="">
-			    							0.84
-			    						</span>
-			    					</div>
-			    				</div>
+			    				<a href="choose_bar.html">
+				    				<div id="odd_one">
+				    					<div id="main">
+				    						<span id="">
+				    							主
+				    						</span>
+				    						<span id="">
+				    							0.86
+				    						</span>
+				    					</div>
+				    					<div id="middle">
+				    						<span id="">
+				    							盘口
+				    						</span>
+				    						<span id="">
+				    							一/半球
+				    						</span>
+				    					</div>
+				    					<div id="away">
+				    						<span id="">
+				    							客
+				    						</span>
+				    						<span id="">
+				    							1.05
+				    						</span>
+				    					</div>
+				    				</div>
+				    				<div id="odd_two">
+				    					<div id="main">
+				    						<span id="">
+				    							大
+				    						</span>
+				    						<span id="">
+				    							1.06
+				    						</span>
+				    					</div>
+				    					<div id="middle">
+				    						<span id="">
+				    							盘口
+				    						</span>
+				    						<span id="">
+				    							2.5
+				    						</span>
+				    					</div>
+				    					<div id="away">
+				    						<span id="">
+				    							小
+				    						</span>
+				    						<span id="">
+				    							0.84
+				    						</span>
+				    					</div>
+				    				</div>
+				    			</a>
 			    			</div>
 			    		</div>
 			    	</div>
@@ -342,17 +346,13 @@
 			    </div>
 			   
 			</div>
-		
-		 
 		</div>
 		<div id="footer">
 			
 		</div>
 		
 		<!-- body 最后 -->
-	<script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
-	<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
-	<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/swiper.min.js"></script>
+	<script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/jquery.lineProgressbar.js" ></script>
 	<script src="js/tab_nav.js"></script>
 	<script type="text/javascript">
@@ -366,7 +366,6 @@
 			$('#progressbar1').LineProgressbar({
 				  percentage: 61,
 				  fillBackgroundColor: '#108ee9',
-				 
 				  borderTopLeftRadius:'30px',
 				  borderBottomLeftRadius:'30px',
 				  percentage2:39,
@@ -393,18 +392,18 @@
 				  borderBottomRightRadius:'30px',
 				  borderTopRightRadius:'30px'
 				});
-				$('#progressbar1').click(function(){
+				$('#game_one').click(function(){
 					console.log('xxx');
 					$('#game_one #ratio').toggle();
-					$('#game_one #odds').toggle();
+					$('#game_one .odds').toggle();
 				})
-				$('#progressbar2').click(function(){
+				$('#game_two').click(function(){
 					$('#game_two #ratio').toggle();
-					$('#game_two #odds').toggle();
+					$('#game_two .odds').toggle();
 				})
-				$('#progressbar3').click(function(){
+				$('#game_three').click(function(){
 					$('#game_three #ratio').toggle();
-					$('#game_three #odds').toggle();
+					$('#game_three .odds').toggle();
 				})
 				
 				
@@ -412,10 +411,11 @@
 				
 				
 				//跳转
-				$(".odds").click(function(){
-					console.log("1111")
-					window.open('choose_bar.html', '_self');
-				})
+//				$(".odds").click(function(){
+//					console.log("1111")
+//					//window.open('choose_bar.html', '_self');
+//					window.history.push('choose_bar.html')
+//				})
 		})
 	</script>
 	</body>

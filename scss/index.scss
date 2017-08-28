@@ -17,15 +17,19 @@ body {
 
 #index {
     .index_header {
-        width: vm(750);
+          width: vm(750);
         height: vm(80);
         display: flex;
         justify-content: flex-end;
         align-items: center;
         background-color: #f23d34;
         color: #fff;
+        position: fixed;
+         top: 0;
+         //left: 0;
+         z-index: 1000;
         h1 {
-            font-weight: bold;
+            font-weight: normal;
             font-size: vm(35);
         }
         .header_right {
@@ -33,8 +37,9 @@ body {
             justify-content: flex-end;
             align-items: center;
             font-size: vm(25);
+            margin-left: vm(150);
             span {
-                margin-left: vm(150);
+                //margin-left: vm(150);
             }
             i {
                 margin-right: vm(29);
@@ -44,13 +49,15 @@ body {
     }
     #game {
         
-       
+       margin-top: vm(80);
         #game_one,
         #game_two,
         #game_three {
             margin-bottom: vm(20);
-            width: 100%;
+            //width: 100%;
+            width: vm(750);
             background-color: #ffffff;
+            padding-top: vm(10);
             #game_title {
                 display: flex;
                 justify-content: space-between;
@@ -112,58 +119,63 @@ body {
                     }
                 }
             }
+            .odds{
+                a{
+                    
+                    color: #000;
+                    height: vm(225);
+                    background-color: #fff;
+                    #odd_one,
+                    #odd_two {
+                        margin-top: vm(20);
+                        display: flex;
+                        justify-content: space-between;
+                        #main {
+                            margin-left: vm(20);
+                            width: vm(230);
+                            height: vm(90);
+                            background-color: #e5e5e5;
+                            span {
+                                display: inline-block;
+                                width: vm(230);
+                                text-align: center;
+                                font-size: vm(28);
+                            }
+                        }
+                        #middle {
+                            span:nth-child(1) {
+                                font-size: vm(35);
+                            }
+                            span:nth-child(2) {
+                                position: relative;
+                                top: vm(10);
+                            }
+                            span {
+                                display: inline-block;
+                                width: vm(230);
+                                text-align: center;
+                                font-size: vm(28);
+                            }
+                        }
+                        #away {
+                            margin-right: vm(20);
+                            width: vm(230);
+                            height: vm(90);
+                            background-color: #e5e5e5;
+                            span {
+                                display: inline-block;
+                                width: vm(230);
+                                text-align: center;
+                                font-size: vm(28);
+                            }
+                        }
+                    }
+                }    
+            }
         }
         
     }
    
-    #odds {
-        height: vm(225);
-        background-color: #fff;
-        #odd_one,
-        #odd_two {
-            margin-top: vm(20);
-            display: flex;
-            justify-content: space-between;
-            #main {
-                margin-left: vm(20);
-                width: vm(230);
-                height: vm(90);
-                background-color: #e5e5e5;
-                span {
-                    display: inline-block;
-                    width: vm(230);
-                    text-align: center;
-                    font-size: vm(28);
-                }
-            }
-            #middle {
-                span:nth-child(1) {
-                    font-size: vm(35);
-                }
-                span:nth-child(2) {
-                    position: relative;
-                    top: vm(-10);
-                }
-                span {
-                    display: inline-block;
-                    width: vm(230);
-                    text-align: center;
-                    font-size: vm(28);
-                }
-            }
-            #away {
-                margin-right: vm(20);
-                width: vm(230);
-                height: vm(90);
-                background-color: #e5e5e5;
-                span {
-                    display: inline-block;
-                    width: vm(230);
-                    text-align: center;
-                    font-size: vm(28);
-                }
-            }
-        }
-    }
+    
    
 }

@@ -19,6 +19,10 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
         color: #fff;
         font-size: vm(28);
         //padding: 0 vm(20);
+        position: fixed;
+         top: 0;
+         left: 0;
+         z-index: 1000;
         a {
             
             width: 108;
@@ -47,6 +51,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
     //酒吧轮播图
     .swiper-slide {
         background-color: #fff;
+        padding-top: vm(80);
         .slide_title {
             width: vm(710);
             display: flex;
@@ -55,6 +60,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
             font-size: vm(28);
             color: #000;
             padding: 0 vm(20);
+            padding-top: vm(10);
             .match_name {
                 flex: 1;
                 //padding-left: vm(40);
@@ -148,7 +154,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
     }
     #part {
         width: 100%;
-        height: vm(212);
+        //height: vm(212);
         //正好有间酒吧
         .Handicap {
             border-bottom: 1px solid #e8e8e8;
@@ -195,6 +201,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
                 display: flex;
                 justify-content: space-between;
                 border-bottom: 1px solid #E8E8E8;
+                background-color: #fff;
                 #left{
                     display: flex;
                 }

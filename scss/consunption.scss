@@ -17,6 +17,10 @@
          background-color: #f23d34;
          color: #fff;
          //padding: 0 vm(20);
+         position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
          a {
              font-size: vm(40);
              color: #fff;
@@ -30,11 +34,16 @@
          }
      }
      #bar_one {
+         margin-top: vm(80);
          background-color: #fff;
          margin-bottom: vm(20);
      }
      #bar_two {
          background-color: #fff;
+     }
+     .title_p{
+         padding-left: vm(20);
+         font-size: vm(28);
      }
      #bar_list {
          #item_title {
@@ -76,47 +85,62 @@
              height: vm(150);
              display: flex;
              justify-content: space-between;
+             align-items: center;
              #left {
+                flex: 1;
                  display: flex;
-             }
-             #bonus_card {
-                 font-size: vm(24);
-                 margin: auto 0;
-                 margin-left: vm(22);
-                 span {
-                     display: inline-block;
-                     width: vm(88);
-                     height: vm(50);
-                     border-radius: vm(15);
-                     line-height: vm(50);
-                     text-align: center;
-                     background-color: #108ee9;
-                     color: #fff;
-                 }
-             }
-             #expired_icon {
-                 margin: auto 0;
-                 margin-left: vm(30);
-                 img {
-                     width: vm(57);
-                     height: vm(40);
-                 }
-             }
-             #detail {
-                 margin: auto 0;
-                 margin-left: vm(30);
-                 span {
-                     display: inline-block;
-                 }
-                 span:nth-child(1) {
-                     font-size: vm(31);
-                 }
-                 span:nth-child(2) {
+                 justify-content: center;
+                 align-items: center;
+                 #bonus_card {
                      font-size: vm(24);
-                     display: block;
+                     margin: auto 0;
+                     margin-left: vm(22);
+                     span {
+                         display: inline-block;
+                         width: vm(88);
+                         height: vm(50);
+                         border-radius: vm(15);
+                         line-height: vm(50);
+                         text-align: center;
+                         background-color: #108ee9;
+                         color: #fff;
+                     }
+                 }
+                 #expired_icon {
+                     //margin: auto 0;
+                     margin-left: vm(30);
+                     img {
+                         width: vm(57);
+                         height: vm(40);
+                     }
+                 }
+                 #detail {
+                     flex: 1;
+                     display: flex;
+                 justify-content: center;
+                 align-items: flex-start;
+                 flex-direction: column;
+                     //margin: auto 0;
+                     margin-left: vm(30);
+                     span {
+                         display: inline-block;
+                     }
+                     span:nth-child(1) {
+                         font-size: vm(31);
+                         margin-bottom: vm(10);
+                     }
+                     span:nth-child(2) {
+                         font-size: vm(24);
+                         display: block;
+                     }
                  }
              }
+             
              #price {
+               
+                 display: flex;
+                 align-items: center;
+                 
                  text-align-last: right;
                  margin: auto 0;
                  margin-right: vm(20);
@@ -149,6 +173,7 @@
          p {
              font-size: vm(24);
              text-align: center;
+             margin-bottom: vm(10);
          }
          button {
              width: vm(605);

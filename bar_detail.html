@@ -5,9 +5,7 @@
 		<title>有间正好酒吧</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     	<meta name="format-detection" content="telephone=no">
-		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
-		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
-		<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/rest.css"/>
 		<link rel="stylesheet" type="text/css" href="css/common.css"/>
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
 		<link rel="stylesheet" href="css/icon.css" />
@@ -208,7 +206,6 @@
 		</div>
 		<script src="js/jquery-1.11.0.min.js"></script>
 		<script src="js/jquery.lineProgressbar.js"></script>
-		<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/swiper.min.js"></script>
 		<script type="text/javascript">
 			$(window).ready(function(){
 				$(".title").html(localStorage.getItem("title"));
@@ -217,14 +214,7 @@
 			})
 			
 			
-			var mySwiper = new Swiper('.swiper-container', {
-	    		speed: 400,
-	    		spaceBetween: 100,
-	    		autoplayDisableOnInteraction:true,
-	    		loop:true,
-	      		autoplay: 5000,
-	      		pagination : '.swiper-pagination'
-			});   
+ 
 			$(function(){
 				$('#progressbar1').LineProgressbar({
 				  percentage: 61,
@@ -266,7 +256,7 @@
 				  borderBottomRightRadius:'30px',
 				  borderTopRightRadius:'30px'
 				});
-				$('#game_msg').click(function(){
+				$('.game_msg').click(function(){
 					console.log('xxx');
 					$('#game_one #ratio').toggle();
 					$('#game_one #odds').toggle();

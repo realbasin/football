@@ -20,6 +20,10 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
         color: #fff;
         font-size: vm(28);
         //padding: 0 vm(20);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
         span{
             margin-left: vm(240);
             font-size: vm(34);
@@ -38,7 +42,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
         background-color: #fff;
         display: flex;
         justify-content: flex-start;
-        
+        margin-top: vm(80);
         .left{
             width: vm(115);
             height: vm(115);

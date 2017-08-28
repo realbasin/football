@@ -26,6 +26,10 @@
              font-size: vm(34);
              margin-left: vm(30);
          }
+         position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
      }
           #item_title{
              font-size: vm(31);
@@ -35,6 +39,7 @@
              height: vm(75);
              line-height: vm(75);
              border-bottom: 1px solid #f23d34;
+             margin-top: vm(80);
          }
      .item_list{
                 width: 100%;

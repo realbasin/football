@@ -13,6 +13,7 @@ body{
     height: 100%;
     background-color: #f6f6f6;
     line-height: none;
+    width: vm(750);
 }
 .index_header{
     width: vm(750);
@@ -82,135 +83,10 @@ body{
     }
 }
 
-
-    .index_scroll_par{
-        //首页下拉加载更多
-        border-bottom: 1px solid #d2d2d2;
-        margin-top: vm(39);
-        background-color: #fff;
-        height: 100%;
-        margin-bottom: vm(110);
-//      .mui-scroll-wrapper{
-            width: vm(750);
-            //margin: 0 auto;
-            position: static;
-            .mui-scroll{
-                position: static;
-                width: vm(750);
-                .title{
-                    line-height: vm(64);
-                    margin-bottom: 0;
-                    font-size: vm(26);
-                    color: #000000;
-                    width: vm(710);
-                    margin: 0 auto;
-                }
-                .xian{
-                    width: vm(174);
-                    height: 0;
-                    border-top: 1px solid #BF1E2D;
-                }
-                dl{
-                    //width: vm(750);
-                    //margin: 0 auto;
-                    margin-top: vm(20);
-                    padding-left: vm(20);
-                    display: flex;
-                    justify-content: flex-start;
-                    //align-items: center;
-                    dt{
-                        img{
-                            width: vm(119);
-                            height: vm(141);
-                        }
-                    }
-                    dd{
-                        margin-left: vm(33);
-                        margin-right: vm(20);
-                        width: vm(575);
-                        border-bottom: 1px solid #D2D2D2;
-                        h1{
-                            color: #000;
-                            font-size: vm(30);
-                            margin: vm(20) 0 vm(6) 0;
-                            font-weight: normal;
-                        }
-                        div:nth-of-type(1){
-                            margin-bottom: vm(48);
-                            display: flex;
-                            justify-content: flex-start;
-                            align-items: center;
-                            //padding-right: vm(20);
-                            .item{
-                                font-size: vm(28);
-                                color: #434343;
-                                margin-right: vm(81);
-                            }
-                            .money{
-                                 font-size: vm(28);
-                                 color: #000;
-                                 margin-right: vm(86);
-                                 width: vm(86);
-                            }
-                            .btn{
-                                //display: block;
-                               font-size: vm(28); 
-                               color: #fff;
-                               width: vm(131);
-                               line-height: vm(53);
-                               border-radius: vm(3);
-                               text-align: center;
-                               background-color: #75A419;
-                            }
-                        }
-                    }
-                }
-                
-            }
-//      } 
-    }
-    #tab1{
+  
         
    
-    //首页轮播图
-    .swiper-slide{
-        background-color: #fff;
-        .mui-slider-item{
-            width: vm(750);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-bottom: vm(40);
-            //float: left;
-            .left,.right{
-                //width: vm(144);
-                height: auto;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                img{
-                    width: vm(144);
-                    height: vm(143);
-                    margin-bottom: vm(24);
-                }
-                span{
-                    color: #000000;
-                    font-size: vm(29);
-                }
-            }
-            .left{
-                //margin-left:vm(100)
-            }
-            .center{
-                width: vm(84);
-                height: vm(54);
-                margin: 0 vm(86);
-                margin-top: vm(49);
-            }
-        }
-    }
-   }  
+ 
 .index_par{
     position: relative;
     background-color: #dcdcdc;
@@ -252,8 +128,9 @@ body{
 
 //***********************选择酒吧********************、、
 .choose_bar_par{
+    //width: 100%;
     header{
-        width: vm(750);
+        width: 100%;
         height: vm(80);
         display: flex;
         justify-content: flex-start;
@@ -262,15 +139,19 @@ body{
         color: #fff;
         font-size: vm(28);
         //padding: 0 vm(20);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
         a{
-            width: 108;
+            width: vm(118);
             i{
                 font-size: vm(28);
                 color:#fff;
                 margin-left: vm(10);
             }
             span{
-                font-size: vm(34);
+                font-size: vm(28);
                 font-weight: 600;
                 line-height: vm(28);
                 margin-left: vm(15);
@@ -279,8 +160,8 @@ body{
         }
         .title{
             font-weight: bold;
-             width: vm(573);
-             font-size: vm(34);
+             width: vm(563);
+             font-size: vm(30);
              color: #fff;
              text-align: center;
         }
@@ -293,10 +174,11 @@ body{
     
     .match_home{
         background-color: #fff;
-        width: vm(750);
+       width: 100%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        margin-top: vm(80);
         img{
             width: vm(138);
             height: vm(138);
@@ -307,6 +189,7 @@ body{
         .match_mesg{
             p{
                 width: vm(461);
+                margin-top: vm(37);
                 .match_time,.Handicap_bar,.court_rate{
                     margin-left: vm(18);
                 }
@@ -324,13 +207,14 @@ body{
         }
     }
     .tree_done{
-        width: vm(750);
+        //width: vm(750);
         height: vm(54);
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #fff;
-        border: 1px solid #D2D2D2;
+        border-top: 1px solid #D2D2D2;
+        border-bottom: 1px solid #D2D2D2;
         li{
             flex: 1;
             text-align: center;
@@ -359,6 +243,7 @@ body{
         }
     }
     .Handicap{
+        //width: vm(750);
         background-color: #fff;
         padding-bottom: vm(25);
         border-bottom: 1px solid #D2D2D2;
@@ -407,6 +292,10 @@ body{
         color: #fff;
         font-size: vm(28);
         //padding: 0 vm(20);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
         a{
             i{
                 font-size: vm(28);
@@ -429,6 +318,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        margin-top: vm(80);
         img{
             width: vm(138);
             height: vm(138);
@@ -438,6 +328,8 @@ body{
         }
         .match_mesg{
             p{
+                margin-top: vm(15);
+                margin-bottom: vm(15);
                 width: vm(461);
                 .match_time,.Handicap_bar,.court_rate{
                     margin-left: vm(18);
@@ -446,6 +338,7 @@ body{
             span{
                 font-size: vm(28);
                 color: #000;
+                margin-top: vm(15);
             }
             p:nth-of-type(1){
                 margin-top: vm(37);
@@ -456,7 +349,7 @@ body{
         }
     }
     .bar_name{
-        width: vm(706);
+        width: vm(750);
         padding: 0 vm(22);
         background-color: #ffffff;
         border-bottom: 1px solid #f23d34;
@@ -469,7 +362,7 @@ body{
         background-color: #ffffff;
     }
     .liuk_card{
-        width: vm(706);
+        width: vm(750);
         padding: 0 vm(22);
         background-color: #ffffff;
         padding-top: vm(30);
@@ -547,7 +440,7 @@ body{
 //***********************支付*****************
 .pay_all_par{
     .wechat_pay,.ali_pay,.balance_pay{
-       width: vm(710); 
+       width: vm(750); 
        padding: 0 vm(20);
        display: flex;
         justify-content: flex-start;
@@ -555,6 +448,7 @@ body{
         line-height:vm(128);
         border-bottom: 1px solid #D2D2D2;
         background-color: #fff;
+        
         span{
             font-size: vm(31);
             color: #000;
@@ -597,8 +491,12 @@ body{
         color: #fff;
         font-size: vm(28);
         //padding: 0 vm(20);
+        position: fixed;
+         top: 0;
+         left: 0;
+         z-index: 1000;
         a{
-            width: 108;
+            width: vm(118);
             i{
                 font-size: vm(28);
                 color:#fff;
@@ -613,7 +511,7 @@ body{
         }
         .title{
             font-weight: bold;
-             width: vm(573);
+             width: vm(563);
              font-size: vm(34);
              color: #fff;
              text-align: center;
@@ -628,6 +526,7 @@ body{
     //酒吧轮播图
     .swiper-slide{
         background-color: #fff;
+        padding-top: vm(80);
         .slide_title{
             width: vm(710);
             display: flex;
@@ -636,6 +535,7 @@ body{
             font-size: vm(28);
             color: #000;
             padding: 0 vm(20);
+            padding-top: vm(10);
             .match_name{
                 flex: 1;
                 //padding-left: vm(40);
@@ -802,6 +702,10 @@ body{
         color: #fff;
         font-size: vm(28);
         //padding: 0 vm(20);
+        position: fixed;
+         top: 0;
+         left: 0;
+         z-index: 1000;
         span{
             margin-left: vm(240);
             font-size: vm(34);
@@ -816,11 +720,11 @@ body{
     }
     .bar_detail{
         padding: 0 vm(28) 0 vm(26);
-        width: vm(698);
+        width: vm(750);
         background-color: #fff;
         display: flex;
         justify-content: flex-start;
-        
+        margin-top: vm(80);
         .left{
             width: vm(115);
             height: vm(115);
@@ -845,7 +749,7 @@ body{
                 
             }
             .address{
-                
+                margin: vm(20) 0;
             }
             .tel{
                 
@@ -956,7 +860,7 @@ body{
                 }
                 span:nth-child(2) {
                     position: relative;
-                    top: vm(-10);
+                    top: vm(10);
                 }
                 span {
                     display: inline-block;
@@ -994,6 +898,10 @@ body{
         color: #fff;
         font-size: vm(28);
         //padding: 0 vm(20);
+        position: fixed;
+         top: 0;
+         left: 0;
+         z-index: 1000;
         a{
             i{
                 font-size: vm(28);
@@ -1010,7 +918,11 @@ body{
             margin-left: vm(200);
         }
     }
+    .name_phone{
+        margin-top: vm(80);
+    }
     .name_phone,.name_pwd{
+        
         a{
             width: vm(750);
             padding: 0 vm(33);
@@ -1057,6 +969,7 @@ body{
 
 //*******************************绑定手机号
 .bind_phone_par{
+    margin-top: vm(80);
     .name_phone,.name_pwd{
         width: vm(750);
         padding: 0 vm(33);
@@ -1071,6 +984,7 @@ body{
         .vail_code{
             width: vm(155);
             line-height: vm(66);
+            font-size: vm(26);
             color: #fff;
             text-align: center;
             background-color: #108ee9;
@@ -1101,6 +1015,7 @@ body{
 
 //******************************修改密码*****************
 .change_pwd_par{
+    margin-top: vm(80);
     .name_phone,.name_pwd,.name_pwd2{
         width: vm(750);
         padding: 0 vm(33);
@@ -1144,6 +1059,9 @@ body{
 
 //**********************提现**********充值金额**********
 .change_pwd_par,.chong_zhi_par{
+    ul{
+        margin-top: vm(80);
+    }
     li{
         width: vm(750);
         padding: 0 vm(33);
@@ -1218,6 +1136,10 @@ body{
         color: #fff;
         font-size: vm(28);
         //padding: 0 vm(20);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
         a{
             i{
                 font-size: vm(28);
@@ -1238,6 +1160,7 @@ body{
         width: vm(750);
         padding: 0 vm(22);
         background-color: #fff;
+        margin-top: vm(80);
         h1{
             color: #000000;
             font-size: vm(31);
@@ -1316,6 +1239,7 @@ body{
                 color: #fff;
             }
             .name_vip{
+                margin-top: vm(10);
                 font-size: vm(27);
                 color: #fff;
                background-color: #ffce3d;
@@ -1399,6 +1323,10 @@ body{
         color: #fff;
         font-size: vm(28);
         //padding: 0 vm(20);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
         a{
             i{
                 font-size: vm(28);
@@ -1419,6 +1347,7 @@ body{
         padding: vm(50) 0;
         background-color: #fff;
         border-bottom: 1px solid #f6f6f6;
+        margin-top: vm(80);
     }
     .name_phone,.name_tx{
         border-bottom: 1px solid #f6f6f6;
@@ -1459,7 +1388,7 @@ body{
 
 
 //&*************************支付结果**********************//
-.pay_all_par{
+.pay_result_par{
      header{
         width: vm(750);
         height: vm(80);
@@ -1470,6 +1399,10 @@ body{
         color: #fff;
         font-size: vm(28);
         //padding: 0 vm(20);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
         a{
             i{
                 font-size: vm(28);
@@ -1493,6 +1426,7 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-top: vm(80);
         p{
             font-size: vm(34);
             color: #000;
