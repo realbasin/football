@@ -25,7 +25,7 @@
              margin-left: vm(20);
          }
          span {
-             font-weight: bold;
+             //font-weight: bold;
              display: inline-block;
              font-size: vm(34);
              margin-left: vm(30);
@@ -88,6 +88,7 @@
                  text-align: center;
                  color: #fff;
                  border-radius: vm(35);
+                 font-size: vm(28);
              }
              span:nth-child(1) {
                  background-color: #a0a0a0;
@@ -129,10 +130,12 @@
                     }
                     span:nth-child(1){
                         font-size: vm(31);
+                        color: #000;
                     }
                     span:nth-child(2){
                         font-size: vm(24);
                         display: block;
+                        margin-top: vm(10);
                     }
                 } 
                 #price{

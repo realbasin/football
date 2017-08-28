@@ -2,11 +2,12 @@
 #market_bar_detail header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; font-size: 3.7333333333vw; position: fixed; left: 0; top: 0; z-index: 10000; }
 #market_bar_detail header span { margin-left: 32vw; font-size: 4.5333333333vw; color: #fff; }
 #market_bar_detail header a { width: 4.6666666667vw; text-align: right; }
-#market_bar_detail .bar_detail { padding: 0 3.7333333333vw 0 3.4666666667vw; width: 93.0666666667vw; background-color: #fff; display: flex; justify-content: flex-start; margin-top: 10.6666666667vw; }
+#market_bar_detail .bar_detail { padding: 0 3.7333333333vw 0 3.4666666667vw; width: 100vw; background-color: #fff; display: flex; justify-content: flex-start; margin-top: 10.6666666667vw; }
 #market_bar_detail .bar_detail .left { width: 15.3333333333vw; height: 15.3333333333vw; border-radius: 50%; margin-top: 3.0666666667vw; margin-bottom: 3.7333333333vw; }
 #market_bar_detail .bar_detail .center { color: #000; width: 67.8666666667vw; display: flex; justify-content: flex-start; flex-direction: column; margin-left: 5.6vw; margin-top: 3.0666666667vw; }
 #market_bar_detail .bar_detail .center h1 { font-weight: normal; font-size: 3.7333333333vw; }
 #market_bar_detail .bar_detail .center span { font-size: 3.2vw; }
+#market_bar_detail .bar_detail .center .address { margin: 1.3333333333vw 0; }
 #market_bar_detail .bar_detail i { margin-top: 3.0666666667vw; }
 #market_bar_detail .chang_title { line-height: 7.2vw; text-align: center; color: #000; font-size: 4.1333333333vw; margin: 1.8666666667vw 0; font-weight: normal; background-color: #fff; }
 #market_bar_detail #part { width: 100%; }
@@ -16,10 +17,10 @@
 #market_bar_detail #part .commodity .item_list #bonus_card span { display: inline-block; width: 11.7333333333vw; height: 6.6666666667vw; border-radius: 2vw; line-height: 6.6666666667vw; text-align: center; background-color: #108ee9; color: #fff; }
 #market_bar_detail #part .commodity .item_list #detail { margin: auto 0; margin-left: 4vw; }
 #market_bar_detail #part .commodity .item_list #detail span { display: inline-block; }
-#market_bar_detail #part .commodity .item_list #detail span:nth-child(1) { font-size: 4.1333333333vw; }
-#market_bar_detail #part .commodity .item_list #detail span:nth-child(2) { font-size: 3.2vw; display: block; }
+#market_bar_detail #part .commodity .item_list #detail span:nth-child(1) { font-size: 4.1333333333vw; color: #000; }
+#market_bar_detail #part .commodity .item_list #detail span:nth-child(2) { margin-top: 2.6666666667vw; font-size: 3.2vw; display: block; }
 #market_bar_detail #part .commodity .item_list #price { text-align-last: right; margin: auto 0; margin-right: 2.6666666667vw; }
 #market_bar_detail #part .commodity .item_list #price span { display: inline-block; font-size: 3.2vw; }
-#market_bar_detail #part .commodity .item_list #price span:nth-child(2) { display: block; }
+#market_bar_detail #part .commodity .item_list #price span:nth-child(2) { display: block; margin-top: 2.6666666667vw; }
 
 /*# sourceMappingURL=market_bar_detail.css.map */

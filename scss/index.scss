@@ -57,30 +57,39 @@ body {
             //width: 100%;
             width: vm(750);
             background-color: #ffffff;
-            padding-top: vm(10);
+            padding-top: vm(20);
             #game_title {
                 display: flex;
                 justify-content: space-between;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
                 span {
                     display: inline-block;
                 }
                 span:nth-child(1) {
-                    margin-left: vm(20);
+                    flex: 1;
+                    margin-left: vm(25);
                     font-size: vm(29);
                 }
                 span:nth-child(2) {
-                    padding-left: vm(60);
+                    flex: 1;
+                    //padding-left: vm(60);
                     font-size: vm(29);
+                    text-align: center;
                 }
                 span:nth-child(3) {
-                    margin-right: vm(20);
+                    flex: 1;
+                    margin-right: vm(25);
                     font-size: vm(24.3);
+                    text-align: right;
                 }
             }
             #game_msg {
                 margin-top: vm(30);
                 display: flex;
                 justify-content: space-between;
+                padding-bottom: vm(20);
                 span {
                     margin-top: vm(15);
                     display: block;
@@ -108,6 +117,8 @@ body {
                         display: inline-block;
                         color: #626262;
                         font-size: vm(70);
+                        margin-bottom: vm(10);
+                        margin-top: vm(30);
                     }
                     #ratio {
                         display: flex;
@@ -120,6 +131,7 @@ body {
                 }
             }
             .odds{
+                display: none;
                 a{
                     
                     color: #000;
@@ -135,6 +147,10 @@ body {
                             width: vm(230);
                             height: vm(90);
                             background-color: #e5e5e5;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
                             span {
                                 display: inline-block;
                                 width: vm(230);
@@ -143,6 +159,10 @@ body {
                             }
                         }
                         #middle {
+                             display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
                             span:nth-child(1) {
                                 font-size: vm(35);
                             }
@@ -158,6 +178,10 @@ body {
                             }
                         }
                         #away {
+                             display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
                             margin-right: vm(20);
                             width: vm(230);
                             height: vm(90);

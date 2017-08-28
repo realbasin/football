@@ -38,7 +38,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
     }
     .bar_detail{
         padding: 0 vm(28) 0 vm(26);
-        width: vm(698);
+        width: vm(750);
         background-color: #fff;
         display: flex;
         justify-content: flex-start;
@@ -67,10 +67,11 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
                 
             }
             .address{
-                
+                margin: vm(10) 0;
+                //color: #666;
             }
             .tel{
-                
+                //color: #666;
             }
         }
         i{
@@ -129,8 +130,10 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
                     }
                     span:nth-child(1){
                         font-size: vm(31);
+                        color:#000;
                     }
                     span:nth-child(2){
+                        margin-top: vm(20);
                         font-size: vm(24);
                         display: block;
                     }
@@ -146,6 +149,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
                     }
                     span:nth-child(2){
                         display: block;
+                        margin-top: vm(20);
                     }
                 }
             }

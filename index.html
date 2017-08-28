@@ -366,6 +366,7 @@
 			$('#progressbar1').LineProgressbar({
 				  percentage: 61,
 				  fillBackgroundColor: '#108ee9',
+				  height:'15px',
 				  borderTopLeftRadius:'30px',
 				  borderBottomLeftRadius:'30px',
 				  percentage2:39,
@@ -375,7 +376,7 @@
 				$('#progressbar2').LineProgressbar({
 				  percentage: 61,
 				  fillBackgroundColor: '#108ee9',
-				  
+				  height:'15px',
 				  borderTopLeftRadius:'30px',
 				  borderBottomLeftRadius:'30px',
 				  percentage2:39,
@@ -385,7 +386,7 @@
 				$('#progressbar3').LineProgressbar({
 				  percentage: 61,
 				  fillBackgroundColor: '#108ee9',
-				  
+				  height:'15px',
 				  borderTopLeftRadius:'30px',
 				  borderBottomLeftRadius:'30px',
 				  percentage2:39,
@@ -396,15 +397,42 @@
 					console.log('xxx');
 					$('#game_one #ratio').toggle();
 					$('#game_one .odds').toggle();
+					if($('#game_two .odds').show()){
+						$('#game_two #ratio').show();
+						$('#game_two .odds').hide();
+					}
+					if($('#game_three .odds').show()){
+						$('#game_three #ratio').show();
+						$('#game_three .odds').hide();
+					}
+					
 				})
 				$('#game_two').click(function(){
 					$('#game_two #ratio').toggle();
 					$('#game_two .odds').toggle();
+					if($('#game_one .odds').show()){
+						$('#game_one #ratio').show();
+						$('#game_one .odds').hide();
+					}
+					if($('#game_three .odds').show()){
+						$('#game_three #ratio').show();
+						$('#game_three .odds').hide();
+					}
+					
 				})
 				$('#game_three').click(function(){
 					$('#game_three #ratio').toggle();
 					$('#game_three .odds').toggle();
+					if($('#game_one .odds').show()){
+						$('#game_one #ratio').show();
+						$('#game_one .odds').hide();
+					}
+					if($('#game_two .odds').show()){
+						$('#game_two #ratio').show();
+						$('#game_two .odds').hide();
+					}
 				})
+
 				
 				
 				

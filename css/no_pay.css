@@ -2,7 +2,7 @@ body { background-color: #f6f6f6; }
 
 #no_pay header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; position: fixed; top: 0; left: 0; z-index: 1000; }
 #no_pay header a { font-size: 5.3333333333vw; color: #fff; margin-left: 2.6666666667vw; }
-#no_pay header span { font-weight: bold; display: inline-block; font-size: 4.5333333333vw; margin-left: 4vw; }
+#no_pay header span { display: inline-block; font-size: 4.5333333333vw; margin-left: 4vw; }
 #no_pay #des { background-color: #fff; display: flex; margin-top: 10.6666666667vw; }
 #no_pay #des #left { width: 37.3333333333vw; height: 37.3333333333vw; display: flex; justify-content: center; align-items: center; }
 #no_pay #des #left img { width: 18.2666666667vw; height: 18.2666666667vw; }
@@ -11,7 +11,7 @@ body { background-color: #f6f6f6; }
 #no_pay #des #right p span { margin-right: 2vw; }
 #no_pay #bar_one #item_title { font-size: 4.1333333333vw; font-weight: bold; margin-left: 4vw; margin-right: 2.6666666667vw; height: 10vw; line-height: 10vw; border-bottom: 1px solid #f23d34; }
 #no_pay #bar_one #state { width: 100%; display: flex; justify-content: space-around; border-bottom: 1px solid #E8E8E8; padding-bottom: 4vw; }
-#no_pay #bar_one #state span { display: inline-block; width: 37.3333333333vw; height: 9.3333333333vw; line-height: 9.3333333333vw; text-align: center; color: #fff; border-radius: 4.6666666667vw; }
+#no_pay #bar_one #state span { display: inline-block; width: 37.3333333333vw; height: 9.3333333333vw; line-height: 9.3333333333vw; text-align: center; color: #fff; border-radius: 4.6666666667vw; font-size: 3.7333333333vw; }
 #no_pay #bar_one #state span:nth-child(1) { background-color: #a0a0a0; }
 #no_pay #bar_one #state span:nth-child(2) { background-color: #f23d34; }
 #no_pay #bar_one .item_list { width: 100%; height: 20vw; display: flex; justify-content: space-between; }
@@ -20,8 +20,8 @@ body { background-color: #f6f6f6; }
 #no_pay #bar_one .item_list #bonus_card span { display: inline-block; width: 11.7333333333vw; height: 6.6666666667vw; border-radius: 2vw; line-height: 6.6666666667vw; text-align: center; background-color: #108ee9; color: #fff; }
 #no_pay #bar_one .item_list #detail { margin: auto 0; margin-left: 4vw; }
 #no_pay #bar_one .item_list #detail span { display: inline-block; }
-#no_pay #bar_one .item_list #detail span:nth-child(1) { font-size: 4.1333333333vw; }
-#no_pay #bar_one .item_list #detail span:nth-child(2) { font-size: 3.2vw; display: block; }
+#no_pay #bar_one .item_list #detail span:nth-child(1) { font-size: 4.1333333333vw; color: #000; }
+#no_pay #bar_one .item_list #detail span:nth-child(2) { font-size: 3.2vw; display: block; margin-top: 1.3333333333vw; }
 #no_pay #bar_one .item_list #price { text-align-last: right; margin: auto 0; margin-right: 2.6666666667vw; }
 #no_pay #bar_one .item_list #price span { display: inline-block; font-size: 3.3333333333vw; position: relative; top: -2.6666666667vw; }
 
