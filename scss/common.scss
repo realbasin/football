@@ -19,78 +19,7 @@ body{
     line-height: none;
     width: vm(750);
 }
-.index_header{
-    width: vm(750);
-    height: vm(90);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #f23d34;
-    color: #fff;
-    h1{
-        font-weight: normal;
-        font-size: vm(35);
-    }
-    .header_right{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        
-        font-size: vm(28);
-        span{
-            margin-left: vm(150);
-        }
-        i{
-            margin-right: vm(29);
-            font-size: vm(26);
-        }
-    }
-}
 
-
-.index_slider_par{
-        border-bottom: 1px solid #d2d2d2;
-        background-color: #fff;
-        width: vm(750);
-        //height: vm(356);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    .slider_top1{
-        background-color: #75a419;
-        width: vm(438);
-        height: vm(56);
-        border-radius: vm(5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        span{
-            color: #fff;
-            font-size: vm(40);
-        }
-    }
-    .slider_top2{
-        width: vm(438);
-        height: vm(56);
-        border-radius: vm(5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        span{
-            color:#000000;
-            font-size: vm(31);
-        }
-        span:nth-of-type(2){
-            margin: 0 vm(38);
-        }
-    }
-}
-
-  
-        
-   
- 
 .index_par{
     position: relative;
     background-color: #dcdcdc;
@@ -1212,9 +1141,10 @@ body{
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        background-color: #f23d34;
+        //background-color: #f23d34;
         padding: 0 vm(40);
-        
+        background-image: url(../images/mycenter_bg.png);
+        background-size: 100% 100%;
         .tx_host{
             width: vm(143);
             height:vm(143);

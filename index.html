@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     	<meta name="format-detection" content="telephone=no">
 		<link rel="stylesheet" href="css/rest.css" />
+		<link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<link rel="stylesheet" type="text/css" href="css/tab_nav.css"/>
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
@@ -347,9 +348,28 @@
 		<div id="footer">
 			
 		</div>
-		
+		<section id="mark_index">
+			<img src="images/i-duigou.png" alt="" id="close_i"/>
+			<div class="swiper-container" data-space-between='10' data-pagination='.swiper-pagination'>
+			    <div class="swiper-wrapper">
+				    <div class="swiper-slide" data-swiper-autoplay="2000">
+				    	 
+					    <img src="images/banner1.png" alt="" />
+				    </div>
+				    <div class="swiper-slide" data-swiper-autoplay="2000">
+				    	<img src="images/banner2.jpg" alt="" />
+				    </div>
+				    <div class="swiper-slide" data-swiper-autoplay="2000">
+				    	<img src="images/banner3.png" alt="" />
+				    </div>
+			    </div>
+			    
+				<div class="swiper-pagination"></div>
+	        </div>
+		</section>
 		<!-- body 最后 -->
 	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/swiper-3.4.2.jquery.min.js"></script>
 	<script src="js/jquery.lineProgressbar.js" ></script>
 	<script src="js/tab_nav.js"></script>
 	<script type="text/javascript">
@@ -357,8 +377,34 @@
 			//加载底部
 			new Head('footer');
 			$('#tab1').attr('src','images/tab1_1.png').next().css('color','#f23d34');
+			//弹出层关闭按钮
 			
+			$("#close_i").click(function(){
+				
+				$("#mark_index").css({display:'none'});
+				localStorage.setItem('mark_flag','false');
+			})
+			$(window).ready(function(){
+				
+				if(localStorage.getItem('mark_flag')=='false'){//不为ture说明要显示
+					//alert("0")
+					//$("#mark_index").css({display:'flex'});
+					
+				}else{
+					//$("#mark_index").css({display:'none'});
+					//localStorage.setItem('mark_flag','true');
+					$("#mark_index").css({display:'flex'});
+				}
+			})
 			
+			var mySwiper = new Swiper('.swiper-container', {
+	    		speed: 400,
+	    		spaceBetween: 100,
+	    		autoplayDisableOnInteraction:true,
+	    		loop:true,
+	      		//autoplay: 5000,
+	      		pagination : '.swiper-pagination'
+			}); 
 			
 			$('#progressbar1').LineProgressbar({
 				  percentage: 61,

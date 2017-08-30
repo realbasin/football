@@ -2,19 +2,6 @@
 
 body { height: 100%; background-color: #f6f6f6; line-height: none; width: 100vw; }
 
-.index_header { width: 100vw; height: 12vw; display: flex; justify-content: flex-end; align-items: center; background-color: #f23d34; color: #fff; }
-.index_header h1 { font-weight: normal; font-size: 4.6666666667vw; }
-.index_header .header_right { display: flex; justify-content: flex-end; align-items: center; font-size: 3.7333333333vw; }
-.index_header .header_right span { margin-left: 20vw; }
-.index_header .header_right i { margin-right: 3.8666666667vw; font-size: 3.4666666667vw; }
-
-.index_slider_par { border-bottom: 1px solid #d2d2d2; background-color: #fff; width: 100vw; display: flex; flex-direction: column; justify-content: center; align-items: center; }
-.index_slider_par .slider_top1 { background-color: #75a419; width: 58.4vw; height: 7.4666666667vw; border-radius: 0.6666666667vw; display: flex; justify-content: center; align-items: center; }
-.index_slider_par .slider_top1 span { color: #fff; font-size: 5.3333333333vw; }
-.index_slider_par .slider_top2 { width: 58.4vw; height: 7.4666666667vw; border-radius: 0.6666666667vw; display: flex; justify-content: center; align-items: center; }
-.index_slider_par .slider_top2 span { color: #000000; font-size: 4.1333333333vw; }
-.index_slider_par .slider_top2 span:nth-of-type(2) { margin: 0 5.0666666667vw; }
-
 .index_par { position: relative; background-color: #dcdcdc; }
 
 .weui-tabbar { position: fixed; z-index: 2000; height: 14.6666666667vw; width: 100vw; }
@@ -202,7 +189,7 @@ body { height: 100%; background-color: #f6f6f6; line-height: none; width: 100vw;
 .detail_par ul .items .top2 p { font-size: 3.6vw; color: #000; margin-bottom: 2.6666666667vw; }
 .detail_par ul .items .top2 .shouzhi { color: #f23d34; font-size: 3.6vw; }
 
-.my_center_par .top { height: 36vw; width: 100vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; padding: 0 5.3333333333vw; }
+.my_center_par .top { height: 36vw; width: 100vw; display: flex; justify-content: flex-start; align-items: center; padding: 0 5.3333333333vw; background-image: url(../images/mycenter_bg.png); background-size: 100% 100%; }
 .my_center_par .top .tx_host { width: 19.0666666667vw; height: 19.0666666667vw; border-radius: 50%; margin-right: 8vw; }
 .my_center_par .top .center { display: flex; justify-content: center; align-items: center; flex-direction: column; margin-right: 34.6666666667vw; }
 .my_center_par .top .center .name { font-size: 3.6vw; color: #fff; }

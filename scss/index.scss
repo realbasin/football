@@ -14,7 +14,42 @@ body {
     background-color: #f6f6f6;
     line-height: none;
 }
+#mark_index{
+    width: vm(750);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/hei.png);
+    background-size: 100% 100%;
+    //display: none;
+    #close_i{
+        width: vm(41);
+        height: vm(41);
+        position: absolute;
+        top: 18vh;
+        left: vm(600);
+        z-index: 10000;
+        }
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: #fff;
+    }
+    .swiper-container{
 
+        .swiper-slide{
+            text-align: center;
+            img{
+                width: vm(500);
+                height: 60vh;
+            }
+        }
+    }
+    
+}
 #index {
     margin-bottom: vm(110);
     .index_header {
