@@ -8,6 +8,10 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
 @function r($px) {
     @return ($px / $vm_fontsize) * 1rem;
 }
+.swiper-pagination-bullet-active{
+    opacity: 1;
+    background: #fff;
+}
 
 body{
     height: 100%;
@@ -596,7 +600,7 @@ body{
         justify-content: center;
         align-items: center;
         background-color: #fff;
-        border-top: 1px solid #D2D2D2;
+        //border-top: 1px solid #D2D2D2;
         border-bottom:1px solid #D2D2D2;
         li{
             flex: 1;

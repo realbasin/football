@@ -1,3 +1,5 @@
+.swiper-pagination-bullet-active { opacity: 1; background: #fff; }
+
 body { height: 100%; background-color: #f6f6f6; line-height: none; width: 100vw; }
 
 .index_header { width: 100vw; height: 12vw; display: flex; justify-content: flex-end; align-items: center; background-color: #f23d34; color: #fff; }
@@ -103,7 +105,7 @@ body { height: 100%; background-color: #f6f6f6; line-height: none; width: 100vw;
 .bar_par header .i-sousuo { width: 4.6666666667vw; text-align: right; }
 .bar_par .swiper-slide { background-color: #fff; padding-top: 12vw; }
 .bar_par .swiper-slide img { width: 100vw; height: 36.6666666667vw; }
-.bar_par .tree_done { width: 100vw; height: 9.8666666667vw; display: flex; justify-content: center; align-items: center; background-color: #fff; border-top: 1px solid #D2D2D2; border-bottom: 1px solid #D2D2D2; }
+.bar_par .tree_done { width: 100vw; height: 9.8666666667vw; display: flex; justify-content: center; align-items: center; background-color: #fff; border-bottom: 1px solid #D2D2D2; }
 .bar_par .tree_done li { flex: 1; text-align: center; line-height: 9.8666666667vw; font-size: 3.7333333333vw; color: #434343; }
 .bar_par .Handicap { background-color: #fff; border-bottom: 1px solid #F6F6F6; }
 .bar_par .Handicap a { background-color: #fff; padding-bottom: 3.3333333333vw; border-bottom: 1px solid #D2D2D2; }

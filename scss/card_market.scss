@@ -7,7 +7,10 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
 @function r($px) {
     @return ($px / $vm_fontsize) * 1rem;
 }
-
+.swiper-pagination-bullet-active{
+    opacity: 1;
+    background: #fff;
+}
 #card_market {
     header {
         width: vm(750);
@@ -68,7 +71,7 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
         justify-content: center;
         align-items: center;
         background-color: #fff;
-        border-top: 0.5px solid #e8e8e8;
+        //border-top: 0.5px solid #e8e8e8;
         border-bottom: 0.5px solid #e8e8e8;
         li {
             flex: 1;

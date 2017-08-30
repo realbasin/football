@@ -1,3 +1,5 @@
+.swiper-pagination-bullet-active { opacity: 1; background: #fff; }
+
 #card_market header { width: 100vw; height: 12vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; font-size: 3.7333333333vw; position: fixed; top: 0; left: 0; z-index: 1000; }
 #card_market header a { width: 15.7333333333vw; display: flex; justify-content: center; align-items: center; }
 #card_market header a i { font-size: 3.7333333333vw; color: #fff; margin-left: 1.3333333333vw; }
@@ -6,7 +8,7 @@
 #card_market header .i-sousuo { width: 4.6666666667vw; text-align: right; }
 #card_market .swiper-slide { background-color: #fff; padding-top: 12vw; }
 #card_market .swiper-slide img { width: 100vw; height: 36.6666666667vw; }
-#card_market .tree_done { width: 100vw; height: 9.8666666667vw; display: flex; justify-content: center; align-items: center; background-color: #fff; border-top: 0.5px solid #e8e8e8; border-bottom: 0.5px solid #e8e8e8; }
+#card_market .tree_done { width: 100vw; height: 9.8666666667vw; display: flex; justify-content: center; align-items: center; background-color: #fff; border-bottom: 0.5px solid #e8e8e8; }
 #card_market .tree_done li { flex: 1; text-align: center; line-height: 9.8666666667vw; font-size: 3.7333333333vw; color: #434343; }
 #card_market #part { width: 100%; }
 #card_market #part .Handicap { border-bottom: 1px solid #e8e8e8; background-color: #fff; padding-bottom: 3.3333333333vw; }
