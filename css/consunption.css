@@ -1,21 +1,21 @@
 body { background-color: #f6f6f6; }
 
-#consunption header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; position: fixed; left: 0; top: 0; z-index: 10000; }
-#consunption header a { font-size: 5.3333333333vw; color: #fff; margin-left: 2.6666666667vw; }
-#consunption header span { font-weight: bold; display: inline-block; font-size: 4.5333333333vw; margin-left: 4vw; }
-#consunption #bar_one { margin-top: 10.6666666667vw; background-color: #fff; margin-bottom: 2.6666666667vw; }
+#consunption header { width: 100vw; height: 12vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; position: fixed; left: 0; top: 0; z-index: 10000; }
+#consunption header a i { font-size: 4vw; color: #fff; margin-left: 2.6666666667vw; }
+#consunption header a span { display: inline-block; font-size: 4vw; color: #fff; }
+#consunption #bar_one { margin-top: 12vw; background-color: #fff; margin-bottom: 2.6666666667vw; }
 #consunption #bar_two { background-color: #fff; }
 #consunption .title_p { padding-left: 2.6666666667vw; font-size: 3.7333333333vw; }
 #consunption #bar_list #item_title { font-size: 4.1333333333vw; font-weight: bold; margin-left: 4vw; margin-right: 2.6666666667vw; height: 10vw; line-height: 10vw; border-bottom: 1px solid #f23d34; }
 #consunption #bar_list #state { width: 100%; display: flex; justify-content: space-around; border-bottom: 1px solid #E8E8E8; padding-bottom: 4vw; }
-#consunption #bar_list #state span { display: inline-block; width: 37.3333333333vw; height: 9.3333333333vw; line-height: 9.3333333333vw; text-align: center; color: #fff; border-radius: 4.6666666667vw; }
+#consunption #bar_list #state span { display: inline-block; width: 37.3333333333vw; line-height: 9.3333333333vw; text-align: center; color: #fff; border-radius: 1.0666666667vw; font-size: 3.7333333333vw; }
 #consunption #bar_list #state #get { background-color: #108ee9; }
 #consunption #bar_list #state #lose { background-color: #f23d34; }
 #consunption #bar_list #state #del { background-color: #f23d34; }
 #consunption #bar_list .item_list { width: 100%; height: 20vw; display: flex; justify-content: space-between; align-items: center; }
 #consunption #bar_list .item_list #left { flex: 1; display: flex; justify-content: center; align-items: center; }
 #consunption #bar_list .item_list #left #bonus_card { font-size: 3.2vw; margin: auto 0; margin-left: 2.9333333333vw; }
-#consunption #bar_list .item_list #left #bonus_card span { display: inline-block; width: 11.7333333333vw; height: 6.6666666667vw; border-radius: 2vw; line-height: 6.6666666667vw; text-align: center; background-color: #108ee9; color: #fff; }
+#consunption #bar_list .item_list #left #bonus_card img { display: inline-block; width: 11.7333333333vw; height: 6.6666666667vw; border-radius: 1.0666666667vw; line-height: 6.6666666667vw; text-align: center; background-color: #108ee9; color: #fff; }
 #consunption #bar_list .item_list #left #expired_icon { margin-left: 4vw; }
 #consunption #bar_list .item_list #left #expired_icon img { width: 7.6vw; height: 5.3333333333vw; }
 #consunption #bar_list .item_list #left #detail { flex: 1; display: flex; justify-content: center; align-items: flex-start; flex-direction: column; margin-left: 4vw; }
@@ -29,6 +29,6 @@ body { background-color: #f6f6f6; }
 #consunption #service_code span { display: inline-block; width: 100%; height: 2.6666666667vw; line-height: 29.3333333333vw; text-align: center; }
 #consunption #btn { text-align: center; }
 #consunption #btn p { font-size: 3.2vw; text-align: center; margin-bottom: 1.3333333333vw; }
-#consunption #btn button { width: 80.6666666667vw; height: 10.6666666667vw; border: 0; outline: none; border-radius: 5.3333333333vw; background-color: #f23d34; color: #fff; font-size: 4.2666666667vw; }
+#consunption #btn button { width: 80.6666666667vw; height: 10.6666666667vw; border: 0; outline: none; border-radius: 1.0666666667vw; background-color: #f23d34; color: #fff; font-size: 4.2666666667vw; margin-bottom: 2.6666666667vw; }
 
 /*# sourceMappingURL=consunption.css.map */

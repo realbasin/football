@@ -1,7 +1,8 @@
 @charset "UTF-8";
 body { font-family: "微软雅黑"; height: 100%; background-color: #f6f6f6; line-height: none; }
 
-#index .index_header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-end; align-items: center; background-color: #f23d34; color: #fff; position: fixed; top: 0; z-index: 1000; }
+#index { margin-bottom: 14.6666666667vw; }
+#index .index_header { width: 100vw; height: 11.7333333333vw; display: flex; justify-content: flex-end; align-items: center; background-color: #f23d34; color: #fff; position: fixed; top: 0; z-index: 1000; }
 #index .index_header h1 { font-weight: normal; font-size: 4.6666666667vw; }
 #index .index_header .header_right { display: flex; justify-content: flex-end; align-items: center; font-size: 3.3333333333vw; margin-left: 20vw; }
 #index .index_header .header_right i { margin-right: 3.8666666667vw; font-size: 3.4666666667vw; }
@@ -24,6 +25,7 @@ body { font-family: "微软雅黑"; height: 100%; background-color: #f6f6f6; lin
 #index #game #game_one #game_msg #state #ratio span, #index #game #game_two #game_msg #state #ratio span, #index #game #game_three #game_msg #state #ratio span { font-size: 3.508vw; display: inline-block; }
 #index #game #game_one .odds, #index #game #game_two .odds, #index #game #game_three .odds { display: none; }
 #index #game #game_one .odds a, #index #game #game_two .odds a, #index #game #game_three .odds a { color: #000; height: 30vw; background-color: #fff; }
+#index #game #game_one .odds a #odd_two, #index #game #game_two .odds a #odd_two, #index #game #game_three .odds a #odd_two { padding-bottom: 2.6666666667vw; }
 #index #game #game_one .odds a #odd_one, #index #game #game_one .odds a #odd_two, #index #game #game_two .odds a #odd_one, #index #game #game_two .odds a #odd_two, #index #game #game_three .odds a #odd_one, #index #game #game_three .odds a #odd_two { margin-top: 2.6666666667vw; display: flex; justify-content: space-between; }
 #index #game #game_one .odds a #odd_one #main, #index #game #game_one .odds a #odd_two #main, #index #game #game_two .odds a #odd_one #main, #index #game #game_two .odds a #odd_two #main, #index #game #game_three .odds a #odd_one #main, #index #game #game_three .odds a #odd_two #main { margin-left: 2.6666666667vw; width: 30.6666666667vw; height: 12vw; background-color: #e5e5e5; display: flex; justify-content: center; align-items: center; flex-direction: column; }
 #index #game #game_one .odds a #odd_one #main span, #index #game #game_one .odds a #odd_two #main span, #index #game #game_two .odds a #odd_one #main span, #index #game #game_two .odds a #odd_two #main span, #index #game #game_three .odds a #odd_one #main span, #index #game #game_three .odds a #odd_two #main span { display: inline-block; width: 30.6666666667vw; text-align: center; font-size: 3.7333333333vw; }

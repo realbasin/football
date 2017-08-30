@@ -10,7 +10,7 @@
  #consunption {
      header {
          width: vm(750);
-         height: vm(80);
+         height: vm(90);
          display: flex;
          justify-content: flex-start;
          align-items: center;
@@ -22,19 +22,23 @@
         top: 0;
         z-index: 10000;
          a {
-             font-size: vm(40);
-             color: #fff;
-             margin-left: vm(20);
+             i{
+                 font-size: vm(30);
+                 color: #fff;
+                 margin-left: vm(20);
+             }
+             span {
+                 //font-weight: bold;
+                 display: inline-block;
+                 font-size: vm(30);
+                 //margin-left: vm(30);
+                 color: #fff;
+             }
          }
-         span {
-             font-weight: bold;
-             display: inline-block;
-             font-size: vm(34);
-             margin-left: vm(30);
-         }
+         
      }
      #bar_one {
-         margin-top: vm(80);
+         margin-top: vm(90);
          background-color: #fff;
          margin-bottom: vm(20);
      }
@@ -64,11 +68,12 @@
              span {
                  display: inline-block;
                  width: vm(280);
-                 height: vm(70);
+                 //height: vm(70);
                  line-height: vm(70);
                  text-align: center;
                  color: #fff;
-                 border-radius: vm(35);
+                 border-radius: vm(8);
+                 font-size: vm(28);
              }
              #get {
                  background-color: #108ee9;
@@ -95,11 +100,11 @@
                      font-size: vm(24);
                      margin: auto 0;
                      margin-left: vm(22);
-                     span {
+                     img {
                          display: inline-block;
                          width: vm(88);
                          height: vm(50);
-                         border-radius: vm(15);
+                         border-radius: vm(8);
                          line-height: vm(50);
                          text-align: center;
                          background-color: #108ee9;
@@ -181,10 +186,11 @@
              height: vm(80);
              border: 0;
              outline: none;
-             border-radius: vm(40);
+             border-radius: vm(8);
              background-color: #f23d34;
              color: #fff;
              font-size: vm(32);
+             margin-bottom: vm(20);
          }
      }
  }

@@ -17,7 +17,7 @@ body{
 }
 .index_header{
     width: vm(750);
-    height: vm(80);
+    height: vm(90);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -25,7 +25,7 @@ body{
     color: #fff;
     h1{
         font-weight: normal;
-        font-size: vm(32);
+        font-size: vm(35);
     }
     .header_right{
         display: flex;
@@ -131,7 +131,7 @@ body{
     //width: 100%;
     header{
         width: 100%;
-        height: vm(80);
+        height: vm(90);
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -144,7 +144,7 @@ body{
         top: 0;
         z-index: 10000;
         a{
-            width: vm(118);
+            width: vm(103);
             i{
                 font-size: vm(28);
                 color:#fff;
@@ -152,18 +152,19 @@ body{
             }
             span{
                 font-size: vm(28);
-                font-weight: 600;
+                //font-weight: 600;
                 line-height: vm(28);
-                margin-left: vm(15);
+                //margin-left: vm(15);
                 color: #fff;
             }
         }
         .title{
-            font-weight: bold;
+            //font-weight: bold;
              width: vm(563);
-             font-size: vm(30);
+             font-size: vm(35);
              color: #fff;
              text-align: center;
+             padding-right: vm(25);
         }
         .i-sousuo{
              width: vm(35);
@@ -178,18 +179,20 @@ body{
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        margin-top: vm(80);
+        margin-top: vm(90);
         img{
             width: vm(138);
             height: vm(138);
             margin-left: vm(72);
             margin-top: vm(59);
+            margin-bottom: vm(59);
             margin-right: vm(80);
         }
         .match_mesg{
             p{
+                margin-top: vm(15);
+                margin-bottom: vm(15);
                 width: vm(461);
-                margin-top: vm(37);
                 .match_time,.Handicap_bar,.court_rate{
                     margin-left: vm(18);
                 }
@@ -197,6 +200,7 @@ body{
             span{
                 font-size: vm(28);
                 color: #000;
+                margin-top: vm(15);
             }
             p:nth-of-type(1){
                 margin-top: vm(37);
@@ -288,10 +292,16 @@ body{
 
 
 //**********************选择酒卡************************//
+#pay_all2_barname{
+    margin-top: vm(80);
+    padding-top: vm(20);
+}
+
+
 .choose_card_par,.pay_all_par{
     header{
         width: vm(750);
-        height: vm(80);
+        height: vm(90);
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -311,12 +321,13 @@ body{
             }
             span{
                 line-height: vm(28);
-                margin-left: vm(10);
+                //margin-left: vm(10);
                 color: #fff;
             }
         }
         .bar_card{
-            margin-left: vm(200);
+            margin-left: vm(195);
+            font-size: vm(35);
         }
     }
     .match_home{
@@ -325,12 +336,13 @@ body{
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        margin-top: vm(80);
+        margin-top: vm(90);
         img{
             width: vm(138);
             height: vm(138);
             margin-left: vm(72);
             margin-top: vm(59);
+            margin-bottom: vm(59);
             margin-right: vm(80);
         }
         .match_mesg{
@@ -439,7 +451,7 @@ body{
                 background-color: #f23d34;
                 font-size: vm(28);
                 text-align: center;
-                border-radius: vm(30);
+                border-radius: vm(8);
                 margin-top: vm(37);
             }
         }
@@ -449,6 +461,37 @@ body{
 
 //***********************支付*****************
 .pay_all_par{
+     header{
+        width: vm(750);
+        height: vm(90);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f23d34;
+        color: #fff;
+        font-size: vm(28);
+        //padding: 0 vm(20);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
+        a{
+            i{
+                font-size: vm(28);
+                color:#fff;
+                margin-left: vm(20);
+            }
+            span{
+                line-height: vm(28);
+                //margin-left: vm(10);
+                color: #fff;
+            }
+        }
+        .bar_card{
+            margin-left: vm(230);
+            font-size: vm(35);
+        }
+    }
     .wechat_pay,.ali_pay,.balance_pay{
        width: vm(750); 
        padding: 0 vm(20);
@@ -482,7 +525,7 @@ body{
             color: #fff;
             font-size: vm(31);
             background-color: #f23d34;
-            border-radius: vm(32);
+            border-radius: vm(8);
             margin-top: vm(60);
         }
     }
@@ -493,7 +536,7 @@ body{
 .bar_par{
     header{
         width: vm(750);
-        height: vm(80);
+        height: vm(90);
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -520,11 +563,12 @@ body{
             }
         }
         .title{
-            font-weight: bold;
+            //font-weight: bold;
              width: vm(563);
-             font-size: vm(34);
+             font-size: vm(35);
              color: #fff;
              text-align: center;
+             padding-right: vm(30);
         }
         .i-sousuo{
              width: vm(35);
@@ -536,86 +580,10 @@ body{
     //酒吧轮播图
     .swiper-slide{
         background-color: #fff;
-        padding-top: vm(80);
-        .slide_title{
-            width: vm(710);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: vm(28);
-            color: #000;
-            padding: 0 vm(20);
-            padding-top: vm(20);
-            .match_name{
-                flex: 1;
-                //padding-left: vm(40);
-                text-indent: vm(30);
-            }
-            .on_doing{
-                flex: 1;
-                text-align: center;
-                text-indent: vm(20);
-            }
-            .match_time{
-                flex: 1;
-                text-align: right;
-            }
-        }
-        .mui-slider-item{
+        padding-top: vm(90);
+        img{
             width: vm(750);
-            display: flex;
-            justify-content: center;
-            //align-items: center;
-            padding-bottom: vm(40);
-            //float: left;
-            .left,.right{
-                //width: vm(144);
-                height: auto;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                img{
-                    width: vm(111);
-                    height: vm(111);
-                    margin-bottom: vm(24);
-                }
-                span{
-                    color: #000000;
-                    font-size: vm(29);
-                }
-            }
-            .left{
-                //margin-left:vm(100)
-            }
-            .center{
-                width: vm(286);
-                display: flex;
-//              justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                margin: 0 vm(68);
-                img{
-                    width: vm(84);
-                    height: vm(54);
-                    margin-bottom: vm(20);
-                    margin-top: vm(20);
-                }
-                p{
-                    width: vm(286);
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    margin-top: vm(20);
-                    span{
-                        color:#000;
-                        font-size: vm(26);
-                    }
-                }
-                .percentCount2,.percentCount{
-                    color: #fff;
-                }
-            }
+            height: vm(275);
         }
     }
     
@@ -695,7 +663,7 @@ body{
 .bar_detail_par{
         header{
         width: vm(750);
-        height: vm(80);
+        height: vm(90);
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -709,7 +677,7 @@ body{
          z-index: 1000;
         span{
             margin-left: vm(240);
-            font-size: vm(34);
+            font-size: vm(35);
             color: #fff;
         }
         a{
@@ -725,7 +693,7 @@ body{
         background-color: #fff;
         display: flex;
         justify-content: flex-start;
-        margin-top: vm(80);
+        margin-top: vm(90);
         .left{
             width: vm(115);
             height: vm(115);
@@ -911,7 +879,7 @@ body{
 .setting_par,.bind_phone_par,.change_pwd_par,.change_pwd_par,.chong_zhi_par{
     header{
         width: vm(750);
-        height: vm(80);
+        height: vm(90);
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -940,7 +908,7 @@ body{
         }
     }
     .name_phone{
-        margin-top: vm(80);
+        margin-top: vm(90);
     }
     .name_phone,.name_pwd{
         
@@ -980,7 +948,7 @@ body{
         color: #fff;
         font-size: vm(31);
         background-color: #f23d34;
-        border-radius: vm(30);
+        border-radius: vm(8);
         margin: 0 auto;
         border: none;
         margin-top:vm(33);
@@ -990,7 +958,7 @@ body{
 
 //*******************************绑定手机号
 .bind_phone_par{
-    margin-top: vm(80);
+    margin-top: vm(90);
     .name_phone,.name_pwd{
         width: vm(750);
         padding: 0 vm(33);
@@ -1026,7 +994,7 @@ body{
         color: #fff;
         font-size: vm(31);
         background-color: #f23d34;
-        border-radius: vm(30);
+        border-radius: vm(8);
         margin: 0 auto;
         border: none;
         margin-top:vm(33);
@@ -1036,7 +1004,7 @@ body{
 
 //******************************修改密码*****************
 .change_pwd_par{
-    margin-top: vm(80);
+    margin-top: vm(90);
     .name_phone,.name_pwd,.name_pwd2{
         width: vm(750);
         padding: 0 vm(33);
@@ -1071,7 +1039,7 @@ body{
         color: #fff;
         font-size: vm(31);
         background-color: #f23d34;
-        border-radius: vm(30);
+        border-radius: vm(8);
         margin: 0 auto;
         border: none;
         margin-top:vm(33);
@@ -1081,7 +1049,7 @@ body{
 //**********************提现**********充值金额**********
 .change_pwd_par,.chong_zhi_par{
     ul{
-        margin-top: vm(80);
+        margin-top: vm(90);
     }
     li{
         width: vm(750);
@@ -1149,7 +1117,7 @@ body{
 .detail_par{
     header{
         width: vm(750);
-        height: vm(80);
+        height: vm(90);
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -1181,7 +1149,7 @@ body{
         width: vm(750);
         padding: 0 vm(22);
         background-color: #fff;
-        margin-top: vm(80);
+        margin-top: vm(90);
         h1{
             color: #000000;
             font-size: vm(31);
@@ -1262,6 +1230,7 @@ body{
             .name_vip{
                 margin-top: vm(10);
                 font-size: vm(27);
+                //padding: vm(3);
                 color: #fff;
                background-color: #ffce3d;
             }
@@ -1336,7 +1305,7 @@ body{
 .my_data_par{
     header{
         width: vm(750);
-        height: vm(80);
+        height: vm(90);
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -1368,7 +1337,7 @@ body{
         padding: vm(50) 0;
         background-color: #fff;
         border-bottom: 1px solid #f6f6f6;
-        margin-top: vm(80);
+        margin-top: vm(90);
     }
     .name_phone,.name_tx{
         border-bottom: 1px solid #f6f6f6;
@@ -1412,7 +1381,7 @@ body{
 .pay_result_par{
      header{
         width: vm(750);
-        height: vm(80);
+        height: vm(90);
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -1432,12 +1401,13 @@ body{
             }
             span{
                 line-height: vm(28);
-                margin-left: vm(10);
+                //margin-left: vm(10);
                 color: #fff;
             }
         }
         .bar_card{
-            margin-left: vm(200);
+            margin-left: vm(225);
+            font-size: vm(35);
         }
     }
     .result_con{
@@ -1447,7 +1417,7 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: vm(80);
+        margin-top: vm(90);
         p{
             font-size: vm(34);
             color: #000;
@@ -1469,7 +1439,7 @@ body{
         button{
             font-size: vm(34);
             color: #fff;
-            border-radius: vm(35);
+            border-radius: vm(8);
             border: none;
             width: vm(274);
             line-height: vm(70);

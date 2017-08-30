@@ -9,16 +9,16 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
 }
 #market_bar_detail{
     background-color: #f6f6f6;
-    height: vm(1334);
+    //height: vm(1334);
     header{
         width: vm(750);
-        height: vm(80);
+        height: vm(88);
         display: flex;
         justify-content: flex-start;
         align-items: center;
         background-color: #f23d34;
         color: #fff;
-        font-size: vm(28);
+        font-size: vm(30);
         //padding: 0 vm(20);
         position: fixed;
         left: 0;
@@ -26,13 +26,12 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
         z-index: 10000;
         span{
             margin-left: vm(240);
-            font-size: vm(34);
+            font-size: vm(35);
             color: #fff;
         }
         a{
             width: vm(35);
-            text-align: right;
-             
+            text-align: right;  
         }
         
     }
@@ -96,60 +95,65 @@ $vm_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
         .commodity{
            
             .item_list{
-                 background-color: #fff;
-                 margin-top: vm(20);
-                width: 100%;
-                height: vm(150);
-                display: flex;
-                justify-content: space-between;
-                
-                #left{
+                a{
+                     background-color: #fff;
+                     margin-top: vm(20);
+                    width: 100%;
+                    height: vm(150);
                     display: flex;
-                }
-                #bonus_card{
-                    font-size: vm(24);
-                    margin: auto 0;
-                    margin-left: vm(22);
-                    span{
-                        display: inline-block;
-                        width: vm(88);
-                        height: vm(50);
-                        border-radius: vm(15);
-                        line-height: vm(50);
-                        text-align: center;
-                        background-color: #108ee9;
-                        color: #fff;
-                    }
-                }
-                #detail{
+                    justify-content: space-between;
                     
-                    margin: auto 0;
-                    margin-left: vm(30);
-                    span{
-                        display: inline-block;
+                    #left{
+                        display: flex;
                     }
-                    span:nth-child(1){
-                        font-size: vm(31);
-                        color:#000;
-                    }
-                    span:nth-child(2){
-                        margin-top: vm(20);
+                    #bonus_card{
                         font-size: vm(24);
-                        display: block;
+                        margin: auto 0;
+                        margin-left: vm(22);
+                        img{
+                            display: inline-block;
+                            width: vm(88);
+                            height: vm(50);
+                            border-radius: vm(8);
+                            line-height: vm(50);
+                            text-align: center;
+                            background-color: #108ee9;
+                            color: #fff;
+                        }
                     }
-                } 
-                #price{
-                    text-align-last: right;
-                    margin: auto 0;
-                    margin-right: vm(20);
-                    
-                    span{
-                        display: inline-block;
-                        font-size: vm(24);
-                    }
-                    span:nth-child(2){
-                        display: block;
-                        margin-top: vm(20);
+                    #detail{
+                        
+                        margin: auto 0;
+                        margin-left: vm(30);
+                        span{
+                            display: inline-block;
+                        }
+                        span:nth-child(1){
+                            font-size: vm(31);
+                            color:#000;
+                        }
+                        span:nth-child(2){
+                            margin-top: vm(20);
+                            font-size: vm(24);
+                            display: block;
+                            color: #666;
+                        }
+                    } 
+                    #price{
+                        text-align-last: right;
+                        margin: auto 0;
+                        margin-right: vm(20);
+                        
+                        span{
+                            display: inline-block;
+                            font-size: vm(24);
+                            color: #666;
+                        }
+                        span:nth-child(2){
+                            display: block;
+                            margin-top: vm(20);
+                            color: #666;
+                        }
                     }
                 }
             }

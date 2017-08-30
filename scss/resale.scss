@@ -6,9 +6,10 @@
      
  }
  #re_price{
+     background-color: #fff;
      header {
          width: vm(750);
-         height: vm(80);
+         height: vm(88);
          display: flex;
          justify-content: flex-start;
          align-items: center;
@@ -16,16 +17,21 @@
          color: #fff;
          //padding: 0 vm(20);
          a {
-             font-size: vm(40);
-             color: #fff;
-             margin-left: vm(20);
+             
+             i{
+                 font-size: vm(30);
+                color: #fff;
+                margin-left: vm(20);
+             }
+              span {
+                 //font-weight: bold;
+                 display: inline-block;
+                 font-size: vm(30);
+                 //margin-left: vm(30);
+                 color: #fff;
+             }
          }
-         span {
-             font-weight: bold;
-             display: inline-block;
-             font-size: vm(34);
-             margin-left: vm(30);
-         }
+        
          position: fixed;
         left: 0;
         top: 0;
@@ -54,11 +60,11 @@
                     font-size: vm(24);
                     margin: auto 0;
                     margin-left: vm(22);
-                    span{
+                    img{
                         display: inline-block;
                         width: vm(88);
                         height: vm(50);
-                        border-radius: vm(15);
+                        border-radius: vm(8);
                         line-height: vm(50);
                         text-align: center;
                         background-color: #108ee9;
@@ -110,7 +116,7 @@
             }
             #price{
                 margin-right: vm(20);
-                    margin-left: vm(20);
+                margin-left: vm(20);
                 margin-top: vm(60);
                 
                 input{
@@ -122,8 +128,9 @@
                     outline: none;
                 }
             }
-            #btn{margin-top: vm(50);
-            text-align: center;
+            #btn{
+                margin-top: vm(50);
+                text-align: center;
                 p{
                     font-size: vm(24);
                     text-align: center;
@@ -134,10 +141,11 @@
                     height: vm(80);
                     border: 0;
                     outline: none;
-                    border-radius: vm(40);
+                    border-radius: vm(8);
                     background-color: #f23d34;
                     color: #fff;
                     font-size: vm(32);
+                    margin-bottom: vm(20);
                 }
             }
  }

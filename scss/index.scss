@@ -16,18 +16,19 @@ body {
 }
 
 #index {
+    margin-bottom: vm(110);
     .index_header {
-          width: vm(750);
-        height: vm(80);
+        width: vm(750);
+        height: vm(88);
         display: flex;
         justify-content: flex-end;
         align-items: center;
         background-color: #f23d34;
         color: #fff;
         position: fixed;
-         top: 0;
-         //left: 0;
-         z-index: 1000;
+        top: 0;
+        //left: 0;
+        z-index: 1000;
         h1 {
             font-weight: normal;
             font-size: vm(35);
@@ -137,6 +138,9 @@ body {
                     color: #000;
                     height: vm(225);
                     background-color: #fff;
+                    #odd_two {
+                        padding-bottom: vm(20);
+                    }
                     #odd_one,
                     #odd_two {
                         margin-top: vm(20);

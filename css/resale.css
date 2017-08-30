@@ -1,11 +1,12 @@
-#re_price header { width: 100vw; height: 10.6666666667vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; position: fixed; left: 0; top: 0; z-index: 10000; }
-#re_price header a { font-size: 5.3333333333vw; color: #fff; margin-left: 2.6666666667vw; }
-#re_price header span { font-weight: bold; display: inline-block; font-size: 4.5333333333vw; margin-left: 4vw; }
+#re_price { background-color: #fff; }
+#re_price header { width: 100vw; height: 11.7333333333vw; display: flex; justify-content: flex-start; align-items: center; background-color: #f23d34; color: #fff; position: fixed; left: 0; top: 0; z-index: 10000; }
+#re_price header a i { font-size: 4vw; color: #fff; margin-left: 2.6666666667vw; }
+#re_price header a span { display: inline-block; font-size: 4vw; color: #fff; }
 #re_price #item_title { font-size: 4.1333333333vw; font-weight: bold; margin-left: 4vw; margin-right: 2.6666666667vw; height: 10vw; line-height: 10vw; border-bottom: 1px solid #f23d34; margin-top: 10.6666666667vw; }
 #re_price .item_list { width: 100%; height: 20vw; display: flex; justify-content: space-between; }
 #re_price .item_list #left { display: flex; }
 #re_price .item_list #bonus_card { font-size: 3.2vw; margin: auto 0; margin-left: 2.9333333333vw; }
-#re_price .item_list #bonus_card span { display: inline-block; width: 11.7333333333vw; height: 6.6666666667vw; border-radius: 2vw; line-height: 6.6666666667vw; text-align: center; background-color: #108ee9; color: #fff; }
+#re_price .item_list #bonus_card img { display: inline-block; width: 11.7333333333vw; height: 6.6666666667vw; border-radius: 1.0666666667vw; line-height: 6.6666666667vw; text-align: center; background-color: #108ee9; color: #fff; }
 #re_price .item_list #detail { margin: auto 0; margin-left: 4vw; }
 #re_price .item_list #detail span { display: inline-block; }
 #re_price .item_list #detail span:nth-child(1) { font-size: 4.1333333333vw; }
@@ -20,6 +21,6 @@
 #re_price #price input { font-size: 9.3333333333vw; font-weight: bold; width: 100%; border: 0; border-bottom: 1px solid #f23d34; outline: none; }
 #re_price #btn { margin-top: 6.6666666667vw; text-align: center; }
 #re_price #btn p { font-size: 3.2vw; text-align: center; }
-#re_price #btn button { width: 80.6666666667vw; height: 10.6666666667vw; border: 0; outline: none; border-radius: 5.3333333333vw; background-color: #f23d34; color: #fff; font-size: 4.2666666667vw; }
+#re_price #btn button { width: 80.6666666667vw; height: 10.6666666667vw; border: 0; outline: none; border-radius: 1.0666666667vw; background-color: #f23d34; color: #fff; font-size: 4.2666666667vw; margin-bottom: 2.6666666667vw; }
 
 /*# sourceMappingURL=resale.css.map */
