@@ -2,7 +2,7 @@
 body { font-family: "微软雅黑"; height: 100%; background-color: #f6f6f6; line-height: none; }
 
 #mark_index { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; display: flex; justify-content: center; align-items: center; background-image: url(../images/hei.png); background-size: 100% 100%; }
-#mark_index #close_i { height: 5.4666666667vw; position: absolute; top: 21vh; left: 80vw; z-index: 10000; }
+#mark_index #close_i { height: 5.4666666667vw; position: absolute; top: 15vh; left: 80vw; z-index: 10000; }
 #mark_index .swiper-pagination-bullet-active { opacity: 1; background: #fff; }
 #mark_index .swiper-container .swiper-slide { text-align: center; }
 #mark_index .swiper-container .swiper-slide img { width: 66.6666666667vw; height: 118.52vw; }
