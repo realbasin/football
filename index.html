@@ -13,10 +13,8 @@
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
 		<link rel="stylesheet" type="text/css" href="css/jquery.lineProgressbar.css"/>
 		<link rel="stylesheet" href="css/index.css" />
-		
 	</head>
 	<body>
-		
 		<div class="weui-tab" class="index_par">
 			<div class="weui-tab__bd">
 			    <div id="index" class="weui-tab__bd-item weui-tab__bd-item--active">
@@ -349,18 +347,24 @@
 			
 		</div>
 		<section id="mark_index">
-			<img src="images/i-duigou.png" alt="" id="close_i"/>
+			<img src="images/close3.png" alt="" id="close_i"/>
 			<div class="swiper-container" data-space-between='10' data-pagination='.swiper-pagination'>
 			    <div class="swiper-wrapper">
 				    <div class="swiper-slide" data-swiper-autoplay="2000">
 				    	 
-					    <img src="images/banner1.png" alt="" />
+					    <img src="images/1-1.png" alt="" />
 				    </div>
 				    <div class="swiper-slide" data-swiper-autoplay="2000">
-				    	<img src="images/banner2.jpg" alt="" />
+				    	<img src="images/2-1.png" alt="" />
 				    </div>
 				    <div class="swiper-slide" data-swiper-autoplay="2000">
-				    	<img src="images/banner3.png" alt="" />
+				    	<img src="images/3-1.png" alt="" />
+				    </div>
+				    <div class="swiper-slide" data-swiper-autoplay="2000">
+				    	<img src="images/4-1.png" alt="" />
+				    </div>
+				    <div class="swiper-slide" data-swiper-autoplay="2000">
+				    	<img src="images/5-1.png" alt="" />
 				    </div>
 			    </div>
 			    
@@ -372,6 +376,7 @@
 	<script src="js/swiper-3.4.2.jquery.min.js"></script>
 	<script src="js/jquery.lineProgressbar.js" ></script>
 	<script src="js/tab_nav.js"></script>
+	<script src="js/config.js"></script>
 	<script type="text/javascript">
 		$(function(){
 			//加载底部
@@ -383,13 +388,14 @@
 				
 				$("#mark_index").css({display:'none'});
 				localStorage.setItem('mark_flag','false');
+				
 			})
 			$(window).ready(function(){
-				
+				console.log(localStorage.getItem('mark_flag'));
 				if(localStorage.getItem('mark_flag')=='false'){//不为ture说明要显示
-					//alert("0")
-					//$("#mark_index").css({display:'flex'});
 					
+					//alert("0")
+					$("#mark_index").css({display:'none'});
 				}else{
 					//$("#mark_index").css({display:'none'});
 					//localStorage.setItem('mark_flag','true');
